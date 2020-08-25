@@ -1,0 +1,141 @@
+
+  body {
+    color: #fff;
+    background-color: #730fff;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    cursor: default;
+  }
+  .footerContainer {
+    height: 70px;
+    padding-top: 20px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    margin: 0;
+    font-size: 25px;
+  }
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:16px
+  }
+  .homeTxt {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size:20px
+  }
+  li {
+    /* white-space: normal; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height:1em;
+  }
+  .txtHeader {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .headerContainer {
+    height: 70px;
+    padding-top: 20px;
+    width: 100%;
+    /* border-style: solid; */
+
+  }
+  .marginContainer {
+    background-color: #eadbff !important;
+    margin-top: 30px;
+    padding-top: 50px;
+    width: 100%;
+    position: relative
+    color: #324158;
+  }
+  .layer1Container {
+    margin-left: 15%;
+    margin-right: 15%;
+    min-height: 700px;
+    /* border-style: solid; */
+  }
+  .mainContainer {
+    margin-left: 15%;
+    margin-right: 15%;
+    /* border-style: solid; */
+  }
+  .layer2Container {
+    min-height: 700px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .middleLeft {
+    width: 48%;
+    height: 650px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+  }
+  .middleRight{
+    width: 48%;
+    height: 650px;
+    float: right;
+    /* margin-left: 10px; */
+    color: #324158;
+  }
+  .header {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .headerLeft {
+    float: left;
+    width: 80%;
+  }
+  .headerRight {
+    float: right;
+    width: 20%;
+    margin-top: 25px;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .footer {
+    height: 100px;
+    border-width: 2;
+  }
+  .footer .madeby {
+    display: inline;
+    position: absolute;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .header-link-wrapper {
+    /* right: 20px;
+    margin-top: 25px; */
+    display: inline;
+    position: absolute;
+  }
+  .logoRight {
+    float: right;
+  }
+  .header-link {
+    display: inline;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 30px;
+    text-decoration: none;
+  }
+  .header-link:hover {
+    text-decoration: underline;
+  }

@@ -79,9 +79,11 @@
   .middleLeft {
     width: 48%;
     height: 650px;
+    padding-top: 10px;
     display: inline-block;
     vertical-align: middle;
     float: left;
+    /* border-style: solid; */
   }
   .middleRight{
     width: 48%;
@@ -104,8 +106,8 @@
     margin-top: 25px;
   }
   .logo {
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
   }
   .footer {
     height: 100px;

@@ -63,7 +63,7 @@
   .layer1Container {
     margin-left: 15%;
     margin-right: 15%;
-    min-height: 700px;
+    min-height: 550px;
     /* border-style: solid; */
   }
   .mainContainer {
@@ -72,22 +72,38 @@
     /* border-style: solid; */
   }
   .layer2Container {
-    min-height: 700px;
+    min-height: 600px;
     padding-left: 15%;
     padding-right: 15%;
   }
-  .middleLeft {
-    width: 48%;
-    height: 650px;
+  .layer1Left {
+    width: 55%;
+    /* height: 635px; */
     padding-top: 10px;
     display: inline-block;
     vertical-align: middle;
     float: left;
     /* border-style: solid; */
   }
-  .middleRight{
-    width: 48%;
-    height: 650px;
+  .layer1Right{
+    width: 40%;
+    height: 530px;
+    float: right;
+    /* margin-left: 10px; */
+    color: #324158;
+  }
+  .layer2Left {
+    width: 40%;
+    height: 530px;
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+    /* border-style: solid; */
+  }
+  .layer2Right{
+    width: 55%;
+    height: 530px;
     float: right;
     /* margin-left: 10px; */
     color: #324158;
@@ -131,7 +147,7 @@
   }
   .header-link {
     display: inline;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;

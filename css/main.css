@@ -23,7 +23,7 @@
   }
   h3 {
     margin: 0;
-    font-size: 25px;
+    font-size: 20px;
   }
   p {
     margin-top: 10px;
@@ -52,13 +52,9 @@
     /* border-style: solid; */
 
   }
-  .marginContainer {
-    background-color: #eadbff !important;
-    margin-top: 30px;
-    padding-top: 50px;
-    width: 100%;
-    position: relative
-    color: #324158;
+  .mainContainer {
+    margin-left: 15%;
+    margin-right: 15%;
   }
   .layer1Container {
     margin-left: 15%;
@@ -66,20 +62,11 @@
     min-height: 550px;
     /* border-style: solid; */
   }
-  .mainContainer {
-    margin-left: 15%;
-    margin-right: 15%;
-    /* border-style: solid; */
-  }
-  .layer2Container {
-    min-height: 600px;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
+
   .layer1Left {
     width: 55%;
     /* height: 635px; */
-    padding-top: 10px;
+    /* padding-top: 10px; */
     display: inline-block;
     vertical-align: middle;
     float: left;
@@ -87,14 +74,30 @@
   }
   .layer1Right{
     width: 40%;
-    height: 530px;
+    /* height: 530px; */
     float: right;
     /* margin-left: 10px; */
     color: #324158;
   }
+  .marginContainer {
+    background-color: #eadbff !important;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* width: 100%; */
+    position: relative
+    color: #324158;
+    /* border-style: solid; */
+  }
+  .layer2Container {
+    min-height: 550px;
+    padding-left: 12%;
+    padding-right: 12%;
+    /* border-style: solid; */
+  }
   .layer2Left {
-    width: 40%;
-    height: 530px;
+    width: 310px;
+    height: 550px;
     padding-top: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -102,11 +105,12 @@
     /* border-style: solid; */
   }
   .layer2Right{
-    width: 55%;
-    height: 530px;
+    /* width: 55%; */
+    height: 550px;
     float: right;
     /* margin-left: 10px; */
     color: #324158;
+    /* border-style: solid; */
   }
   .header {
     margin-left: 15%;

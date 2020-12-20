@@ -2,11 +2,11 @@
 :root {
     --clr-primary-200: #f3eed9;
     --clr-primary-400: #eadbff;
-  
+
     --clr-neutral-100: #324158;
     --clr-neutral-1000: #ffffff;
     --clr-neutral-900: #730fff;
-  
+
     --ff-primary: "Lato", sans-serif;
     --ff-accent: "Lato", serif;
   }
@@ -27,7 +27,7 @@ body {
 p, li {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 h1 {
     font-size: 40px;
@@ -46,8 +46,8 @@ h1,
 h2,
 h3 {
     /* color: var(--clr-primary-400); */
-    font-family: var(--ff-accent);    
-    line-height: 1;    
+    font-family: var(--ff-accent);
+    line-height: 1;
 }
 h2 {
     margin: 1em;
@@ -88,7 +88,7 @@ header, section {
   }
   .container {
       /* margin-inline is left-right and margin-block is top-bottom */
-    margin-inline: auto; 
+    margin-inline: auto;
     /* same as setting min and max width */
     width: min(90%, 70.5rem);
   }
@@ -143,7 +143,7 @@ header, section {
 .bg-light {
     background-color: var(--clr-primary-200);
   }
-  
+
 .bg-primary {
     color: var(--clr-neutral-100);
     background-color: var(--clr-primary-400);

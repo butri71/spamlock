@@ -1,153 +1,132 @@
+/* custom properties SETUP */
+:root {
+    --clr-primary-200: #f3eed9;
+    --clr-primary-400: #eadbff;
+  
+    --clr-neutral-100: #324158;
+    --clr-neutral-1000: #ffffff;
+    --clr-neutral-900: #730fff;
+  
+    --ff-primary: "Lato", sans-serif;
+    --ff-accent: "Lato", serif;
+  }
+*,
+*::before,
+*::after {
+  /* box-sizing: border-box; */
+}
 
-  body {
-    color: #fff;
-    background-color: #730fff;
-    padding: 0;
-    margin: 0;
-    font-family: "Lato", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    position: relative;
-    cursor: default;
-  }
-  .footerContainer {
-    height: 70px;
-    padding-top: 20px;
-    width: 100%;
-  }
-  h1 {
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+  background-color: #730fff;
+  margin:0;
+}
+p, li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+h1 {
     font-size: 40px;
-  }
-  h2 {
+    font-weight: 900;
+}
+h2 {
     font-size: 30px;
-  }
-  h3 {
-    margin: 0;
-    font-size: 20px;
-  }
-  p {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size:16px
-  }
-  .homeTxt {
-    margin-top: 5px;
-    margin-bottom: 25px;
-    font-size:20px
-  }
-  li {
-    /* white-space: normal; */
-    margin-top: 15px;
-    margin-bottom: 15px;
-    line-height:1em;
-  }
-  .txtHeader {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .headerContainer {
-    height: 70px;
-    padding-top: 20px;
-    width: 100%;
+    font-weight: 900;
+}
+h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700
+}
+h1,
+h2,
+h3 {
+    /* color: var(--clr-primary-400); */
+    font-family: var(--ff-accent);    
+    line-height: 1;    
+}
+h2 {
+    margin: 1em;
+}
+.txtHeader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+img {
+    display: block;
+    /* images would stretch maximum to its original size on large screen and reduce on smaller screens */
+    max-width: 100%;
+    min-width: 20%;
     /* border-style: solid; */
-
-  }
-  .mainContainer {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  .layer1Container {
-    margin-left: 15%;
-    margin-right: 15%;
-    min-height: 550px;
-    /* border-style: solid; */
-  }
-
-  .layer1Left {
-    width: 55%;
-    /* height: 635px; */
-    /* padding-top: 10px; */
-    display: inline-block;
-    vertical-align: middle;
-    float: left;
-    /* border-style: solid; */
-  }
-  .layer1Right{
-    width: 40%;
-    /* height: 530px; */
-    float: right;
-    /* margin-left: 10px; */
-    color: #324158;
-  }
-  .marginContainer {
-    background-color: #eadbff !important;
-    margin-top: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    /* width: 100%; */
-    position: relative
-    color: #324158;
-    /* border-style: solid; */
-  }
-  .layer2Container {
-    min-height: 550px;
-    padding-left: 12%;
-    padding-right: 12%;
-    /* border-style: solid; */
-  }
-  .layer2Left {
-    width: 310px;
-    height: 550px;
-    padding-top: 10px;
-    display: inline-block;
-    vertical-align: middle;
-    float: left;
-    /* border-style: solid; */
-  }
-  .layer2Right{
-    /* width: 55%; */
-    height: 550px;
-    float: right;
-    /* margin-left: 10px; */
-    color: #324158;
-    /* border-style: solid; */
-  }
-  .header {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-  .headerLeft {
-    float: left;
-    width: 80%;
-  }
-  .headerRight {
-    float: right;
-    width: 20%;
-    margin-top: 25px;
+    display: inline-flex;
+    margin-top: 20px;
   }
   .logo {
     width: 65px;
     height: 65px;
+    min-width: 65px;
+    min-height: 65px;
+    max-width: 65px;
+    max-height: 65px;
   }
-  .footer {
-    height: 100px;
-    border-width: 2;
+.text-center {
+    text-align: center;
   }
-  .footer .madeby {
-    display: inline;
-    position: absolute;
+
+header, section {
+    padding: 2rem 0 3rem 0;
+    @media (min-width: 40em) {
+      header,
+      section {
+        padding: 7rem 0;
+      }
+    }
+  }
+  .container {
+      /* margin-inline is left-right and margin-block is top-bottom */
+    margin-inline: auto; 
+    /* same as setting min and max width */
+    width: min(90%, 70.5rem);
+  }
+
+  .split {
+      display: flex;
+      flex-direction: column;
+  }
+  /* split into columns if width is larger than 480px */
+  @media (min-width: 480px) {
+      .split {
+          flex-direction: row;
+      }
+      /* use this only if you want all colums of same width */
+      .split > * {
+        flex-basis: 100%;
+      }
+        /* add left margin only after the first column */
+      .split > * + * {
+        margin-left: 2em;
+      }
+
+  }
+  .container--narrow {
+    max-width: 50rem;
+  }
+  .headerLeft {
+    float: left;
+    width: 40%;
+    /* border-style: solid; */
+  }
+  .headerRight {
+    /* float: right; */
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
     margin-top: 25px;
-    font-size: 16px;
-    font-weight: 300;
-  }
-  .header-link-wrapper {
-    /* right: 20px;
-    margin-top: 25px; */
-    display: inline;
-    position: absolute;
-  }
-  .logoRight {
-    float: right;
+    /* border-style: solid; */
   }
   .header-link {
     display: inline;
@@ -161,3 +140,25 @@
   .header-link:hover {
     text-decoration: underline;
   }
+.bg-light {
+    background-color: var(--clr-primary-200);
+  }
+  
+.bg-primary {
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary-400);
+}
+
+.bg-dark {
+    color: var(--clr-neutral-1000);
+    background-color: var(--clr-neutral-900);
+}
+.bg-primary h2{
+    color: var(--clr-primary-100);
+}
+.bg-dark h2 {
+    color: var(--clr-primary-1000);
+    }
+.bg-primary h3, .bg-dark h3 {
+    color: var(--clr-primary-100);
+    }

@@ -1,0 +1,10 @@
+<script>
+(function(){
+  // English home only: open Italian or Spanish on a first visit, or the language the visitor picked.
+  try {
+    var saved = localStorage.getItem('spamlock-lang');
+    var lang = saved || ((navigator.languages && navigator.languages[0]) || navigator.language || '').slice(0, 2).toLowerCase();
+    if (lang === 'it' || lang === 'es') location.replace('/' + lang + '/' + location.hash);
+  } catch (e) {}
+})();
+</script>

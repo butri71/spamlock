@@ -1,123 +1,303 @@
-<!DOCTYPE html>
- <html lang="en">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<script>
+(function(){
+  // English home only: open Italian or Spanish on a first visit, or the language the visitor picked.
+  try {
+    var saved = localStorage.getItem('spamlock-lang');
+    var lang = saved || ((navigator.languages && navigator.languages[0]) || navigator.language || '').slice(0, 2).toLowerCase();
+    if (lang === 'it' || lang === 'es') location.replace('/' + lang + '/' + location.hash);
+  } catch (e) {}
+})();
+</script>
+<title>Spamlock: Security Assistant</title>
+<meta name="description" content="See if your email or passwords leaked, spot scam links and QR codes, check your phone settings, and get simple steps for what to fix first.">
+<link rel="canonical" href="https://spamlock.app/">
+<link rel="alternate" hreflang="en" href="https://spamlock.app/">
+<link rel="alternate" hreflang="it" href="https://spamlock.app/it/">
+<link rel="alternate" hreflang="es" href="https://spamlock.app/es/">
+<link rel="alternate" hreflang="x-default" href="https://spamlock.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Spamlock: Security Assistant">
+<meta property="og:description" content="See if your email or passwords leaked, spot scam links and QR codes, check your phone settings, and get simple steps for what to fix first.">
+<meta property="og:url" content="https://spamlock.app/">
+<meta property="og:image" content="https://spamlock.app/assets/film/og-en.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/hk900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10" rx="3"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></symbol>
+<symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="3"/><path d="M11 18.5h2"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 5.5v6c0 4.6 2.9 8 7 9.5 4.1-1.5 7-4.9 7-9.5v-6z"/><path d="m9 12 2.2 2.2L15.2 10"/></symbol>
+<symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4.5"/><path d="m11.2 11.8 8.3-8.3M16 7l3 3M13.5 9.5l2 2"/></symbol>
+<symbol id="i-qr" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="6.5" height="6.5" rx="1.5"/><rect x="14" y="3.5" width="6.5" height="6.5" rx="1.5"/><rect x="3.5" y="14" width="6.5" height="6.5" rx="1.5"/><path d="M14 14h3v3M20.5 14v.1M14 20.5h.1M17.5 20.5h3v-3"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+<symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 10a6 6 0 0 1 12 0c0 5 2 6.5 2 6.5H4S6 15 6 10z"/><path d="M10 20a2.2 2.2 0 0 0 4 0"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></symbol>
+<symbol id="i-pause" viewBox="0 0 24 24"><rect x="6" y="4.5" width="4" height="15" rx="1.2"/><rect x="14" y="4.5" width="4" height="15" rx="1.2"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1.2-3.8 4-5.5 7.5-5.5s6.3 1.7 7.5 5.5"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-5 4v-4.1A2.5 2.5 0 0 1 4 14.5z"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="3"/><path d="M3 10h18"/></symbol>
+<symbol id="i-pass" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="10" rx="3"/><path d="M7.5 12h.1M12 12h.1M16.5 12h.1"/></symbol>
+<symbol id="i-android" viewBox="0 0 24 24"><path d="M6 10.5h12v7a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2zM6.5 10.5a5.5 5.5 0 0 1 11 0M8.5 5.5 7 3.5M15.5 5.5 17 3.5M9.5 8h.1M14.5 8h.1"/></symbol>
+<symbol id="i-film" viewBox="0 0 24 24"><path d="M3.5 10h17v8.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/><path d="m3.2 10-.6-2.4a2 2 0 0 1 1.5-2.4l13-3a2 2 0 0 1 2.4 1.5l.6 2.3z"/><path d="m7.6 4.3 2.6 3.1M12.8 3.1l2.6 3.1"/><path d="m10.5 13 4.5 2.4-4.5 2.4z" fill="currentColor"/></symbol>
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="m9.5 6 6 6-6 6"/></symbol>
+</defs></svg>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/#top" aria-label="Spamlock home"><span class="logo"><svg class="ic"><use href="#i-lock"/></svg></span><span class="mark">Spamlock</span></a>
+  <nav class="nav" aria-label="Main"><a href="/#features">Features</a><a href="/#plus">Spamlock Plus</a><a href="/#questions">Questions</a></nav>
+  <div class="end"><details class="langs"><summary aria-label="Language: EN">EN</summary><div class="lang-menu"><a href="/" hreflang="en" data-lang="en" aria-current="true">EN</a><a href="/it/" hreflang="it" data-lang="it">IT</a><a href="/es/" hreflang="es" data-lang="es">ES</a></div></details><a class="btn btn-lav" href="/#get">Get the app</a></div>
+</div></header>
 
- <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Responsive Made Easy</title>
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link
-     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap"
-     rel="stylesheet">
-   <link rel="stylesheet" href="css/main.css">
-
- </head>
-
- <body>
-    <section class="bg-dark">        
-        <div class="container">
-            <div style="display: flex;">     
-                <div class="headerLeft">
-                    <a href="index.html">
-                        <img class="logo" src="images/spamlockLogo.png" />
-                    </a>
-                </div>
-                <div class="headerRight">
-                    <a class="header-link" href="privacy.html" target="_self">PRIVACY</a>
-                    <a class="header-link" href="terms.html" target="_self">TERMS</a>
-                    <a class="header-link" href="mailto:spamlock.app@gmail.com" target="_self">CONTACT</a>
-                </div> 
-            </div>
+<main id="top">
+<section class="hero" data-status="Looking through known data breaches"><div class="wrap">
+  <div class="hero-grid">
+    <div>
+      <div class="status"><span class="spin" aria-hidden="true"></span><span class="tx"><b>Your security assistant</b><span class="roll" id="heroRoll"><span>Looking through known data breaches</span></span></span></div>
+      <h1><span class="l"><span class="w" style="--d:0.05s">See</span> <span class="w" style="--d:0.17s">what</span></span><span class="l"><span class="w" style="--d:0.29s">to</span> <span class="pop" aria-hidden="true"><svg class="ic"><use href="#i-shield"/></svg></span> <span class="w" style="--d:0.41s">fix</span></span><span class="l"><span class="w fx" style="--d:0.53s">first.</span></span></h1>
+      <p class="lead">See if your email or passwords leaked, spot scam links and QR codes, check your phone settings, and get simple steps for what to fix first.</p>
+      <div class="cta"><a class="btn btn-dark" href="https://apps.apple.com/app/id1529407969"><svg class="ic"><use href="#i-phone"/></svg>Download for iPhone</a><button class="movie" id="movieBtn" type="button" aria-label="Watch the film" title="Watch the film"><svg class="ic"><use href="#i-film"/></svg></button></div>
+      <p class="soon"><svg class="ic"><use href="#i-android"/></svg>Android coming soon</p>
+    </div>
+    <aside class="box" id="box" aria-label="Example of the Spamlock threats box">
+      <div class="box-in">
+        <div class="box-head"><h2 id="bxTitle">Security threats found</h2><span class="tag">Example</span></div>
+        <div class="box-mid">
+          <div class="ring"><svg viewBox="0 0 110 110"><circle class="bg" cx="55" cy="55" r="45"/><circle class="fg" id="bxRing" cx="55" cy="55" r="45"/></svg><div class="n"><b id="bxN">5</b><small>active</small></div></div>
+          <div class="chips"><span class="chip high" id="cH">2 high risk</span><span class="chip med" id="cM">2 medium risk</span><span class="chip low" id="cL">1 low risk</span><span class="chip ok" id="cF">3 fixed</span></div>
         </div>
-    </section>
-   <section class="bg-dark text-center">
-     <div class="container container--narrow">
-       <h1>Get a grip on your data security with Spamlock</h1>
-       <h1>Keeping a lock in your pocket is FREE</h1>
+        <div class="why"><i><svg class="ic" id="bxIc"><use href="#i-mail"/></svg></i><span><b id="bxKind">Data breach</b><span id="bxWhy">You can change that password and protect the account.</span></span></div>
+      </div>
+      <div class="nextbar"><span aria-live="polite"><b>Next: </b><span id="bxNext">Review the FitTrack breach</span></span><svg class="ic"><use href="#i-chev"/></svg></div>
+      <div class="box-act"><button id="bxBtn" type="button">Mark as done</button><p class="hint" id="bxHint">Try it. This is how Spamlock takes you through each threat.</p></div>
+    </aside>
+  </div>
+  <ul class="facts">
+    <li><span class="dot"><svg class="ic"><use href="#i-user"/></svg></span><h3>No account needed</h3><p>No sign-up and no ads.</p></li>
+    <li><span class="dot"><svg class="ic"><use href="#i-chat"/></svg></span><h3>No tech skills needed</h3><p>Everyday words and simple steps.</p></li>
+    <li><span class="dot"><svg class="ic"><use href="#i-eye"/></svg></span><h3>All in one view</h3><p>What it finds, sorted by risk: high, medium, low.</p></li>
+  </ul>
+</div></section>
 
-     </div>
-   </section>
-        <!-- 3 columns example  -->
-   <!-- <section class="bg-dark">
-     <div class="container">
-       <h1 class="text-center">Quality Designs</h1>
-       <div class="split">
-         <div>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aperiam inventore nemo, asperiores dolorem
-             nisi voluptate omnis quam sit doloremque expedita architecto dicta, at consequatur.</p>
-         </div>
-         <div>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aperiam inventore nemo, asperiores dolorem
-             nisi voluptate omnis quam sit doloremque expedita architecto dicta, at consequatur.</p>
-         </div>
-         <div>
-           <p>Eum quisquam deleniti facere fugit. Vero quidem sunt fuga fugit ea voluptatum placeat ullam eveniet,
-             minima
-             sed veritatis laboriosam. Quia cumque est cupiditate quod eum?</p>
-         </div>
-       </div>
-     </div>
-   </section> -->
+<hr class="sep">
+<section class="film" id="film" data-status="Meet Spamlock"><div class="wrap"><div class="panel"><div class="film-in">
+  <div class="lift"><h2 class="h2">Meet your <em>security assistant</em></h2><p class="lead" style="margin-top:16px">Type your email, see the breaches it was in, and what to fix first.</p><p class="meta">34 seconds · with music</p></div>
+  <div class="player" id="player">
+    <img src="/assets/film/poster-en.webp" alt="Spamlock launch film: Spamlock is your security assistant" width="1280" height="720" loading="lazy">
+    <button class="play" id="playBtn" type="button" aria-label="Play the launch film"><span><svg class="ic"><use href="#i-play"/></svg></span></button>
+  </div>
+</div></div></div></section>
 
-   <section class="bg-dark">
-     <div class="container">
-       <div class="split">        
-         <div style="display: flex; justify-content: center;">
-            <img src="./images/layer1.png" alt="Leaked email address or password" style="width: 280px; height: 527px; object-fit: cover;">
-         </div> 
-         <div>
-            <h2>Your email or password been leaked?</h2>
-           <p>Spamlock is a completely FREE App that detects data breaches with a simple quick search.</p>
-           <ul style="font-size:18px">
-            <li>Over 500 million passwords exposed</li>
-            <li>More than 10 billion email&nbsp;accounts compromised</li>
-            <li>Almost 500 major websites hacked</li>
-          </ul>
-          <p>Download Spamlock now and get an answer within seconds...</p>
-          <div style="display:inline-flex; width: 100%; flex-wrap: nowrap; ">
-            <a href="https://apps.apple.com/us/app/id1529407969" target="_new"><img alt="download link from the app store" src="./images/ios.png" style="width: 176px; height: 55px; object-fit: cover; padding-right: 30px"></a>
-            <a href="https://play.google.com/store/apps/details?id=com.maxaquilino.spamlock" target="_new"><img alt="download link from the Google Play" src="./images/android.png" style="width: 180px; height: 55px; object-fit: cover;"></a>
-          </div>
-         </div>         
-       </div>
-     </div>
-   </section>
+<hr class="sep">
+<div class="rollh wrap" id="features"><p>Simple help with<span class="rw" aria-label="data breaches, passwords, scam links, phone settings and sign-ins" id="rw"><span class="on"><svg class="ic"><use href="#i-mail"/></svg>data breaches</span><span><svg class="ic"><use href="#i-pass"/></svg>passwords</span><span><svg class="ic"><use href="#i-link"/></svg>scam links</span><span><svg class="ic"><use href="#i-phone"/></svg>phone settings</span><span><svg class="ic"><use href="#i-key"/></svg>sign-ins</span></span></p></div>
 
-   <section class="bg-primary">
-     <div class="container">
-       <div class="split">        
-         <div>
-            <h2>Unlimited real-time searches on:</h2>
-            <ul style="color:rgb(50, 65, 88);font-family:brandon-grot-w01-light,sans-serif;font-size:18px;letter-spacing:0.03em;">
-                <li>username and email account leaks</li>
-              <li>password exposures</li>
-                <li>domain and/or website hacks</li>
-            </ul>
-            <h2>Data breaches regularly updated</h2>
-            <h2>Keep track of historical searches</h2>
-            <h2>Multi-Language support</h2>
-         </div>
-         <div style="display: flex; justify-content: center;">
-            <img src="./images/layer2.png" alt="Data breach report" style="width: 300px; height: 546px; object-fit: cover;">
-          </div>
-       </div>
-     </div>
-   </section>
-    <!-- FOOTER -->
+<section class="wrap row" data-status="Finding the ones with your email">
+  <figure class="media s-lav" data-scene>
+    <span class="sun"></span>
+    <span class="gtile v" style="width:13%;aspect-ratio:1;left:8%;top:10%"><svg class="ic"><use href="#i-lock"/></svg></span>
+    <span class="gtile" style="width:17%;aspect-ratio:1;right:9%;top:22%"><svg class="ic"><use href="#i-mail"/></svg></span>
+    <span class="gtile b" style="width:11%;aspect-ratio:1;left:13%;bottom:27%"><svg class="ic"><use href="#i-shield"/></svg></span>
+    <div class="phone" style="--t:-7deg"><video muted playsinline loop preload="none" poster="/assets/media/en/result.webp" data-src="/assets/media/en/clip-email.mp4" aria-label="Real Spamlock screen recording: checking the example address alex@example.com"></video></div>
+    <button class="pause" type="button" aria-label="Pause animation"><svg class="ic"><use href="#i-pause"/></svg></button>
+    <figcaption class="hud"><i><svg class="ic"><use href="#i-mail"/></svg></i><b>3 data breaches found</b><span class="r">2 with passwords</span></figcaption>
+  </figure>
+  <div class="copy lift">
+    <h2 class="h2">Find out if your email leaked</h2>
+    <p class="lead">Type your email. Spamlock shows the known breaches it appears in, what leaked and how serious it is.</p>
+    <ul class="ticks">
+      <li><svg class="ic"><use href="#i-check"/></svg>Passwords, phone numbers, addresses and more</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>What you can do next, step by step</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>Mark steps as done as you go</li>
+    </ul>
+    <p class="src">Breach data: Have I Been Pwned.</p>
+  </div>
+</section>
 
-    <section class="bg-dark">        
-        <div class="container">
-            <div class="split">     
-                <div class="headerLeft">
-                    <h3>©2020 Spamlock</h3>
-                </div>
-                <div class="headerRight">
-                  <a class="header-link" href="privacy.html" target="_self">PRIVACY</a>
-                  <a class="header-link" href="terms.html" target="_self">TERMS</a>
-              </div> 
-            </div>
-        </div>
-    </section>
- </body>
+<hr class="sep">
+<section class="wrap pw" data-status="Only a short code is checked"><div class="panel"><div class="pw-in">
+  <div class="lift">
+    <h2 class="h2">Your password <em>never leaves your phone</em></h2>
+    <p class="lead" style="margin-top:18px">See if a password has leaked, then make a strong one in one tap, a different one for each account.</p>
+    <ul class="ticks">
+      <li><svg class="ic"><use href="#i-check"/></svg>Only the first 5 characters of a scrambled code are sent</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>The code is checked with Have I Been Pwned</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>New passwords are made on your phone</li>
+    </ul>
+  </div>
+  <div class="pw-vis" data-scene>
+  <button class="pause" type="button" aria-label="Pause animation"><svg class="ic"><use href="#i-pause"/></svg></button>
+  <div class="phone" style="--t:9deg"><video muted playsinline loop preload="none" poster="/assets/media/en/password.webp" data-src="/assets/media/en/clip-password.mp4" aria-label="Real Spamlock screen recording: making a strong password"></video></div>
+  <div class="slip" aria-label="Example of how a password is checked">
+    <div class="slip-top"><span>Check a password</span><span class="tag">Example</span></div>
+    <div class="slip-body">
+      <p class="lab">Your password</p><p class="dots">••••••••••</p>
+      <p class="lab">Scrambled code</p><p class="hash" id="hash"><b>5BAA6</b>1E4C9B93F3F0682250B6CF8331B7EE68FD8</p>
+      <div class="split"><svg class="ic"><use href="#i-link"/></svg><span><b>Sent to check:</b> first 5 characters</span><svg class="ic"><use href="#i-phone"/></svg><span><b>Stays on your phone:</b> everything else</span></div>
+    </div>
+  </div>
+  </div>
+</div></div></section>
 
- </html>
+<hr class="sep">
+<section class="wrap row flip" data-status="Checking Google’s list of dangerous sites">
+  <figure class="media s-deep" data-scene>
+    <span class="sun"></span>
+    <span class="gtile v" style="width:15%;aspect-ratio:1;left:9%;bottom:30%"><svg class="ic"><use href="#i-link"/></svg></span>
+    <span class="gtile b" style="width:12%;aspect-ratio:1;left:14%;top:12%"><svg class="ic"><use href="#i-qr"/></svg></span>
+    <span class="gtile" style="width:14%;aspect-ratio:1;right:8%;bottom:33%"><svg class="ic"><use href="#i-shield"/></svg></span>
+    <div class="phone" style="--t:6deg"><video muted playsinline loop preload="none" poster="/assets/media/en/link.webp" data-src="/assets/media/en/clip-link.mp4" aria-label="Real Spamlock screen recording: checking a made-up link"></video></div>
+    <button class="pause" type="button" aria-label="Pause animation"><svg class="ic"><use href="#i-pause"/></svg></button>
+    <figcaption class="hud"><i><svg class="ic"><use href="#i-link"/></svg></i><b>track-parcel.top</b><span class="r">Appears risky</span></figcaption>
+  </figure>
+  <div class="copy lift">
+    <h2 class="h2">Check a link before you open it</h2>
+    <p class="lead">Paste a link or scan a QR code. Spamlock shows the real site and any warning signs.</p>
+    <ul class="ticks">
+      <li><svg class="ic"><use href="#i-check"/></svg>Paste a link or a whole message</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>Scan a QR code, or pick one from a photo</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>Spamlock only reads the address, it never opens the link</li>
+    </ul>
+    <p class="src">Link checks: Google Web Risk.</p>
+  </div>
+</section>
+
+<hr class="sep">
+<section class="wrap row" data-status="Looking at this phone">
+  <figure class="media s-pale" data-scene>
+    <span class="sun"></span>
+    <span class="gtile" style="width:14%;aspect-ratio:1;left:10%;top:13%"><svg class="ic"><use href="#i-phone"/></svg></span>
+    <span class="gtile v" style="width:12%;aspect-ratio:1;right:11%;top:30%"><svg class="ic"><use href="#i-lock"/></svg></span>
+    <div class="phone" style="--t:-6deg"><img src="/assets/media/en/phone.webp" alt="Real Spamlock screen: We also looked at this phone" loading="lazy" width="600" height="1305"></div>
+    <figcaption class="hud"><i><svg class="ic"><use href="#i-phone"/></svg></i><b>This phone</b><span>Screen lock · Updates · Space</span></figcaption>
+  </figure>
+  <div class="copy lift">
+    <h2 class="h2">See your phone basics</h2>
+    <p class="lead">Spamlock looks at your screen lock, updates, time since restart and free space.</p>
+    <ul class="ticks">
+      <li><svg class="ic"><use href="#i-check"/></svg>Step-by-step help for settings you can change</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>Find My or Find Hub, for a lost phone</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>App permissions and theft protection</li>
+    </ul>
+  </div>
+</section>
+
+<hr class="sep">
+<section class="wrap more" data-status="Building your security check">
+  <div class="more-h lift"><h2 class="h2">Help for what comes next</h2><p class="lead">Protect your sign-ins, get help when something goes wrong, and keep what you save on your phone.</p></div>
+  <div class="bento">
+    <article class="card c7 lift">
+      <h3>Protect your sign-ins</h3>
+      <p>Two-step login and passkeys for your important accounts, with the guide for each.</p>
+      <div class="formula"><span class="fbit"><svg class="ic"><use href="#i-pass"/></svg>Password</span><span>+</span><span class="fbit"><svg class="ic"><use href="#i-key"/></svg>Code</span><span>=</span><span class="fbit g"><svg class="ic"><use href="#i-check"/></svg>Signed in</span></div>
+    </article>
+    <article class="card c5 lift">
+      <h3>Private by design</h3>
+      <ul class="priv">
+        <li><i><svg class="ic"><use href="#i-user"/></svg></i>No sign-up, no ads</li>
+        <li><i><svg class="ic"><use href="#i-lock"/></svg></i>Saved emails are encrypted and stay on your phone</li>
+        <li><i><svg class="ic"><use href="#i-pass"/></svg></i>Passwords are checked privately</li>
+      </ul>
+    </article>
+    <article class="card c5 dk lift" id="alerts">
+      <div class="bell" aria-hidden="true"><i><svg class="ic"><use href="#i-bell"/></svg></i></div>
+      <h3>New breach alerts</h3>
+      <p>Save an email and Spamlock can tell you when it appears in a new data breach.</p>
+    </article>
+    <article class="card c7 dk lift">
+      <h3>Fix a problem</h3>
+      <p>Step-by-step guides for when something has already gone wrong.</p>
+      <ul class="guides">
+        <li><svg class="ic"><use href="#i-mail"/></svg>My email was hacked</li>
+        <li><svg class="ic"><use href="#i-chat"/></svg>My social account was hacked</li>
+        <li><svg class="ic"><use href="#i-phone"/></svg>I lost my phone</li>
+        <li><svg class="ic"><use href="#i-card"/></svg>I paid or gave card details to a scammer</li>
+        <li><svg class="ic"><use href="#i-user"/></svg>Someone is using my identity</li>
+        <li><svg class="ic"><use href="#i-eye"/></svg>I think someone is spying on me</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<hr class="sep">
+<section class="wrap plans" id="plus" data-status="Free to download">
+  <div class="more-h lift" style="margin-bottom:0"><h2 class="h2">Free to download. Plus if you want more.</h2></div>
+  <div class="plan-grid">
+    <article class="plan lift">
+      <h3>Spamlock</h3><p class="big">Free</p>
+      <ul class="ticks">
+        <li><svg class="ic"><use href="#i-check"/></svg>Email and password checks</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Your phone, sign-ins and Fix a problem guides</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Link checks: warning signs every time, 5 Google checks a month</li>
+        <!--if:alerts--><li><svg class="ic"><use href="#i-check"/></svg>Alerts for 1 email</li>
+      </ul>
+    </article>
+    <article class="plan dk lift">
+      <h3>Spamlock Plus</h3><p class="big">Unlimited links</p>
+      <ul class="ticks">
+        <li><svg class="ic"><use href="#i-check"/></svg>Check as many links and QR codes as you like</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Get alerts for up to 10 emails, your family’s too</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Every new feature as we add it</li>
+      </ul>
+      <a class="btn btn-lav" href="#get">Get the app</a>
+    </article>
+  </div>
+  <p class="fine">You see the price in the app before you buy. You can cancel any time in your App Store or Google Play settings.</p>
+</section><!--/if-->
+
+<hr class="sep">
+<section class="wrap qa" id="questions" data-status="Common questions">
+  <h2 class="h2 lift">Questions, answered</h2>
+  <div>
+    <details open><summary>What is Spamlock?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>Spamlock checks your emails, passwords, links and this phone for threats, and shows you simple steps to fix them.</p></details>
+    <details><summary>Where does the breach information come from?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>From Have I Been Pwned, a well-known public list of data breaches. Two-step sign-in options come from 2fa.directory, and link checks also use Google’s list of dangerous sites.</p></details>
+    <details><summary>What does “No breach found” mean?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>Your email isn’t in any breach Have I Been Pwned knows about. New breaches are added often, so you can check again from time to time.</p></details>
+    <details><summary>Can Spamlock see my passwords?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>No. When you check a password, it never leaves the phone. Only a short scrambled piece is used to look it up.</p></details>
+    <details><summary>Can Spamlock prevent my data from being exposed?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>No. Spamlock can’t stop a company from being hacked, and it can’t change your accounts or settings for you. It finds what has leaked or needs attention, and guides you with simple steps you take yourself.</p></details>
+    <details><summary>How do alerts for new breaches work?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>Spamlock looks for new breaches in Have I Been Pwned’s list every day. If a new breach is found, it checks the emails you watch and tells you if one is included in the breached list.</p></details>
+  </div>
+</section>
+
+<hr class="sep">
+<section class="wrap final" id="get"><div class="endp">
+  <div>
+    <h2>Start with your email.</h2>
+    <p class="lead">Spamlock shows what it finds and what you can do next.</p>
+    <div class="cta"><a class="btn btn-dark" href="https://apps.apple.com/app/id1529407969"><svg class="ic"><use href="#i-phone"/></svg>Download for iPhone</a></div>
+    <p class="soon"><svg class="ic"><use href="#i-android"/></svg>Android coming soon</p>
+  </div>
+  <div class="duo" aria-hidden="true">
+    <div class="phone p1"><img src="/assets/media/en/result.webp" alt="" loading="lazy" width="600" height="1305"></div>
+    <div class="phone p2"><img src="/assets/media/en/home.webp" alt="" loading="lazy" width="600" height="1305"></div>
+  </div>
+</div></section>
+</main>
+<footer><div class="wrap"><div class="foot">
+  <a class="brand" href="/#top"><span class="logo"><svg class="ic"><use href="#i-lock"/></svg></span><span class="mark">Spamlock</span></a>
+  <nav aria-label="Legal"><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a><a href="mailto:spamlock.app@gmail.com">Contact</a><button id="cookieSettings" type="button">Cookie settings</button></nav>
+  <p class="credit">Breach data: <a href="https://haveibeenpwned.com">Have I Been Pwned</a> (CC BY 4.0). Link checks: Google Web Risk. Helping people check their accounts since 2020.</p>
+</div></div></footer>
+<aside class="cookies" id="cookies" aria-label="Cookie settings" hidden>
+  <p>Can we use Google Analytics cookies? They show us how people use this website. You can change your choice any time in Cookie settings. <a href="/privacy.html">Privacy</a></p>
+  <div class="cookie-btns"><button class="btn btn-lav" id="cookieAccept" type="button">Accept</button><button class="btn btn-line" id="cookieDecline" type="button">Decline</button></div>
+</aside>
+<script src="/assets/consent.js" defer></script>
+<script src="/assets/lang.js" defer></script>
+
+
+<div class="follow" id="follow"><span class="logo"><svg class="ic"><use href="#i-lock"/></svg></span><span class="tx"><b>Spamlock</b><span class="roll" id="followRoll"><span>Looking through known data breaches</span></span></span><a class="btn btn-lav" href="#get">Get the app</a></div>
+
+<script type="application/json" id="site-data">{"lang":"en","android":false,"film":{"app":"/assets/film/film-en-appstore.mp4","play":"/assets/film/film-en-play.mp4","poster":"/assets/film/poster-en.webp"},"lines":["Looking through known data breaches","Finding the ones with your email","Checking which ones leaked passwords","Building your security check"],"high":"high risk","medium":"medium risk","low":"low risk","fixed":"fixed","title":"Security threats found","clearTitle":"No open threats","markDone":"Mark as done","startOver":"Start over","clearNext":"No active threats","clearKind":"All done","clearWhy":"You can check an email, a link or this phone again any time.","filmLabel":"Spamlock launch film","pause":"Pause animation","play":"Play animation","items":[{"k":"high","ic":"mail","kind":"Data breach","why":"You can change that password and protect the account.","next":"Review the FitTrack breach"},{"k":"high","ic":"mail","kind":"Data breach","why":"You can change that password and protect the account.","next":"Review the ShopNow breach"},{"k":"med","ic":"key","kind":"Email sign-in","why":"Adds a code when someone signs in to your email","next":"Protect your email sign-in"},{"k":"med","ic":"phone","kind":"Your phone","why":"Gets the latest security fixes","next":"Update your phone"},{"k":"low","ic":"phone","kind":"Your phone","why":"Clears some hidden threats","next":"Restart your phone"}]}</script>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

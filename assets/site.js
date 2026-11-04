@@ -82,6 +82,12 @@
 
   // Scenes: load a clip only near the screen, play only while visible.
   var clips = document.querySelectorAll('video[data-src]');
+  if ('IntersectionObserver' in window) {
+    var previews = new IntersectionObserver(function(es, ob){ es.forEach(function(e){
+      if (e.isIntersecting) { e.target.poster = e.target.dataset.poster; ob.unobserve(e.target); }
+    }); }, {rootMargin:'400px 0px'});
+    clips.forEach(function(v){ previews.observe(v); });
+  } else clips.forEach(function(v){ v.poster = v.dataset.poster; });
   if ('IntersectionObserver' in window && !reduced) {
     var io = new IntersectionObserver(function(es){ es.forEach(function(e){
       var v = e.target, scene = v.closest('[data-scene]');

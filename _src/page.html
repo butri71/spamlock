@@ -12,9 +12,17 @@
 <meta property="og:description" content="{{metaDescription}}">
 <meta property="og:url" content="https://spamlock.app{{home}}">
 <meta property="og:image" content="https://spamlock.app/assets/film/og-{{lang}}.jpg">
+<meta property="og:site_name" content="{{siteName}}">
+<meta property="og:locale" content="{{ogLocale}}">
+{{ogAlternates}}
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{pageTitle}}">
+<meta name="twitter:description" content="{{metaDescription}}">
+<meta name="twitter:image" content="https://spamlock.app/assets/film/og-{{lang}}.jpg">
+<script type="application/ld+json">{{jsonLd}}</script>
 <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/hk400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/hk900.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
 </head>
@@ -54,7 +62,7 @@
     </div>
     <aside class="box" id="box" aria-label="{{boxLabel}}">
       <div class="box-in">
-        <div class="box-head"><h2 id="bxTitle">{{threatsTitle}}</h2><span class="tag">{{example}}</span></div>
+        <div class="box-head"><p class="box-title" id="bxTitle">{{threatsTitle}}</p><span class="tag">{{example}}</span></div>
         <div class="box-mid">
           <div class="ring"><svg viewBox="0 0 110 110"><circle class="bg" cx="55" cy="55" r="45"/><circle class="fg" id="bxRing" cx="55" cy="55" r="45"/></svg><div class="n"><b id="bxN">5</b><small>{{active}}</small></div></div>
           <div class="chips"><span class="chip high" id="cH">{{chipHigh}}</span><span class="chip med" id="cM">{{chipMed}}</span><span class="chip low" id="cL">{{chipLow}}</span><span class="chip ok" id="cF">{{chipFixed}}</span></div>
@@ -90,7 +98,7 @@
     <span class="gtile v" style="width:13%;aspect-ratio:1;left:8%;top:10%"><svg class="ic"><use href="#i-lock"/></svg></span>
     <span class="gtile" style="width:17%;aspect-ratio:1;right:9%;top:22%"><svg class="ic"><use href="#i-mail"/></svg></span>
     <span class="gtile b" style="width:11%;aspect-ratio:1;left:13%;bottom:27%"><svg class="ic"><use href="#i-shield"/></svg></span>
-    <div class="phone" style="--t:-7deg"><video muted playsinline loop preload="none" poster="/assets/media/{{lang}}/result.webp" data-src="/assets/media/{{lang}}/clip-email.mp4" aria-label="{{emailClipLabel}}"></video></div>
+    <div class="phone" style="--t:-7deg"><video muted playsinline loop preload="none" data-poster="/assets/media/{{lang}}/result.webp" data-src="/assets/media/{{lang}}/clip-email.mp4" aria-label="{{emailClipLabel}}"></video></div>
     <button class="pause" type="button" aria-label="{{pause}}"><svg class="ic"><use href="#i-pause"/></svg></button>
     <figcaption class="hud"><i><svg class="ic"><use href="#i-mail"/></svg></i><b>{{emailHud}}</b><span class="r">{{emailHudSide}}</span></figcaption>
   </figure>
@@ -119,7 +127,7 @@
   </div>
   <div class="pw-vis" data-scene>
   <button class="pause" type="button" aria-label="{{pause}}"><svg class="ic"><use href="#i-pause"/></svg></button>
-  <div class="phone" style="--t:9deg"><video muted playsinline loop preload="none" poster="/assets/media/{{lang}}/password.webp" data-src="/assets/media/{{lang}}/clip-password.mp4" aria-label="{{pwClipLabel}}"></video></div>
+  <div class="phone" style="--t:9deg"><video muted playsinline loop preload="none" data-poster="/assets/media/{{lang}}/password.webp" data-src="/assets/media/{{lang}}/clip-password.mp4" aria-label="{{pwClipLabel}}"></video></div>
   <div class="slip" aria-label="{{pwSlipLabel}}">
     <div class="slip-top"><span>{{pwSlipTitle}}</span><span class="tag">{{example}}</span></div>
     <div class="slip-body">
@@ -138,7 +146,7 @@
     <span class="gtile v" style="width:15%;aspect-ratio:1;left:9%;bottom:30%"><svg class="ic"><use href="#i-link"/></svg></span>
     <span class="gtile b" style="width:12%;aspect-ratio:1;left:14%;top:12%"><svg class="ic"><use href="#i-qr"/></svg></span>
     <span class="gtile" style="width:14%;aspect-ratio:1;right:8%;bottom:33%"><svg class="ic"><use href="#i-shield"/></svg></span>
-    <div class="phone" style="--t:6deg"><video muted playsinline loop preload="none" poster="/assets/media/{{lang}}/link.webp" data-src="/assets/media/{{lang}}/clip-link.mp4" aria-label="{{linkClipLabel}}"></video></div>
+    <div class="phone" style="--t:6deg"><video muted playsinline loop preload="none" data-poster="/assets/media/{{lang}}/link.webp" data-src="/assets/media/{{lang}}/clip-link.mp4" aria-label="{{linkClipLabel}}"></video></div>
     <button class="pause" type="button" aria-label="{{pause}}"><svg class="ic"><use href="#i-pause"/></svg></button>
     <figcaption class="hud"><i><svg class="ic"><use href="#i-link"/></svg></i><b>{{linkHud}}</b><span class="r">{{linkHudSide}}</span></figcaption>
   </figure>

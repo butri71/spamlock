@@ -1,5 +1,5 @@
 {
-  "metaDescription": "Tu asistente de seguridad: comprueba si tu correo o tus contraseñas están comprometidos, detecta enlaces fraudulentos, revisa tu móvil y descubre qué cambiar primero.",
+  "metaDescription": "Comprueba si tu correo o tus contraseñas están comprometidos, detecta enlaces fraudulentos, revisa tu móvil y descubre qué cambiar primero.",
   "statusTitle": "Tu asistente de seguridad",
   "line1": "Buscando en las filtraciones conocidas",
   "heroLead": "Comprueba si tu correo o tus contraseñas están comprometidos, detecta enlaces fraudulentos y códigos QR, revisa tu móvil y descubre qué cambiar primero, con pasos sencillos.",
@@ -134,8 +134,22 @@
   "a6": "Más o menos una vez al día, Spamlock busca filtraciones nuevas en la lista de Have I Been Pwned. Si hay una nueva, revisa los correos que vigilas y te avisa si alguno aparece.",
   "endTitle": "Empieza por tu correo.",
   "endLead": "Spamlock te muestra lo que encuentra y lo que puedes hacer.",
-  "h1Lines": [["Qué", "cambiar"], ["y", "en", "@icon", "qué"], ["orden."]],
-  "pageTitle": "Spamlock: Asistente Seguridad",
+  "h1Lines": [
+    [
+      "Qué",
+      "cambiar"
+    ],
+    [
+      "y",
+      "en",
+      "@icon",
+      "qué"
+    ],
+    [
+      "orden."
+    ]
+  ],
+  "pageTitle": "Spamlock: comprueba filtraciones, estafas y tu móvil",
   "getApp": "Descarga la app",
   "watchFilm": "Ver el vídeo",
   "navFeatures": "Funciones",
@@ -159,18 +173,70 @@
   "cookieSettings": "Ajustes de cookies",
   "languageLabel": "Idioma",
   "client": {
-    "lines": ["Buscando en las filtraciones conocidas", "Encontrando las que tienen tu email", "Viendo cuáles filtraron contraseñas", "Preparando tu revisión de seguridad"],
-    "high": "riesgo alto", "medium": "riesgo medio", "low": "riesgo bajo", "fixed": "resueltas",
-    "title": "Amenazas encontradas", "clearTitle": "Ninguna amenaza abierta",
-    "markDone": "Marcar como hecho", "startOver": "Empezar de nuevo",
-    "clearNext": "No hay amenazas activas", "clearKind": "Todo hecho", "clearWhy": "Puedes revisar un email, un enlace o este móvil cuando quieras.",
-    "filmLabel": "Vídeo de presentación de Spamlock", "pause": "Pausar la animación", "play": "Reproducir la animación",
+    "lines": [
+      "Buscando en las filtraciones conocidas",
+      "Encontrando las que tienen tu email",
+      "Viendo cuáles filtraron contraseñas",
+      "Preparando tu revisión de seguridad"
+    ],
+    "high": "riesgo alto",
+    "medium": "riesgo medio",
+    "low": "riesgo bajo",
+    "fixed": "resueltas",
+    "title": "Amenazas encontradas",
+    "clearTitle": "Ninguna amenaza abierta",
+    "markDone": "Marcar como hecho",
+    "startOver": "Empezar de nuevo",
+    "clearNext": "No hay amenazas activas",
+    "clearKind": "Todo hecho",
+    "clearWhy": "Puedes revisar un email, un enlace o este móvil cuando quieras.",
+    "filmLabel": "Vídeo de presentación de Spamlock",
+    "pause": "Pausar la animación",
+    "play": "Reproducir la animación",
     "items": [
-      {"k": "high", "ic": "mail", "kind": "Filtración de datos", "why": "Puedes cambiar esa contraseña y proteger la cuenta.", "next": "Revisa la filtración de FitTrack"},
-      {"k": "high", "ic": "mail", "kind": "Filtración de datos", "why": "Puedes cambiar esa contraseña y proteger la cuenta.", "next": "Revisa la filtración de ShopNow"},
-      {"k": "med", "ic": "key", "kind": "Acceso al email", "why": "Añade un código cuando alguien entra en tu email", "next": "Protege el acceso a tu email"},
-      {"k": "med", "ic": "phone", "kind": "Tu móvil", "why": "Recibe las últimas correcciones de seguridad", "next": "Actualiza tu móvil"},
-      {"k": "low", "ic": "phone", "kind": "Tu móvil", "why": "Elimina algunas amenazas ocultas", "next": "Reinicia tu móvil"}
+      {
+        "k": "high",
+        "ic": "mail",
+        "kind": "Filtración de datos",
+        "why": "Puedes cambiar esa contraseña y proteger la cuenta.",
+        "next": "Revisa la filtración de FitTrack"
+      },
+      {
+        "k": "high",
+        "ic": "mail",
+        "kind": "Filtración de datos",
+        "why": "Puedes cambiar esa contraseña y proteger la cuenta.",
+        "next": "Revisa la filtración de ShopNow"
+      },
+      {
+        "k": "med",
+        "ic": "key",
+        "kind": "Acceso al email",
+        "why": "Añade un código cuando alguien entra en tu email",
+        "next": "Protege el acceso a tu email"
+      },
+      {
+        "k": "med",
+        "ic": "phone",
+        "kind": "Tu móvil",
+        "why": "Recibe las últimas correcciones de seguridad",
+        "next": "Actualiza tu móvil"
+      },
+      {
+        "k": "low",
+        "ic": "phone",
+        "kind": "Tu móvil",
+        "why": "Elimina algunas amenazas ocultas",
+        "next": "Reinicia tu móvil"
+      }
     ]
-  }
+  },
+  "siteName": "Spamlock",
+  "ogLocale": "es_ES",
+  "ogAlternates": [
+    "en_GB",
+    "it_IT"
+  ],
+  "privacyDescription": "Lo que se queda en tu móvil, lo que sale de él, los servicios que usa Spamlock y tus opciones.",
+  "termsDescription": "Los términos para usar Spamlock: uso correcto, Spamlock Plus y límites de la app."
 }

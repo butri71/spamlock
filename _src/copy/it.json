@@ -1,5 +1,5 @@
 {
-  "metaDescription": "Il tuo assistente per la sicurezza: verifica se email e password sono compromesse, riconosci i link spam, controlla il telefono e scopri quali cambi effettuare per primi.",
+  "metaDescription": "Verifica se email e password sono compromesse, riconosci i link spam, controlla il telefono e scopri quali cambi effettuare per primi.",
   "statusTitle": "Il tuo assistente per la sicurezza",
   "line1": "Cerco nelle violazioni conosciute",
   "heroLead": "Verifica se email e password sono compromesse, riconosci i link spam e i QR code, controlla il telefono e scopri quali cambi effettuare per primi, con step semplici.",
@@ -134,8 +134,25 @@
   "a6": "Circa una volta al giorno, Spamlock cerca nuove violazioni nell'elenco di Have I Been Pwned. Se ce n'è una nuova, controlla le email che tieni d'occhio e ti avvisa se una compare.",
   "endTitle": "Inizia dalla tua email.",
   "endLead": "Spamlock ti mostra cosa trova e cosa puoi fare.",
-  "h1Lines": [["Quali", "cambi"], ["effettuare"], ["e", "in", "@icon", "quale"], ["ordine."]],
-  "pageTitle": "Spamlock: Assistente Sicurezza",
+  "h1Lines": [
+    [
+      "Quali",
+      "cambi"
+    ],
+    [
+      "effettuare"
+    ],
+    [
+      "e",
+      "in",
+      "@icon",
+      "quale"
+    ],
+    [
+      "ordine."
+    ]
+  ],
+  "pageTitle": "Spamlock: controlla email violate, link spam e telefono",
   "getApp": "Scarica l'app",
   "watchFilm": "Guarda il video",
   "navFeatures": "Funzioni",
@@ -159,18 +176,70 @@
   "cookieSettings": "Impostazioni cookie",
   "languageLabel": "Lingua",
   "client": {
-    "lines": ["Cerco nelle violazioni conosciute", "Trovo quelle con la tua email", "Controllo quali hanno diffuso password", "Preparo il tuo controllo di sicurezza"],
-    "high": "rischio alto", "medium": "rischio medio", "low": "rischio basso", "fixed": "risolte",
-    "title": "Minacce alla sicurezza trovate", "clearTitle": "Nessuna minaccia aperta",
-    "markDone": "Segna come fatto", "startOver": "Ricomincia",
-    "clearNext": "Nessuna minaccia attiva", "clearKind": "Tutto fatto", "clearWhy": "Puoi ricontrollare un'email, un link o questo telefono quando vuoi.",
-    "filmLabel": "Video di presentazione di Spamlock", "pause": "Metti in pausa l'animazione", "play": "Avvia l'animazione",
+    "lines": [
+      "Cerco nelle violazioni conosciute",
+      "Trovo quelle con la tua email",
+      "Controllo quali hanno diffuso password",
+      "Preparo il tuo controllo di sicurezza"
+    ],
+    "high": "rischio alto",
+    "medium": "rischio medio",
+    "low": "rischio basso",
+    "fixed": "risolte",
+    "title": "Minacce alla sicurezza trovate",
+    "clearTitle": "Nessuna minaccia aperta",
+    "markDone": "Segna come fatto",
+    "startOver": "Ricomincia",
+    "clearNext": "Nessuna minaccia attiva",
+    "clearKind": "Tutto fatto",
+    "clearWhy": "Puoi ricontrollare un'email, un link o questo telefono quando vuoi.",
+    "filmLabel": "Video di presentazione di Spamlock",
+    "pause": "Metti in pausa l'animazione",
+    "play": "Avvia l'animazione",
     "items": [
-      {"k": "high", "ic": "mail", "kind": "Violazione di dati", "why": "Puoi cambiare quella password e proteggere l'account.", "next": "Rivedi la violazione di FitTrack"},
-      {"k": "high", "ic": "mail", "kind": "Violazione di dati", "why": "Puoi cambiare quella password e proteggere l'account.", "next": "Rivedi la violazione di ShopNow"},
-      {"k": "med", "ic": "key", "kind": "Accesso all'email", "why": "Aggiunge un codice quando qualcuno accede alla tua email", "next": "Proteggi l'accesso alla tua email"},
-      {"k": "med", "ic": "phone", "kind": "Il tuo telefono", "why": "Riceve le ultime correzioni di sicurezza", "next": "Aggiorna il telefono"},
-      {"k": "low", "ic": "phone", "kind": "Il tuo telefono", "why": "Elimina alcune minacce nascoste", "next": "Riavvia il telefono"}
+      {
+        "k": "high",
+        "ic": "mail",
+        "kind": "Violazione di dati",
+        "why": "Puoi cambiare quella password e proteggere l'account.",
+        "next": "Rivedi la violazione di FitTrack"
+      },
+      {
+        "k": "high",
+        "ic": "mail",
+        "kind": "Violazione di dati",
+        "why": "Puoi cambiare quella password e proteggere l'account.",
+        "next": "Rivedi la violazione di ShopNow"
+      },
+      {
+        "k": "med",
+        "ic": "key",
+        "kind": "Accesso all'email",
+        "why": "Aggiunge un codice quando qualcuno accede alla tua email",
+        "next": "Proteggi l'accesso alla tua email"
+      },
+      {
+        "k": "med",
+        "ic": "phone",
+        "kind": "Il tuo telefono",
+        "why": "Riceve le ultime correzioni di sicurezza",
+        "next": "Aggiorna il telefono"
+      },
+      {
+        "k": "low",
+        "ic": "phone",
+        "kind": "Il tuo telefono",
+        "why": "Elimina alcune minacce nascoste",
+        "next": "Riavvia il telefono"
+      }
     ]
-  }
+  },
+  "siteName": "Spamlock",
+  "ogLocale": "it_IT",
+  "ogAlternates": [
+    "en_GB",
+    "es_ES"
+  ],
+  "privacyDescription": "Cosa resta sul tuo telefono, cosa ne esce, quali servizi usa Spamlock e quali scelte hai.",
+  "termsDescription": "I termini per usare Spamlock: uso corretto, Spamlock Plus e limiti dell'app."
 }

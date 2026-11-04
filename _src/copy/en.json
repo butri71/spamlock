@@ -147,7 +147,7 @@
       "first."
     ]
   ],
-  "pageTitle": "Spamlock: Security Assistant",
+  "pageTitle": "Spamlock: Check Data Breaches, Scam Links & Your Phone",
   "getApp": "Get the app",
   "watchFilm": "Watch the film",
   "navFeatures": "Features",
@@ -229,5 +229,13 @@
   "cookieDecline": "Decline",
   "cookieSettings": "Cookie settings",
   "languageLabel": "Language",
-  "heroLead": "See if your email or passwords leaked, spot scam links and QR codes, check your phone settings, and get simple steps for what to fix first."
+  "heroLead": "See if your email or passwords leaked, spot scam links and QR codes, check your phone settings, and get simple steps for what to fix first.",
+  "siteName": "Spamlock",
+  "ogLocale": "en_GB",
+  "ogAlternates": [
+    "it_IT",
+    "es_ES"
+  ],
+  "privacyDescription": "What Spamlock keeps on your phone, what leaves it, which services it uses and the choices you have.",
+  "termsDescription": "The terms for using Spamlock, including fair use, Spamlock Plus and the limits of the app."
 }

@@ -1,6 +1,7 @@
 // Builds the website from _src: one page per language, plus the legal pages.
 // Run from the website folder: node _src/build.mjs
 // config.json holds the on/off switches. A language goes live when its code is in config.languages.
+import { createHash } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -39,7 +40,7 @@ function headline(lines) {
   };
   return lines
     .map((line, i) => `<span class="l">${line.map((w) => word(w, i === lines.length - 1)).join(' ')}</span>`)
-    .join('');
+    .join(' ');
 }
 
 function languageLinks(lang, path, label) {
@@ -67,11 +68,86 @@ function alternates(path) {
   return [...links, `<link rel="alternate" hreflang="x-default" href="https://spamlock.app/${path}">`].join('\n');
 }
 
+// Long-cached files get a ?v= stamp from their content, so a change reaches visitors straight away.
+function stampAssets(html) {
+  return html.replace(/\/assets\/(site\.css|site\.js|consent\.js|lang\.js)/g, (path) => {
+    const hash = createHash('sha1').update(readFileSync(join(ROOT, path))).digest('hex').slice(0, 8);
+    return `${path}?v=${hash}`;
+  });
+}
+
 function write(file, html) {
   const target = join(ROOT, file);
   mkdirSync(dirname(target), { recursive: true });
-  writeFileSync(target, html);
+  writeFileSync(target, file.endsWith('.html') ? stampAssets(html) : html);
   console.log('wrote', file);
+}
+
+// Search engines' description of the app, the site and the launch film for one language.
+function structuredData(lang, copy) {
+  const site = 'https://spamlock.app';
+  const url = `${site}${homeOf(lang)}`;
+  const stores = ['https://apps.apple.com/app/id1529407969'];
+  if (config.android) stores.push('https://play.google.com/store/apps/details?id=com.maxaquilino.spamlock');
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': `${site}/#organization`,
+        name: 'Spamlock',
+        url: `${site}/`,
+        logo: `${site}/assets/apple-touch-icon.png`,
+        email: 'spamlock.app@gmail.com',
+        sameAs: stores,
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${url}#website`,
+        name: 'Spamlock',
+        url,
+        inLanguage: lang,
+        publisher: { '@id': `${site}/#organization` },
+      },
+      {
+        '@type': 'MobileApplication',
+        '@id': `${url}#app`,
+        name: 'Spamlock',
+        url,
+        description: copy.metaDescription,
+        inLanguage: lang,
+        applicationCategory: 'SecurityApplication',
+        operatingSystem: config.android ? 'iOS, Android' : 'iOS',
+        installUrl: stores,
+        image: `${site}/assets/film/og-${lang}.jpg`,
+        screenshot: `${site}/assets/media/${lang}/home.webp`,
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+        publisher: { '@id': `${site}/#organization` },
+      },
+      {
+        '@type': 'VideoObject',
+        '@id': `${url}#film`,
+        name: copy.client.filmLabel,
+        description: copy.filmLead,
+        inLanguage: lang,
+        thumbnailUrl: `${site}/assets/film/og-${lang}.jpg`,
+        contentUrl: `${site}/assets/film/film-${lang}-appstore.mp4`,
+        uploadDate: '2026-11-02',
+        duration: 'PT34S',
+      },
+    ],
+  }).replace(/</g, '\\u003c');
+}
+
+// One entry per page, each naming its translations.
+function sitemap(lastmod) {
+  const entry = (path) => config.languages.map((lang) => {
+    const links = [...config.languages.map((code) => [code, code]), ['x-default', 'en']]
+      .map(([tag, code]) => `    <xhtml:link rel="alternate" hreflang="${tag}" href="https://spamlock.app${homeOf(code)}${path}"/>`)
+      .join('\n');
+    return `  <url>\n    <loc>https://spamlock.app${homeOf(lang)}${path}</loc>\n    <lastmod>${lastmod}</lastmod>\n${links}\n  </url>`;
+  }).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${['', 'privacy.html', 'terms.html'].map(entry).join('\n')}\n</urlset>\n`;
 }
 
 for (const lang of config.languages) {
@@ -86,13 +162,18 @@ for (const lang of config.languages) {
     ...shared(lang, copy, ''),
     h1: headline(copy.h1Lines),
     alternates: alternates(''),
+    ogAlternates: copy.ogAlternates.map((locale) => `<meta property="og:locale:alternate" content="${locale}">`).join('\n'),
+    jsonLd: structuredData(lang, copy),
     client: JSON.stringify(client).replace(/</g, '\\u003c'),
   };
   write(`${lang === 'en' ? '' : `${lang}/`}index.html`, fill(applySwitches(read('page.html')), values));
 
   for (const page of ['privacy', 'terms']) {
     const file = `legal/${page}.${lang}.html`;
-    const legal = { ...shared(lang, copy, `${page}.html`), content: read(file), pageTitle: copy[`${page}Title`], alternates: alternates(`${page}.html`) };
+    const legal = { ...shared(lang, copy, `${page}.html`), content: read(file), pageTitle: copy[`${page}Title`], pageDescription: copy[`${page}Description`], pagePath: `${page}.html`, alternates: alternates(`${page}.html`) };
     write(`${lang === 'en' ? '' : `${lang}/`}${page}.html`, fill(read('legal.html'), legal));
   }
 }
+
+write('sitemap.xml', sitemap(new Date().toISOString().slice(0, 10)));
+write('robots.txt', 'User-agent: *\nAllow: /\n\nSitemap: https://spamlock.app/sitemap.xml\n');

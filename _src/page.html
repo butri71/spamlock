@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+{{langRedirect}}<title>{{pageTitle}}</title>
+<meta name="description" content="{{metaDescription}}">
+<link rel="canonical" href="https://spamlock.app{{home}}">
+{{alternates}}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{pageTitle}}">
+<meta property="og:description" content="{{metaDescription}}">
+<meta property="og:url" content="https://spamlock.app{{home}}">
+<meta property="og:image" content="https://spamlock.app/assets/film/og-{{lang}}.jpg">
+<meta property="og:site_name" content="{{siteName}}">
+<meta property="og:locale" content="{{ogLocale}}">
+{{ogAlternates}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{pageTitle}}">
+<meta name="twitter:description" content="{{metaDescription}}">
+<meta name="twitter:image" content="https://spamlock.app/assets/film/og-{{lang}}.jpg">
+<script type="application/ld+json">{{jsonLd}}</script>
+<link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/hk400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/hk900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10" rx="3"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></symbol>
+<symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="3"/><path d="M11 18.5h2"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 5.5v6c0 4.6 2.9 8 7 9.5 4.1-1.5 7-4.9 7-9.5v-6z"/><path d="m9 12 2.2 2.2L15.2 10"/></symbol>
+<symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4.5"/><path d="m11.2 11.8 8.3-8.3M16 7l3 3M13.5 9.5l2 2"/></symbol>
+<symbol id="i-qr" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="6.5" height="6.5" rx="1.5"/><rect x="14" y="3.5" width="6.5" height="6.5" rx="1.5"/><rect x="3.5" y="14" width="6.5" height="6.5" rx="1.5"/><path d="M14 14h3v3M20.5 14v.1M14 20.5h.1M17.5 20.5h3v-3"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+<symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 10a6 6 0 0 1 12 0c0 5 2 6.5 2 6.5H4S6 15 6 10z"/><path d="M10 20a2.2 2.2 0 0 0 4 0"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></symbol>
+<symbol id="i-pause" viewBox="0 0 24 24"><rect x="6" y="4.5" width="4" height="15" rx="1.2"/><rect x="14" y="4.5" width="4" height="15" rx="1.2"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4.5 20.5c1.2-3.8 4-5.5 7.5-5.5s6.3 1.7 7.5 5.5"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-5 4v-4.1A2.5 2.5 0 0 1 4 14.5z"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="3"/><path d="M3 10h18"/></symbol>
+<symbol id="i-pass" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="10" rx="3"/><path d="M7.5 12h.1M12 12h.1M16.5 12h.1"/></symbol>
+<symbol id="i-android" viewBox="0 0 24 24"><path d="M6 10.5h12v7a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2zM6.5 10.5a5.5 5.5 0 0 1 11 0M8.5 5.5 7 3.5M15.5 5.5 17 3.5M9.5 8h.1M14.5 8h.1"/></symbol>
+<symbol id="i-film" viewBox="0 0 24 24"><path d="M3.5 10h17v8.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/><path d="m3.2 10-.6-2.4a2 2 0 0 1 1.5-2.4l13-3a2 2 0 0 1 2.4 1.5l.6 2.3z"/><path d="m7.6 4.3 2.6 3.1M12.8 3.1l2.6 3.1"/><path d="m10.5 13 4.5 2.4-4.5 2.4z" fill="currentColor"/></symbol>
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="m9.5 6 6 6-6 6"/></symbol>
+</defs></svg>
+{{header}}
+<main id="top">
+<section class="hero" data-status="{{line1}}"><div class="wrap">
+  <div class="hero-grid">
+    <div>
+      <div class="status"><span class="spin" aria-hidden="true"></span><span class="tx"><b>{{statusTitle}}</b><span class="roll" id="heroRoll"><span>{{line1}}</span></span></span></div>
+      <h1>{{h1}}</h1>
+      <p class="lead">{{heroLead}}</p>
+      <div class="cta">{{storeButtons}}<button class="movie" id="movieBtn" type="button" aria-label="{{watchFilm}}" title="{{watchFilm}}"><svg class="ic"><use href="#i-film"/></svg></button></div>
+      <!--if:!android--><p class="soon"><svg class="ic"><use href="#i-android"/></svg>{{androidSoon}}</p><!--/if-->
+    </div>
+    <aside class="box" id="box" aria-label="{{boxLabel}}">
+      <div class="box-in">
+        <div class="box-head"><p class="box-title" id="bxTitle">{{threatsTitle}}</p><span class="tag">{{example}}</span></div>
+        <div class="box-mid">
+          <div class="ring"><svg viewBox="0 0 110 110"><circle class="bg" cx="55" cy="55" r="45"/><circle class="fg" id="bxRing" cx="55" cy="55" r="45"/></svg><div class="n"><b id="bxN">5</b><small>{{active}}</small></div></div>
+          <div class="chips"><span class="chip high" id="cH">{{chipHigh}}</span><span class="chip med" id="cM">{{chipMed}}</span><span class="chip low" id="cL">{{chipLow}}</span><span class="chip ok" id="cF">{{chipFixed}}</span></div>
+        </div>
+        <div class="why"><i><svg class="ic" id="bxIc"><use href="#i-mail"/></svg></i><span><b id="bxKind">{{kindBreach}}</b><span id="bxWhy">{{whyBreach}}</span></span></div>
+      </div>
+      <div class="nextbar"><span aria-live="polite"><b>{{next}}</b><span id="bxNext">{{nextFitTrack}}</span></span><svg class="ic"><use href="#i-chev"/></svg></div>
+      <div class="box-act"><button id="bxBtn" type="button">{{markDone}}</button><p class="hint" id="bxHint">{{tryHint}}</p></div>
+    </aside>
+  </div>
+  <ul class="facts">
+    <li><span class="dot"><svg class="ic"><use href="#i-user"/></svg></span><h3>{{fact1Title}}</h3><p>{{fact1}}</p></li>
+    <li><span class="dot"><svg class="ic"><use href="#i-chat"/></svg></span><h3>{{fact2Title}}</h3><p>{{fact2}}</p></li>
+    <li><span class="dot"><svg class="ic"><use href="#i-eye"/></svg></span><h3>{{fact3Title}}</h3><p>{{fact3}}</p></li>
+  </ul>
+</div></section>
+
+<hr class="sep">
+<section class="film" id="film" data-status="Meet Spamlock"><div class="wrap"><div class="panel"><div class="film-in">
+  <div class="lift"><h2 class="h2">{{filmTitleA}}<em>{{filmTitleB}}</em></h2><p class="lead" style="margin-top:16px">{{filmLead}}</p><p class="meta">{{filmMeta}}</p></div>
+  <div class="player" id="player">
+    <img src="/assets/film/poster-{{lang}}.webp" alt="{{filmAlt}}" width="1280" height="720" loading="lazy">
+    <button class="play" id="playBtn" type="button" aria-label="{{filmPlay}}"><span><svg class="ic"><use href="#i-play"/></svg></span></button>
+  </div>
+</div></div></div></section>
+
+<hr class="sep">
+<div class="rollh wrap" id="features"><p>{{rollIntro}}<span class="rw" aria-label="{{rollAria}}" id="rw"><span class="on"><svg class="ic"><use href="#i-mail"/></svg>{{rollBreaches}}</span><span><svg class="ic"><use href="#i-pass"/></svg>{{rollPasswords}}</span><span><svg class="ic"><use href="#i-link"/></svg>{{rollLinks}}</span><span><svg class="ic"><use href="#i-phone"/></svg>{{rollPhone}}</span><span><svg class="ic"><use href="#i-key"/></svg>{{rollSignins}}</span></span></p></div>
+
+<section class="wrap row" data-status="{{emailStatus}}">
+  <figure class="media s-lav" data-scene>
+    <span class="sun"></span>
+    <span class="gtile v" style="width:13%;aspect-ratio:1;left:8%;top:10%"><svg class="ic"><use href="#i-lock"/></svg></span>
+    <span class="gtile" style="width:17%;aspect-ratio:1;right:9%;top:22%"><svg class="ic"><use href="#i-mail"/></svg></span>
+    <span class="gtile b" style="width:11%;aspect-ratio:1;left:13%;bottom:27%"><svg class="ic"><use href="#i-shield"/></svg></span>
+    <div class="phone" style="--t:-7deg"><video muted playsinline loop preload="none" data-poster="/assets/media/{{lang}}/result.webp" data-src="/assets/media/{{lang}}/clip-email.mp4" aria-label="{{emailClipLabel}}"></video></div>
+    <button class="pause" type="button" aria-label="{{pause}}"><svg class="ic"><use href="#i-pause"/></svg></button>
+    <figcaption class="hud"><i><svg class="ic"><use href="#i-mail"/></svg></i><b>{{emailHud}}</b><span class="r">{{emailHudSide}}</span></figcaption>
+  </figure>
+  <div class="copy lift">
+    <h2 class="h2">{{emailTitle}}</h2>
+    <p class="lead">{{emailLead}}</p>
+    <ul class="ticks">
+      <li><svg class="ic"><use href="#i-check"/></svg>{{emailTick1}}</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>{{emailTick2}}</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>{{emailTick3}}</li>
+    </ul>
+    <p class="src">{{emailSource}}</p>
+  </div>
+</section>
+
+<hr class="sep">
+<section class="wrap pw" data-status="{{pwStatus}}"><div class="panel"><div class="pw-in">
+  <div class="lift">
+    <h2 class="h2">{{pwTitleA}}<em>{{pwTitleB}}</em></h2>
+    <p class="lead" style="margin-top:18px">{{pwLead}}</p>
+    <ul class="ticks">
+      <li><svg class="ic"><use href="#i-check"/></svg>{{pwTick1}}</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>{{pwTick2}}</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>{{pwTick3}}</li>
+    </ul>
+  </div>
+  <div class="pw-vis" data-scene>
+  <button class="pause" type="button" aria-label="{{pause}}"><svg class="ic"><use href="#i-pause"/></svg></button>
+  <div class="phone" style="--t:9deg"><video muted playsinline loop preload="none" data-poster="/assets/media/{{lang}}/password.webp" data-src="/assets/media/{{lang}}/clip-password.mp4" aria-label="{{pwClipLabel}}"></video></div>
+  <div class="slip" aria-label="{{pwSlipLabel}}">
+    <div class="slip-top"><span>{{pwSlipTitle}}</span><span class="tag">{{example}}</span></div>
+    <div class="slip-body">
+      <p class="lab">{{pwYours}}</p><p class="dots">••••••••••</p>
+      <p class="lab">{{pwCode}}</p><p class="hash" id="hash"><b>5BAA6</b>1E4C9B93F3F0682250B6CF8331B7EE68FD8</p>
+      <div class="split"><svg class="ic"><use href="#i-link"/></svg><span><b>{{pwSentB}}</b>{{pwSent}}</span><svg class="ic"><use href="#i-phone"/></svg><span><b>{{pwKeptB}}</b>{{pwKept}}</span></div>
+    </div>
+  </div>
+  </div>
+</div></div></section>
+
+<hr class="sep">
+<section class="wrap row flip" data-status="{{linkStatus}}">
+  <figure class="media s-deep" data-scene>
+    <span class="sun"></span>
+    <span class="gtile v" style="width:15%;aspect-ratio:1;left:9%;bottom:30%"><svg class="ic"><use href="#i-link"/></svg></span>
+    <span class="gtile b" style="width:12%;aspect-ratio:1;left:14%;top:12%"><svg class="ic"><use href="#i-qr"/></svg></span>
+    <span class="gtile" style="width:14%;aspect-ratio:1;right:8%;bottom:33%"><svg class="ic"><use href="#i-shield"/></svg></span>
+    <div class="phone" style="--t:6deg"><video muted playsinline loop preload="none" data-poster="/assets/media/{{lang}}/link.webp" data-src="/assets/media/{{lang}}/clip-link.mp4" aria-label="{{linkClipLabel}}"></video></div>
+    <button class="pause" type="button" aria-label="{{pause}}"><svg class="ic"><use href="#i-pause"/></svg></button>
+    <figcaption class="hud"><i><svg class="ic"><use href="#i-link"/></svg></i><b>{{linkHud}}</b><span class="r">{{linkHudSide}}</span></figcaption>
+  </figure>
+  <div class="copy lift">
+    <h2 class="h2">{{linkTitle}}</h2>
+    <p class="lead">{{linkLead}}</p>
+    <ul class="ticks">
+      <li><svg class="ic"><use href="#i-check"/></svg>{{linkTick1}}</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>{{linkTick2}}</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>{{linkTick3}}</li>
+    </ul>
+    <p class="src">{{linkSource}}</p>
+  </div>
+</section>
+
+<hr class="sep">
+<section class="wrap row" data-status="{{phoneStatus}}">
+  <figure class="media s-pale" data-scene>
+    <span class="sun"></span>
+    <span class="gtile" style="width:14%;aspect-ratio:1;left:10%;top:13%"><svg class="ic"><use href="#i-phone"/></svg></span>
+    <span class="gtile v" style="width:12%;aspect-ratio:1;right:11%;top:30%"><svg class="ic"><use href="#i-lock"/></svg></span>
+    <div class="phone" style="--t:-6deg"><img src="/assets/media/{{lang}}/phone.webp" alt="{{phoneAlt}}" loading="lazy" width="600" height="1305"></div>
+    <figcaption class="hud"><i><svg class="ic"><use href="#i-phone"/></svg></i><b>{{phoneHud}}</b><span>{{phoneHudSide}}</span></figcaption>
+  </figure>
+  <div class="copy lift">
+    <h2 class="h2">{{phoneTitle}}</h2>
+    <p class="lead">{{phoneLead}}</p>
+    <ul class="ticks">
+      <li><svg class="ic"><use href="#i-check"/></svg>{{phoneTick1}}</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>{{phoneTick2}}</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>{{phoneTick3}}</li>
+    </ul>
+  </div>
+</section>
+
+<hr class="sep">
+<section class="wrap more" data-status="{{moreStatus}}">
+  <div class="more-h lift"><h2 class="h2">{{moreTitle}}</h2><p class="lead">{{moreLead}}</p></div>
+  <div class="bento">
+    <article class="card c7 lift">
+      <h3>{{signinTitle}}</h3>
+      <p>{{signinLead}}</p>
+      <div class="formula"><span class="fbit"><svg class="ic"><use href="#i-pass"/></svg>{{fPassword}}</span><span>+</span><span class="fbit"><svg class="ic"><use href="#i-key"/></svg>{{fCode}}</span><span>=</span><span class="fbit g"><svg class="ic"><use href="#i-check"/></svg>{{fSigned}}</span></div>
+    </article>
+    <article class="card c5 lift">
+      <h3>{{privTitle}}</h3>
+      <ul class="priv">
+        <li><i><svg class="ic"><use href="#i-user"/></svg></i>{{priv1}}</li>
+        <li><i><svg class="ic"><use href="#i-lock"/></svg></i>{{priv2}}</li>
+        <li><i><svg class="ic"><use href="#i-pass"/></svg></i>{{priv3}}</li>
+      </ul>
+    </article>
+    <!--if:alerts--><article class="card c5 dk lift" id="alerts">
+      <div class="bell" aria-hidden="true"><i><svg class="ic"><use href="#i-bell"/></svg></i></div>
+      <h3>{{alertsTitle}}</h3>
+      <p>{{alertsLead}}</p>
+    </article><!--/if-->
+    <article class="card {{fixSpan}} dk lift">
+      <h3>{{fixTitle}}</h3>
+      <p>{{fixLead}}</p>
+      <ul class="guides">
+        <li><svg class="ic"><use href="#i-mail"/></svg>{{guide1}}</li>
+        <li><svg class="ic"><use href="#i-chat"/></svg>{{guide2}}</li>
+        <li><svg class="ic"><use href="#i-phone"/></svg>{{guide3}}</li>
+        <li><svg class="ic"><use href="#i-card"/></svg>{{guide4}}</li>
+        <li><svg class="ic"><use href="#i-user"/></svg>{{guide5}}</li>
+        <li><svg class="ic"><use href="#i-eye"/></svg>{{guide6}}</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!--if:plus--><hr class="sep">
+<section class="wrap plans" id="plus" data-status="{{plansStatus}}">
+  <div class="more-h lift" style="margin-bottom:0"><h2 class="h2">{{plansTitle}}</h2></div>
+  <div class="plan-grid">
+    <article class="plan lift">
+      <h3>{{freeName}}</h3><p class="big">{{freeBig}}</p>
+      <ul class="ticks">
+        <li><svg class="ic"><use href="#i-check"/></svg>{{free1}}</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>{{free2}}</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>{{free3}}</li>
+        <!--if:alerts--><li><svg class="ic"><use href="#i-check"/></svg>{{free4}}</li><!--/if-->
+      </ul>
+    </article>
+    <article class="plan dk lift">
+      <h3>{{plusName}}</h3><p class="big">{{plusBig}}</p>
+      <ul class="ticks">
+        <li><svg class="ic"><use href="#i-check"/></svg>{{plus1}}</li>
+        <!--if:alerts--><li><svg class="ic"><use href="#i-check"/></svg>{{plus2}}</li><!--/if-->
+        <li><svg class="ic"><use href="#i-check"/></svg>{{plus3}}</li>
+      </ul>
+      <a class="btn btn-lav" href="#get">{{getApp}}</a>
+    </article>
+  </div>
+  <p class="fine">{{plansFine}}</p>
+</section><!--/if-->
+
+<hr class="sep">
+<section class="wrap qa" id="questions" data-status="{{qaStatus}}">
+  <h2 class="h2 lift">{{qaTitle}}</h2>
+  <div>
+    <details open><summary>{{q1}}<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>{{a1}}</p></details>
+    <details><summary>{{q2}}<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>{{a2}}</p></details>
+    <details><summary>{{q3}}<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>{{a3}}</p></details>
+    <details><summary>{{q4}}<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>{{a4}}</p></details>
+    <details><summary>{{q5}}<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>{{a5}}</p></details>
+    <!--if:alerts--><details><summary>{{q6}}<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>{{a6}}</p></details><!--/if-->
+  </div>
+</section>
+
+<hr class="sep">
+<section class="wrap final" id="get"><div class="endp">
+  <div>
+    <h2>{{endTitle}}</h2>
+    <p class="lead">{{endLead}}</p>
+    <div class="cta">{{storeButtons}}</div>
+    <!--if:!android--><p class="soon"><svg class="ic"><use href="#i-android"/></svg>{{androidSoon}}</p><!--/if-->
+  </div>
+  <div class="duo" aria-hidden="true">
+    <div class="phone p1"><img src="/assets/media/{{lang}}/result.webp" alt="" loading="lazy" width="600" height="1305"></div>
+    <div class="phone p2"><img src="/assets/media/{{lang}}/home.webp" alt="" loading="lazy" width="600" height="1305"></div>
+  </div>
+</div></section>
+</main>
+{{footer}}
+
+<div class="follow" id="follow"><span class="logo"><svg class="ic"><use href="#i-lock"/></svg></span><span class="tx"><b>Spamlock</b><span class="roll" id="followRoll"><span>{{line1}}</span></span></span><a class="btn btn-lav" href="#get">{{getApp}}</a></div>
+
+<script type="application/json" id="site-data">{{client}}</script>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

@@ -113,8 +113,8 @@ h1 .fx{background:linear-gradient(95deg,#7448EC,#6E8CF7 60%,#3DB5F0);-webkit-bac
 .hint{text-align:center;font-size:14px;color:var(--body);margin-top:10px}
 .bit{position:absolute;left:50%;top:62%;width:9px;height:9px;border-radius:3px;pointer-events:none;z-index:5}
 
-/* three facts */
-.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,4vw,72px);margin-top:clamp(44px,6vw,84px)}
+/* two facts */
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(20px,4vw,72px);margin-top:clamp(44px,6vw,84px)}
 .facts li{border-top:1px solid var(--line);padding-top:24px}
 .dot{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:var(--lav-soft);color:var(--night);font-size:23px;margin-bottom:14px}
 .facts h3,.card h3{font:700 22px/1.2 var(--disp);letter-spacing:-.02em;color:var(--night)}

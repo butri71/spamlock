@@ -1,0 +1,60 @@
+{
+  "translationOf": "i-lost-my-phone",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 3,
+  "short": "Ho perso il telefono",
+  "title": "Telefono perso o rubato: cosa fare subito",
+  "pageTitle": "Telefono perso o rubato: cosa fare subito | Spamlock",
+  "description": "Hai perso lo smartphone o te l’hanno rubato? Ecco cosa puoi fare: trovarlo o bloccarlo, bloccare la SIM, cambiare le password e fare denuncia.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Trova o blocca il telefono da un altro dispositivo, poi chiama il tuo operatore per bloccare la SIM. Cambia le password, a partire da quella dell’email.",
+  "stepsTitle": "Cosa fare se hai perso il telefono o te l’hanno rubato",
+  "steps": [
+    {
+      "title": "Trovalo, bloccalo o cancellalo",
+      "text": "Apri Dov’è (iPhone) o Find Hub (Android) da un altro telefono o da un computer: vedi dov’è il telefono e puoi bloccarlo con un messaggio sullo schermo. La cancellazione non si può annullare, quindi di solito è l’ultima cosa da provare.",
+      "links": [
+        {
+          "label": "Dov’è (iPhone)",
+          "url": "https://www.icloud.com/find"
+        },
+        {
+          "label": "Find Hub (Android)",
+          "url": "https://www.google.com/android/find"
+        }
+      ]
+    },
+    {
+      "title": "Blocca la SIM",
+      "text": "Chiama il tuo operatore e chiedi di bloccarla: così nessuno può usare il tuo numero per chiamate, SMS o codici di accesso. Poi puoi chiedere una nuova SIM con lo stesso numero."
+    },
+    {
+      "title": "Cambia le password",
+      "text": "Comincia dall’email, perché da lì si possono reimpostare tutte le altre. Poi banca e social."
+    },
+    {
+      "title": "Sporgi denuncia",
+      "text": "Alla Polizia o ai Carabinieri, con un documento e, se ce l’hai, il codice IMEI del telefono (è sulla confezione o sulla fattura). Con la denuncia puoi chiedere all’operatore di bloccare anche il telefono, e le assicurazioni spesso la chiedono."
+    },
+    {
+      "title": "Fai attenzione a messaggi strani",
+      "text": "E a email di accesso che non ti aspetti."
+    }
+  ],
+  "app": {
+    "title": "Questa guida è anche nell’app Spamlock",
+    "text": "Segna ogni passaggio quando l’hai fatto."
+  },
+  "related": [
+    "numero-di-telefono-rubato-cosa-fare",
+    "email-violata-cosa-fare"
+  ],
+  "sources": [
+    {
+      "label": "il supporto Apple",
+      "url": "https://support.apple.com/it-it/104978"
+    }
+  ]
+}

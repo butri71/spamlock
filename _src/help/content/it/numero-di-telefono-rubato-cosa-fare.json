@@ -1,0 +1,55 @@
+{
+  "translationOf": "someone-took-over-my-phone-number",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 4,
+  "short": "Qualcuno mi ha rubato il numero",
+  "title": "Telefono senza campo e numero rubato (SIM swap): cosa fare",
+  "pageTitle": "Telefono senza campo e numero rubato (SIM swap): cosa fare | Spamlock",
+  "description": "Il telefono resta senza campo e il tuo numero ce l’ha un altro? Ecco cosa puoi fare subito: chiamare l’operatore e la banca, proteggere l’email e fare denuncia.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Chiama il tuo operatore da un altro telefono e chiedi di riavere il tuo numero. Poi cambia la password dell’email e chiama la tua banca.",
+  "stepsTitle": "Cosa fare se qualcuno ti ha rubato il numero di telefono",
+  "steps": [
+    {
+      "title": "Chiama il tuo operatore",
+      "text": "Da un altro telefono. Chiedi di riavere il tuo numero."
+    },
+    {
+      "title": "Cambia la password dell’email",
+      "text": "Con il tuo numero possono ricevere i codici di accesso."
+    },
+    {
+      "title": "Chiama la tua banca",
+      "text": "Al numero sulla carta, non a uno ricevuto in un messaggio. Puoi chiedere di controllare se ci sono pagamenti che non hai fatto."
+    },
+    {
+      "title": "Ricevi i codici da un’app, non via SMS",
+      "text": "Nelle impostazioni di sicurezza di ogni account scegli un’app di autenticazione al posto degli SMS. Così i codici di accesso non arrivano al tuo numero."
+    },
+    {
+      "title": "Chiedi un blocco sul tuo numero",
+      "text": "Chiedi al tuo operatore un blocco o un PIN sul numero, se lo prevede. Così nessuno può spostarlo di nuovo senza di te."
+    },
+    {
+      "title": "Fai denuncia",
+      "text": "Alla Polizia Postale o ai Carabinieri, con orari e screenshot di quello che è successo. Puoi anche mandare una segnalazione online alla Polizia Postale: aiuta a evitare che altri ci cadano.",
+      "links": [
+        {
+          "label": "Polizia Postale: Segnala online",
+          "url": "https://www.commissariatodips.it/segnalazioni/segnala-online/index.html"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Questa guida è anche nell’app Spamlock",
+    "text": "Segna ogni passaggio quando l’hai fatto."
+  },
+  "related": [
+    "telefono-perso-o-rubato-cosa-fare",
+    "email-violata-cosa-fare"
+  ],
+  "sources": []
+}

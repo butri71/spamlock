@@ -1,0 +1,76 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 8,
+  "short": "I think someone is spying on me",
+  "title": "I think someone is spying on my phone: what you can do now",
+  "pageTitle": "I think someone is spying on my phone: what you can do now | Spamlock",
+  "description": "Your phone or accounts seem watched? Steps you can take now: check who has access, look for unknown profiles and devices, and get expert help.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Check who has access to your phone and accounts, and who can see your location. If you feel at risk, free expert help is available.",
+  "stepsTitle": "Steps you can take if you think someone is spying on you",
+  "steps": [
+    {
+      "title": "Check who has access",
+      "text": "iPhone: Settings → Privacy & Security → Safety Check. Android: Settings → Security & privacy. You’ll see who you share with and which devices can get in, and you can stop it there.",
+      "links": [
+        {
+          "label": "Apple Personal Safety",
+          "url": "https://support.apple.com/guide/personal-safety/welcome/web"
+        },
+        {
+          "label": "Google Security Checkup",
+          "url": "https://myaccount.google.com/security-checkup"
+        }
+      ]
+    },
+    {
+      "title": "Look for unknown management profiles",
+      "text": "iPhone: Settings → General → VPN & Device Management. Remove any you don’t know."
+    },
+    {
+      "title": "Check devices signed in to your account",
+      "text": "In your Apple or Google account. Remove any you don’t recognise."
+    },
+    {
+      "title": "Check who can see your location",
+      "text": "Look in Find My and Google Maps location sharing, and stop sharing with anyone you don’t expect."
+    },
+    {
+      "title": "Change your Apple or Google password",
+      "text": "Then turn on two-step verification."
+    },
+    {
+      "title": "Update the phone",
+      "text": "In Settings, look for Software Update. Updates can remove spying tools that use old security holes."
+    },
+    {
+      "title": "Get expert help if you feel at risk",
+      "text": "Free support for stalkerware, and Apple’s Lockdown Mode for people targeted because of their work.",
+      "links": [
+        {
+          "label": "StopStalkerware.org",
+          "url": "https://stopstalkerware.org"
+        },
+        {
+          "label": "Access Now Helpline",
+          "url": "https://www.accessnow.org/help/"
+        },
+        {
+          "label": "Lockdown Mode",
+          "url": "https://support.apple.com/en-us/105120"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "This guide is in the Spamlock app",
+    "text": "Mark each step as done as you go."
+  },
+  "related": [
+    "my-social-account-was-hacked",
+    "i-lost-my-phone"
+  ],
+  "sources": []
+}

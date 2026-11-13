@@ -1,0 +1,77 @@
+{
+  "translationOf": "someone-is-spying-on-me",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 8,
+  "short": "Creo que alguien me espía",
+  "title": "¿Móvil espiado? Cómo comprobarlo y qué hacer",
+  "pageTitle": "¿Móvil espiado? Cómo comprobarlo y qué hacer | Spamlock",
+  "description": "¿Sospechas que alguien controla tu móvil o tus cuentas? Así puedes comprobar quién tiene acceso y qué hacer, en iPhone y Android.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Comprueba quién tiene acceso a tu móvil y a tus cuentas, y quién ve tu ubicación. Si te sientes en riesgo, puedes pedir ayuda gratuita.",
+  "stepsTitle": "Qué hacer si crees que alguien espía tu móvil",
+  "steps": [
+    {
+      "title": "Comprueba quién tiene acceso",
+      "text": "iPhone: Ajustes → Privacidad y seguridad → Comprobación de seguridad. Android: Ajustes → Seguridad y privacidad. Verás con quién compartes y qué dispositivos pueden entrar, y podrás cortarlo desde ahí.",
+      "links": [
+        {
+          "label": "Seguridad personal de Apple",
+          "url": "https://support.apple.com/es-es/guide/personal-safety/welcome/web"
+        },
+        {
+          "label": "Revisión de seguridad de Google",
+          "url": "https://myaccount.google.com/security-checkup"
+        }
+      ]
+    },
+    {
+      "title": "Busca perfiles de gestión desconocidos",
+      "text": "iPhone: Ajustes → General → VPN y gestión de dispositivos. Elimina los que no conozcas."
+    },
+    {
+      "title": "Revisa los dispositivos con tu cuenta abierta",
+      "text": "En tu cuenta de Apple o Google. Elimina los que no reconozcas."
+    },
+    {
+      "title": "Comprueba quién ve tu ubicación",
+      "text": "Mira en Buscar y en la ubicación compartida de Google Maps, y deja de compartirla con quien no esperas."
+    },
+    {
+      "title": "Cambia tu contraseña de Apple o Google",
+      "text": "Y activa la verificación en dos pasos."
+    },
+    {
+      "title": "Actualiza el móvil",
+      "text": "En Ajustes, busca Actualización de software. Las actualizaciones pueden eliminar herramientas espía que usan fallos antiguos."
+    },
+    {
+      "title": "Pide ayuda si te sientes en riesgo",
+      "text": "Si eres mujer y sufres violencia o acoso, el 016 es gratuito, atiende 24 horas y no aparece en la factura. La línea 017 de INCIBE te asesora gratis sobre ciberseguridad. Para personas atacadas por su trabajo, está el modo de aislamiento de Apple.",
+      "links": [
+        {
+          "label": "016",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/igualdad/Paginas/2026/telefono-016-que-es.aspx"
+        },
+        {
+          "label": "INCIBE: línea 017",
+          "url": "https://www.incibe.es/ciudadania/atencion-telefonica"
+        },
+        {
+          "label": "Modo de aislamiento",
+          "url": "https://support.apple.com/es-es/105120"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Esta guía también está en la app Spamlock",
+    "text": "Marca cada paso cuando lo hayas hecho."
+  },
+  "related": [
+    "me-han-hackeado-instagram-facebook-o-whatsapp",
+    "movil-perdido-o-robado-que-hacer"
+  ],
+  "sources": []
+}

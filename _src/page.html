@@ -52,6 +52,7 @@
 {{header}}
 <main id="top">
 <section class="hero" data-status="{{line1}}"><div class="wrap">
+  <nav class="jump" aria-label="{{pageNav}}"><a href="#features">{{navFeatures}}</a><!--if:plus--><a href="#plus">{{navPlus}}</a><!--/if--><a href="#questions">{{navQuestions}}</a></nav>
   <div class="hero-grid">
     <div>
       <div class="status"><span class="spin" aria-hidden="true"></span><span class="tx"><b>{{statusTitle}}</b><span class="roll" id="heroRoll"><span>{{line1}}</span></span></span></div>
@@ -81,7 +82,9 @@
 
 <hr class="sep">
 <section class="film" id="film" data-status="Meet Spamlock"><div class="wrap"><div class="panel"><div class="film-in">
-  <div class="lift"><h2 class="h2">{{filmTitleA}}<em>{{filmTitleB}}</em></h2><p class="lead" style="margin-top:16px">{{filmLead}}</p><p class="meta">{{filmMeta}}</p></div>
+  <div class="lift"><h2 class="h2">{{filmTitleA}}<em>{{filmTitleB}}</em></h2><p class="lead" style="margin-top:16px">{{filmLead}}</p>
+    <!-- <p class="meta">{{filmMeta}}</p> -->
+  </div>
   <div class="player" id="player">
     <img src="/assets/film/poster-{{lang}}.webp" alt="{{filmAlt}}" width="1280" height="720" loading="lazy">
     <button class="play" id="playBtn" type="button" aria-label="{{filmPlay}}"><span><svg class="ic"><use href="#i-play"/></svg></span></button>

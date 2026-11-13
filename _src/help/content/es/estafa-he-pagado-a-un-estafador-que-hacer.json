@@ -1,0 +1,56 @@
+{
+  "translationOf": "i-paid-a-scammer",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 6,
+  "short": "He pagado a un estafador",
+  "title": "He pagado a un estafador o le he dado mi tarjeta: qué hacer",
+  "pageTitle": "He pagado a un estafador o le he dado mi tarjeta: qué hacer | Spamlock",
+  "description": "¿Has enviado dinero o los datos de tu tarjeta a un estafador? Estos son los pasos que puedes dar ahora: llamar al banco, bloquear la tarjeta, cambiar contraseñas y denunciar.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Llama ya a tu banco al número de tu tarjeta y bloquea la tarjeta. Después cambia las contraseñas que compartiste y denuncia la estafa.",
+  "stepsTitle": "Qué hacer si has pagado a un estafador",
+  "steps": [
+    {
+      "title": "Llama a tu banco",
+      "text": "Al número de tu tarjeta, no a uno de un mensaje. Puedes pedir que paren el pago o reclamar el cargo: cuanto antes, mejor."
+    },
+    {
+      "title": "Bloquea la tarjeta",
+      "text": "Desde la app del banco en pocos toques, o por teléfono con ellos. Una tarjeta bloqueada no se puede usar para pagos nuevos."
+    },
+    {
+      "title": "Cambia las contraseñas que compartiste",
+      "text": "Y activa la verificación en dos pasos en esa cuenta."
+    },
+    {
+      "title": "Denuncia la estafa",
+      "text": "En la Policía Nacional o la Guardia Civil: el banco puede pedirte una copia de la denuncia.",
+      "links": [
+        {
+          "label": "Policía Nacional: denuncias",
+          "url": "https://www.policia.es/_es/denuncias.php"
+        }
+      ]
+    },
+    {
+      "title": "Revisa tus extractos",
+      "text": "Durante los próximos meses, y avisa al banco de cualquier cargo que no reconozcas."
+    }
+  ],
+  "app": {
+    "title": "Esta guía también está en la app Spamlock",
+    "text": "Marca cada paso cuando lo hayas hecho."
+  },
+  "related": [
+    "sms-o-correo-sospechoso-que-hacer",
+    "suplantacion-de-identidad-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "el Banco de España",
+      "url": "https://clientebancario.bde.es/pcb/es/blog/pagos-con-tu-tarjeta-que-tu-no-has-autorizado-.html"
+    }
+  ]
+}

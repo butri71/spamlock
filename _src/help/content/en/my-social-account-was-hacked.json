@@ -1,0 +1,63 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 2,
+  "short": "My social account was hacked",
+  "title": "My social media account was hacked: what you can do now",
+  "pageTitle": "My social media account was hacked: what you can do now | Spamlock",
+  "description": "Someone took over your Facebook, Instagram, X or WhatsApp? Steps you can take now: use the hacked-account page, set a new password and warn your friends.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Use the platform’s hacked-account page to get back in, set a new password and sign out of other devices. Then warn your friends about messages you didn’t send.",
+  "stepsTitle": "Steps you can take if your social media account was hacked",
+  "steps": [
+    {
+      "title": "Use the hacked-account page",
+      "text": "Pick the platform below. Its page walks you through getting your account back.",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hacked"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hacked/"
+        },
+        {
+          "label": "X",
+          "url": "https://help.x.com/en/safety-and-security/x-account-compromised"
+        },
+        {
+          "label": "WhatsApp",
+          "url": "https://faq.whatsapp.com/1131652977717250"
+        }
+      ]
+    },
+    {
+      "title": "Set a new password",
+      "text": "Then, in the app’s security settings, sign out of all other devices, so whoever got in is logged out. If you used the same password on other accounts, you can change it there too."
+    },
+    {
+      "title": "Turn on two-step verification",
+      "text": "Find it in the app’s security settings. You’ll need a code or passkey as well as your password, so a stolen password alone isn’t enough to get in."
+    },
+    {
+      "title": "Warn your friends",
+      "text": "About messages or posts you didn’t send. You can ask them to treat recent messages from your account with care."
+    }
+  ],
+  "app": {
+    "title": "This guide is in the Spamlock app",
+    "text": "Mark each step as done as you go."
+  },
+  "related": [
+    "my-email-was-hacked",
+    "i-got-a-strange-message"
+  ],
+  "sources": [
+    {
+      "label": "the UK NCSC",
+      "url": "https://www.ncsc.gov.uk/guidance/recovering-a-hacked-account"
+    }
+  ]
+}

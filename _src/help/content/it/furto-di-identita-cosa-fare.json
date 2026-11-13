@@ -1,0 +1,60 @@
+{
+  "translationOf": "someone-is-using-my-identity",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 7,
+  "short": "Qualcuno usa la mia identità",
+  "title": "Furto d’identità: cosa fare se qualcuno usa i tuoi dati",
+  "pageTitle": "Furto d’identità: cosa fare se qualcuno usa i tuoi dati | Spamlock",
+  "description": "Prestiti, contratti o lettere che non riconosci? Ecco cosa puoi fare in caso di furto d’identità: denuncia, contestazione e controllo gratuito dei tuoi dati di credito.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Annota cosa hai trovato e fai denuncia. Poi contesta per iscritto il contratto o il pagamento che non riconosci, e controlla gratis se ci sono prestiti a tuo nome.",
+  "stepsTitle": "Cosa fare in caso di furto d’identità",
+  "steps": [
+    {
+      "title": "Annota cosa è successo",
+      "text": "Date, lettere, contratti e account che non riconosci. Ti servono per la denuncia e per contattare banche e servizi."
+    },
+    {
+      "title": "Fai denuncia",
+      "text": "Alla Polizia o ai Carabinieri. Ti serve per contestare i contratti fatti a tuo nome."
+    },
+    {
+      "title": "Contatta la banca o il servizio coinvolto",
+      "text": "Contesta per iscritto il contratto o il pagamento che non riconosci, allegando la denuncia."
+    },
+    {
+      "title": "Controlla i tuoi dati di credito",
+      "text": "Puoi chiedere gratis i tuoi dati alla Centrale dei Rischi della Banca d’Italia e una visura a CRIF: vedi se ci sono prestiti o finanziamenti a tuo nome.",
+      "links": [
+        {
+          "label": "Banca d’Italia: Centrale dei Rischi",
+          "url": "https://www.bancaditalia.it/servizi-cittadino/servizi/accesso-cr/index.html"
+        },
+        {
+          "label": "CRIF",
+          "url": "https://www.crif.it/"
+        }
+      ]
+    },
+    {
+      "title": "Controlla gli estratti conto",
+      "text": "Cerca pagamenti o conti che non hai fatto o aperto."
+    }
+  ],
+  "app": {
+    "title": "Questa guida è anche nell’app Spamlock",
+    "text": "Segna ogni passaggio quando l’hai fatto."
+  },
+  "related": [
+    "truffa-online-ho-pagato-cosa-fare",
+    "email-violata-cosa-fare"
+  ],
+  "sources": [
+    {
+      "label": "la Banca d’Italia",
+      "url": "https://www.bancaditalia.it/servizi-cittadino/servizi/accesso-cr/index.html"
+    }
+  ]
+}

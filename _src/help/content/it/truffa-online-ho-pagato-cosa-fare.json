@@ -1,0 +1,51 @@
+{
+  "translationOf": "i-paid-a-scammer",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 6,
+  "short": "Ho pagato un truffatore",
+  "title": "Ho pagato un truffatore o dato i dati della carta: cosa fare",
+  "pageTitle": "Ho pagato un truffatore o dato i dati della carta: cosa fare | Spamlock",
+  "description": "Hai mandato soldi o i dati della carta a un truffatore? Ecco cosa puoi fare subito: chiamare la banca, bloccare la carta, cambiare password e fare denuncia.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Chiama subito la tua banca al numero sulla carta e blocca la carta. Poi cambia le password che hai condiviso e fai denuncia.",
+  "stepsTitle": "Cosa fare se hai pagato un truffatore",
+  "steps": [
+    {
+      "title": "Chiama la tua banca",
+      "text": "Al numero sulla carta, non a uno ricevuto in un messaggio. Puoi chiedere di bloccare o disconoscere il pagamento: prima lo fai, meglio è."
+    },
+    {
+      "title": "Blocca la carta",
+      "text": "Dall’app della banca in pochi clic, oppure al telefono con loro. Una carta bloccata non si può usare per nuovi pagamenti."
+    },
+    {
+      "title": "Cambia le password che hai condiviso",
+      "text": "E attiva la verifica in due passaggi per quell’account."
+    },
+    {
+      "title": "Fai denuncia",
+      "text": "Alla Polizia Postale o ai Carabinieri: la banca può chiederne una copia. Puoi anche mandare una segnalazione online alla Polizia Postale.",
+      "links": [
+        {
+          "label": "Polizia Postale: Segnala online",
+          "url": "https://www.commissariatodips.it/segnalazioni/segnala-online/index.html"
+        }
+      ]
+    },
+    {
+      "title": "Controlla gli estratti conto",
+      "text": "Nei prossimi mesi, e segnala alla banca ogni pagamento che non riconosci."
+    }
+  ],
+  "app": {
+    "title": "Questa guida è anche nell’app Spamlock",
+    "text": "Segna ogni passaggio quando l’hai fatto."
+  },
+  "related": [
+    "sms-o-email-sospetta-cosa-fare",
+    "furto-di-identita-cosa-fare"
+  ],
+  "sources": []
+}

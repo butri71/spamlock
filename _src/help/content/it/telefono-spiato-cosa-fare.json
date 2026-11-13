@@ -1,0 +1,77 @@
+{
+  "translationOf": "someone-is-spying-on-me",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 8,
+  "short": "Penso che qualcuno mi spii",
+  "title": "Telefono spiato? Come controllarlo e cosa fare",
+  "pageTitle": "Telefono spiato? Come controllarlo e cosa fare | Spamlock",
+  "description": "Hai il dubbio che qualcuno controlli il tuo telefono o i tuoi account? Ecco come verificare chi ha accesso e cosa puoi fare, su iPhone e Android.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Controlla chi ha accesso al telefono e agli account, e chi vede la tua posizione. Se ti senti a rischio, puoi chiedere aiuto gratuito.",
+  "stepsTitle": "Cosa fare se pensi che qualcuno spii il tuo telefono",
+  "steps": [
+    {
+      "title": "Controlla chi ha accesso",
+      "text": "iPhone: Impostazioni → Privacy e sicurezza → Controllo di sicurezza. Android: Impostazioni → Sicurezza e privacy. Vedi con chi condividi e quali dispositivi possono entrare, e puoi interrompere da lì.",
+      "links": [
+        {
+          "label": "Sicurezza personale Apple",
+          "url": "https://support.apple.com/it-it/guide/personal-safety/welcome/web"
+        },
+        {
+          "label": "Controllo di sicurezza Google",
+          "url": "https://myaccount.google.com/security-checkup"
+        }
+      ]
+    },
+    {
+      "title": "Cerca profili di gestione sconosciuti",
+      "text": "iPhone: Impostazioni → Generali → VPN e gestione dispositivi. Rimuovi quelli che non conosci."
+    },
+    {
+      "title": "Controlla i dispositivi collegati al tuo account",
+      "text": "Nel tuo account Apple o Google. Rimuovi quelli che non riconosci."
+    },
+    {
+      "title": "Controlla chi vede la tua posizione",
+      "text": "Guarda in Dov’è e nella condivisione della posizione di Google Maps, e smetti di condividerla con chi non ti aspetti."
+    },
+    {
+      "title": "Cambia la password di Apple o Google",
+      "text": "Poi attiva la verifica in due passaggi."
+    },
+    {
+      "title": "Aggiorna il telefono",
+      "text": "In Impostazioni cerca Aggiornamento software. Gli aggiornamenti possono eliminare strumenti spia che usano vecchie falle."
+    },
+    {
+      "title": "Chiedi aiuto se ti senti a rischio",
+      "text": "Il 1522 è gratuito, attivo 24 ore su 24, per violenza e stalking. Per chi è preso di mira per il suo lavoro c’è la Modalità di isolamento di Apple.",
+      "links": [
+        {
+          "label": "1522",
+          "url": "https://www.1522.eu/"
+        },
+        {
+          "label": "StopStalkerware.org",
+          "url": "https://stopstalkerware.org"
+        },
+        {
+          "label": "Modalità di isolamento",
+          "url": "https://support.apple.com/it-it/105120"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Questa guida è anche nell’app Spamlock",
+    "text": "Segna ogni passaggio quando l’hai fatto."
+  },
+  "related": [
+    "account-social-violato-cosa-fare",
+    "telefono-perso-o-rubato-cosa-fare"
+  ],
+  "sources": []
+}

@@ -1,0 +1,67 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 4,
+  "short": "Someone took over my phone number",
+  "title": "My phone lost signal and someone has my number: what you can do now",
+  "pageTitle": "My phone lost signal and someone has my number: what you can do now | Spamlock",
+  "description": "Phone suddenly has no signal and someone else has your number (SIM swap)? Steps you can take now: call your provider, your bank, and protect your email.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Call your mobile provider from another phone and ask for your number back. Then change your email password and call your bank.",
+  "stepsTitle": "Steps you can take if someone took over your phone number",
+  "steps": [
+    {
+      "title": "Call your mobile provider",
+      "text": "From another phone. Ask them to give your number back."
+    },
+    {
+      "title": "Change your email password",
+      "text": "Thieves use your number to get sign-in codes."
+    },
+    {
+      "title": "Call your bank",
+      "text": "On the number on your card, not one from a message. You can ask them to check for payments you didn’t make."
+    },
+    {
+      "title": "Get codes from an app, not by text",
+      "text": "In each account’s security settings, choose an authenticator app instead of text messages. Then sign-in codes don’t go to your number."
+    },
+    {
+      "title": "Ask for a lock on your number",
+      "text": "Ask your provider for a number lock or PIN, if they offer it. Then no one can move your number again without it."
+    },
+    {
+      "title": "Report it",
+      "text": "It helps stop others being caught. Outside the US and UK, you can report it to your local police.",
+      "links": [
+        {
+          "label": "US: ReportFraud.ftc.gov",
+          "url": "https://reportfraud.ftc.gov"
+        },
+        {
+          "label": "UK: Report Fraud",
+          "url": "https://www.reportfraud.police.uk"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "This guide is in the Spamlock app",
+    "text": "Mark each step as done as you go."
+  },
+  "related": [
+    "i-lost-my-phone",
+    "my-email-was-hacked"
+  ],
+  "sources": [
+    {
+      "label": "the US FTC",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2019/10/sim-swap-scams-how-protect-yourself"
+    },
+    {
+      "label": "the US FCC",
+      "url": "https://www.fcc.gov/consumers/scam-alert/port-out-fraud-targets-your-private-accounts"
+    }
+  ]
+}

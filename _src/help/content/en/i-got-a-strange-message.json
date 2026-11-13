@@ -1,0 +1,53 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 5,
+  "short": "I got a strange message",
+  "title": "I got a strange text or email: what you can do now",
+  "pageTitle": "I got a strange text or email: what you can do now | Spamlock",
+  "description": "A text or email you didn’t expect, asking you to act? Steps you can take now: don’t rush, check the link, contact the company yourself and report it.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Take your time: don’t reply, tap links or call back. If it says it’s from a company, contact the company yourself using its official app or the number on your card.",
+  "stepsTitle": "Steps you can take after a strange text or email",
+  "steps": [
+    {
+      "title": "Don’t reply, tap links or call back",
+      "text": "Scammers try to rush you. Take your time."
+    },
+    {
+      "title": "Check any link first",
+      "text": "Paste the link, or the whole message, into Check a link in the Spamlock app. It tells you if the link shows warning signs or is known to be dangerous, without opening it."
+    },
+    {
+      "title": "Contact the company yourself",
+      "text": "Use its official app or the number on your card. They can tell you if the message really came from them."
+    },
+    {
+      "title": "Never share codes or passwords",
+      "text": "Real companies don’t ask for them by message."
+    },
+    {
+      "title": "Report it as spam",
+      "text": "In the UK and US, forward the text to 7726. It’s free. Elsewhere, use the report junk or spam option in your messages app."
+    },
+    {
+      "title": "Delete it and block the sender",
+      "text": "Once you’ve reported it. Blocking stops more messages from that sender."
+    }
+  ],
+  "app": {
+    "title": "This guide is in the Spamlock app",
+    "text": "Check any link or QR code before you open it, and mark each step as done."
+  },
+  "related": [
+    "i-paid-a-scammer",
+    "my-email-was-hacked"
+  ],
+  "sources": [
+    {
+      "label": "the UK NCSC",
+      "url": "https://www.ncsc.gov.uk/collection/phishing-scams/report-scam-text-message"
+    }
+  ]
+}

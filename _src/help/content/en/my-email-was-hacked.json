@@ -1,0 +1,67 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 1,
+  "short": "My email was hacked",
+  "title": "My email was hacked: what you can do now",
+  "pageTitle": "My email was hacked: what you can do now | Spamlock",
+  "description": "Someone got into your email? Steps you can take now: get back in, set a new password, turn on two-step verification and tell your contacts.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Get back in with your email provider’s recovery page, set a new password and turn on two-step verification. Then tell your contacts.",
+  "stepsTitle": "Steps you can take if your email was hacked",
+  "steps": [
+    {
+      "title": "Get back into your account",
+      "text": "Pick your email provider below and follow its recovery steps. It checks that it’s really you, then lets you set a new password.",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://accounts.google.com/signin/recovery"
+        },
+        {
+          "label": "Microsoft",
+          "url": "https://account.live.com/acsr"
+        },
+        {
+          "label": "Apple",
+          "url": "https://iforgot.apple.com"
+        },
+        {
+          "label": "Yahoo",
+          "url": "https://login.yahoo.com/forgot"
+        }
+      ]
+    },
+    {
+      "title": "Set a new password",
+      "text": "One you don’t use anywhere else. If you used the old password on other accounts, you can change it there too."
+    },
+    {
+      "title": "Turn on two-step verification",
+      "text": "Find it in your account’s security settings. You’ll need a code or passkey as well as your password, so a stolen password alone isn’t enough to get in."
+    },
+    {
+      "title": "Check your recovery details",
+      "text": "In your account settings, look at the recovery phone, recovery email and any forwarding rules. Remove anything you don’t recognise, so the other person can’t get back in or get copies of your emails."
+    },
+    {
+      "title": "Tell your contacts",
+      "text": "So they don’t open strange emails sent from your address."
+    }
+  ],
+  "app": {
+    "title": "This guide is in the Spamlock app",
+    "text": "Mark each step as done and see if your email was in a data breach."
+  },
+  "related": [
+    "my-social-account-was-hacked",
+    "someone-took-over-my-phone-number"
+  ],
+  "sources": [
+    {
+      "label": "the UK NCSC",
+      "url": "https://www.ncsc.gov.uk/guidance/recovering-a-hacked-account"
+    }
+  ]
+}

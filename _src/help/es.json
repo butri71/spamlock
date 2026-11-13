@@ -1,0 +1,47 @@
+{
+  "hubTitle": "Respuestas sencillas a los problemas de seguridad del día a día",
+  "hubPageTitle": "Guía de ciberseguridad: qué hacer cuando algo sale mal | Spamlock",
+  "hubDescription": "Guías breves sobre cuentas hackeadas, SMS fraudulentos, móvil perdido o robado y suplantación de identidad. Los pasos que puedes dar ahora, explicados de forma sencilla.",
+  "hubIntro": "Pasos breves y claros: no necesitas ser experto en ciberseguridad.",
+  "hubName": "Guía de ciberseguridad",
+  "topics": {
+    "whatif": "Qué hacer si",
+    "scams": "Estafas",
+    "accounts": "Cuentas y contraseñas",
+    "phones": "Móviles",
+    "breaches": "Filtraciones y privacidad",
+    "money": "Dinero y compras"
+  },
+  "whatIfTitle": "Qué hacer si…",
+  "whatIfLead": "Guías breves con los pasos que puedes dar ahora",
+  "articlesTitle": "Artículos recientes",
+  "latestTitle": "Últimas noticias",
+  "allNews": "Todas las noticias",
+  "newsTitle": "Noticias de ciberseguridad",
+  "newsPageTitle": "Noticias de ciberseguridad en pocas líneas | Spamlock",
+  "newsDescription": "Las estafas, filtraciones de datos y actualizaciones del móvil que importan, en pocas líneas y con el enlace a la fuente original.",
+  "newsIntro": "Estafas, filtraciones y actualizaciones que importan, en pocas líneas",
+  "newsAll": "Todas",
+  "newsTags": {
+    "scam": "Alerta de estafa",
+    "breach": "Filtración de datos",
+    "phones": "Móviles"
+  },
+  "newsFilters": {
+    "scam": "Estafas",
+    "breach": "Filtraciones",
+    "phones": "Móviles"
+  },
+  "newsSource": "Fuente:",
+  "newsInApp": "En la app:",
+  "newsNote": "Los resúmenes los escribe Spamlock y enlazan al original. Datos de filtraciones: <a href=\"https://haveibeenpwned.com\">Have I Been Pwned</a> (CC BY 4.0).",
+  "breadcrumb": "Ruta de navegación",
+  "answerLabel": "En resumen",
+  "stepsIntro": "Tú eliges qué pasos seguir. Están en el orden que suele ayudar más.",
+  "relatedTitle": "Guías relacionadas",
+  "checkedOn": "Comprobado en %{os} %{version}",
+  "sources": "Basado en los consejos de %{list}, con nuestras palabras.",
+  "and": "y",
+  "chatTabs": "Elige una estafa",
+  "chatLabel": "Chat de ejemplo"
+}

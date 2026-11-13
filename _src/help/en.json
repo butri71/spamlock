@@ -1,0 +1,47 @@
+{
+  "hubTitle": "Clear answers for everyday security problems",
+  "hubPageTitle": "Security help: clear answers for everyday problems | Spamlock",
+  "hubDescription": "Short, dated guides for everyday security problems: hacked accounts, scam messages, lost phones and data breaches. Steps you can take now.",
+  "hubIntro": "Short, clear steps. No security knowledge needed.",
+  "hubName": "Security help",
+  "topics": {
+    "whatif": "What to do if",
+    "scams": "Scams",
+    "accounts": "Accounts and passwords",
+    "phones": "Phones",
+    "breaches": "Breaches and privacy",
+    "money": "Money and shopping"
+  },
+  "whatIfTitle": "What to do if…",
+  "whatIfLead": "Short guides with steps you can take now",
+  "articlesTitle": "Recent articles",
+  "latestTitle": "Latest",
+  "allNews": "All news",
+  "newsTitle": "Security news",
+  "newsPageTitle": "Security news in a few lines | Spamlock",
+  "newsDescription": "The scams, data breaches and phone fixes that matter, in a few lines, with a link to the original source.",
+  "newsIntro": "The scams, breaches and phone fixes that matter, in a few lines",
+  "newsAll": "All",
+  "newsTags": {
+    "scam": "Scam alert",
+    "breach": "Data breach",
+    "phones": "Phones"
+  },
+  "newsFilters": {
+    "scam": "Scam alerts",
+    "breach": "Data breaches",
+    "phones": "Phones"
+  },
+  "newsSource": "Source:",
+  "newsInApp": "In the app:",
+  "newsNote": "Summaries are written by Spamlock and link to the original. Breach data: <a href=\"https://haveibeenpwned.com\">Have I Been Pwned</a> (CC BY 4.0).",
+  "breadcrumb": "Breadcrumb",
+  "answerLabel": "Short answer",
+  "stepsIntro": "You choose which ones to do. They’re in the order that usually helps most.",
+  "relatedTitle": "Related",
+  "checkedOn": "Checked on %{os} %{version}",
+  "sources": "Based on advice from %{list}, in our own words.",
+  "and": "and",
+  "chatTabs": "Choose a scam",
+  "chatLabel": "Example chat"
+}

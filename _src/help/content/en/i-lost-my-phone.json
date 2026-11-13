@@ -1,0 +1,59 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 3,
+  "short": "I lost my phone",
+  "title": "I lost my phone: what you can do now",
+  "pageTitle": "I lost my phone: what you can do now | Spamlock",
+  "description": "Lost or stolen phone? Steps you can take now: find, lock or erase it, block the SIM, change your passwords and report it.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Find or lock your phone from another device, then call your mobile provider to block the SIM. Change your passwords, starting with your email.",
+  "stepsTitle": "Steps you can take if you lost your phone",
+  "steps": [
+    {
+      "title": "Find, lock or erase it",
+      "text": "Open Find My (iPhone) or Find Hub (Android) below, from another phone or a computer. You’ll see where the phone is and can lock it with a message on screen. Erasing can’t be undone, so it’s usually the last thing to try.",
+      "links": [
+        {
+          "label": "Find My (iPhone)",
+          "url": "https://www.icloud.com/find"
+        },
+        {
+          "label": "Find Hub (Android)",
+          "url": "https://www.google.com/android/find"
+        }
+      ]
+    },
+    {
+      "title": "Block the SIM",
+      "text": "Call your mobile provider and ask them to block it, so no one can use your number for calls, texts or sign-in codes."
+    },
+    {
+      "title": "Change your passwords",
+      "text": "Start with your email, because it can reset your other passwords. Then your bank and social accounts."
+    },
+    {
+      "title": "Report it to the police",
+      "text": "Insurers often ask for the report."
+    },
+    {
+      "title": "Watch for strange messages",
+      "text": "And for sign-in emails you don’t expect."
+    }
+  ],
+  "app": {
+    "title": "This guide is in the Spamlock app",
+    "text": "Mark each step as done as you go."
+  },
+  "related": [
+    "someone-took-over-my-phone-number",
+    "my-email-was-hacked"
+  ],
+  "sources": [
+    {
+      "label": "Apple Support",
+      "url": "https://support.apple.com/en-us/104978"
+    }
+  ]
+}

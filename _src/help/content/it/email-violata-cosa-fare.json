@@ -1,0 +1,68 @@
+{
+  "translationOf": "my-email-was-hacked",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 1,
+  "short": "Mi hanno violato l’email",
+  "title": "Email violata o hackerata: cosa fare subito",
+  "pageTitle": "Email violata o hackerata: cosa fare subito | Spamlock",
+  "description": "Qualcuno è entrato nella tua email? Ecco cosa puoi fare subito: rientrare nell’account, cambiare password, attivare la verifica in due passaggi e avvisare i contatti.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Rientra nell’account dalla pagina di recupero del tuo provider, imposta una nuova password e attiva la verifica in due passaggi. Poi avvisa i tuoi contatti.",
+  "stepsTitle": "Cosa fare se ti hanno violato l’email",
+  "steps": [
+    {
+      "title": "Rientra nel tuo account",
+      "text": "Scegli il tuo provider qui sotto e segui la procedura di recupero: verificherà che sei davvero tu e ti farà impostare una nuova password.",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://accounts.google.com/signin/recovery"
+        },
+        {
+          "label": "Microsoft",
+          "url": "https://account.live.com/acsr"
+        },
+        {
+          "label": "Apple",
+          "url": "https://iforgot.apple.com"
+        },
+        {
+          "label": "Yahoo",
+          "url": "https://login.yahoo.com/forgot"
+        }
+      ]
+    },
+    {
+      "title": "Crea una nuova password",
+      "text": "Una che non usi da nessun’altra parte. Se usavi la vecchia password anche su altri account, puoi cambiarla anche lì."
+    },
+    {
+      "title": "Attiva la verifica in due passaggi",
+      "text": "La trovi nelle impostazioni di sicurezza dell’account. Oltre alla password servirà un codice o una passkey: così una password rubata, da sola, non basta per entrare. Il tutto rafforzerà la tua sicurezza."
+    },
+    {
+      "title": "Controlla i dati di recupero",
+      "text": "Nelle impostazioni dell’account controlla telefono ed email di recupero e le regole di inoltro. Elimina quello che non riconosci: così chi è entrato non può rientrare né ricevere copie delle tue email."
+    },
+    {
+      "title": "Avvisa i tuoi contatti",
+      "text": "Così non aprono email strane inviate dal tuo indirizzo."
+    }
+  ],
+  "app": {
+    "title": "Questa guida è anche nell’app Spamlock",
+    "text": "Segna ogni passaggio quando l’hai fatto e verifica se la tua email compare in una violazione di dati."
+  },
+  "related": [
+    "account-social-violato-cosa-fare",
+    "numero-di-telefono-rubato-cosa-fare"
+  ],
+  "sources": [
+    {
+      "label": "il National Cyber Security Centre britannico",
+      "url": "https://www.ncsc.gov.uk/guidance/recovering-a-hacked-account"
+    }
+  ]
+}

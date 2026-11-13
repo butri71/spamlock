@@ -1,0 +1,64 @@
+{
+  "translationOf": "my-social-account-was-hacked",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 2,
+  "short": "Me han hackeado una red social",
+  "title": "Me han hackeado Instagram, Facebook o WhatsApp: qué hacer",
+  "pageTitle": "Me han hackeado Instagram, Facebook o WhatsApp: qué hacer | Spamlock",
+  "description": "¿Alguien ha entrado en tu cuenta de Instagram, Facebook, X o WhatsApp? Estos son los pasos que puedes dar: recuperarla, cambiar la contraseña y avisar a tus amigos.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Usa la página de cuentas hackeadas de la plataforma para recuperarla, crea una contraseña nueva y cierra la sesión en los demás dispositivos. Después, avisa a tus amigos de los mensajes que no enviaste.",
+  "stepsTitle": "Qué hacer si te han hackeado una red social",
+  "steps": [
+    {
+      "title": "Usa la página de cuentas hackeadas",
+      "text": "Elige la plataforma aquí abajo: su página te guía paso a paso para recuperar la cuenta.",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hacked"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hacked/"
+        },
+        {
+          "label": "X",
+          "url": "https://help.x.com/es/safety-and-security/x-account-compromised"
+        },
+        {
+          "label": "WhatsApp",
+          "url": "https://faq.whatsapp.com/1131652977717250"
+        }
+      ]
+    },
+    {
+      "title": "Crea una contraseña nueva",
+      "text": "Después, en los ajustes de seguridad de la app, cierra la sesión en los demás dispositivos: así quien entró se queda fuera. Si usabas la misma contraseña en otros sitios, puedes cambiarla también allí."
+    },
+    {
+      "title": "Activa la verificación en dos pasos",
+      "text": "Está en los ajustes de seguridad de la app. Además de la contraseña, te pedirá un código o una llave de acceso: así una contraseña robada no basta para entrar."
+    },
+    {
+      "title": "Avisa a tus amigos",
+      "text": "De mensajes o publicaciones que no enviaste. Puedes pedirles que desconfíen de los mensajes recientes que les lleguen desde tu cuenta."
+    }
+  ],
+  "app": {
+    "title": "Esta guía también está en la app Spamlock",
+    "text": "Marca cada paso cuando lo hayas hecho."
+  },
+  "related": [
+    "me-han-hackeado-el-correo-que-hacer",
+    "sms-o-correo-sospechoso-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "el Centro Nacional de Ciberseguridad británico (NCSC)",
+      "url": "https://www.ncsc.gov.uk/guidance/recovering-a-hacked-account"
+    }
+  ]
+}

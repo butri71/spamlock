@@ -1,0 +1,47 @@
+{
+  "hubTitle": "Risposte semplici ai problemi di sicurezza di tutti i giorni",
+  "hubPageTitle": "Guida su security: cosa fare quando qualcosa va storto | Spamlock",
+  "hubDescription": "Guide brevi su account violati, SMS truffa, telefono perso o rubato e furto d’identità. I passaggi che puoi fare subito, spiegati in modo semplice.",
+  "hubIntro": "Passaggi brevi e chiari: non serve essere esperti di sicurezza informatica.",
+  "hubName": "Guida su security",
+  "topics": {
+    "whatif": "Cosa fare se",
+    "scams": "Truffe",
+    "accounts": "Account e password",
+    "phones": "Smartphone",
+    "breaches": "Violazioni e privacy",
+    "money": "Soldi e acquisti"
+  },
+  "whatIfTitle": "Cosa fare se…",
+  "whatIfLead": "Guide brevi con i passaggi che puoi fare subito",
+  "articlesTitle": "Articoli recenti",
+  "latestTitle": "Ultime notizie",
+  "allNews": "Tutte le notizie",
+  "newsTitle": "Notizie sulla sicurezza",
+  "newsPageTitle": "Notizie sulla sicurezza in poche righe | Spamlock",
+  "newsDescription": "Truffe, violazioni di dati e aggiornamenti del telefono che contano, in poche righe e con il link alla fonte originale.",
+  "newsIntro": "Truffe, violazioni e aggiornamenti che contano, in poche righe",
+  "newsAll": "Tutte",
+  "newsTags": {
+    "scam": "Allerta truffa",
+    "breach": "Violazione di dati",
+    "phones": "Smartphone"
+  },
+  "newsFilters": {
+    "scam": "Truffe",
+    "breach": "Violazioni",
+    "phones": "Smartphone"
+  },
+  "newsSource": "Fonte:",
+  "newsInApp": "Nell’app:",
+  "newsNote": "I riassunti sono scritti da Spamlock e rimandano all’originale. Dati sulle violazioni: <a href=\"https://haveibeenpwned.com\">Have I Been Pwned</a> (CC BY 4.0).",
+  "breadcrumb": "Percorso",
+  "answerLabel": "In breve",
+  "stepsIntro": "Scegli tu quali passi seguire. Sono nell’ordine che di solito aiuta di più.",
+  "relatedTitle": "Guide correlate",
+  "checkedOn": "Verificato su %{os} %{version}",
+  "sources": "Basato sui consigli di %{list}, con parole nostre.",
+  "and": "e",
+  "chatTabs": "Scegli una truffa",
+  "chatLabel": "Chat di esempio"
+}

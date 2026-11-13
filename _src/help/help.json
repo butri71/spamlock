@@ -1,0 +1,13 @@
+{
+  "languages": ["en", "it", "es"],
+  "latestOs": { "iOS": 26, "Android": 16 },
+  "reviewEveryMonths": 6,
+  "topics": [
+    { "id": "whatif", "icon": "h-whatif" },
+    { "id": "scams", "icon": "h-scams" },
+    { "id": "accounts", "icon": "h-accounts" },
+    { "id": "phones", "icon": "h-phones" },
+    { "id": "breaches", "icon": "h-breaches" },
+    { "id": "money", "icon": "h-money" }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "translationOf": "i-got-a-strange-message",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 5,
+  "short": "He recibido un mensaje raro",
+  "title": "SMS o correo sospechoso con un enlace: qué hacer",
+  "pageTitle": "SMS o correo sospechoso con un enlace: qué hacer | Spamlock",
+  "description": "¿Te ha llegado un SMS o un correo que no esperabas y que te pide pinchar en un enlace o pagar? Estos son los pasos que puedes dar antes de responder.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Tómate tu tiempo: no respondas, no pinches y no llames. Si dice venir de tu banco o de una empresa, contacta tú con ella desde su app oficial o al número de tu tarjeta.",
+  "stepsTitle": "Qué hacer si recibes un SMS o un correo sospechoso",
+  "steps": [
+    {
+      "title": "No respondas, no pinches ni llames",
+      "text": "Los estafadores meten prisa. Tómate tu tiempo."
+    },
+    {
+      "title": "Comprueba antes el enlace",
+      "text": "Pega el enlace, o el mensaje entero, en Comprobar un enlace de la app Spamlock: te confirma si hay señales de peligro, sin abrirlo."
+    },
+    {
+      "title": "Contacta tú con la empresa",
+      "text": "Desde su app oficial o al número de tu tarjeta: te dirán si el mensaje es suyo de verdad."
+    },
+    {
+      "title": "No facilites nunca códigos ni contraseñas",
+      "text": "Las empresas de verdad no los piden por mensaje."
+    },
+    {
+      "title": "Repórtalo",
+      "text": "Usa la opción de reportar spam en tu app de mensajes. También puedes reportarlo a INCIBE: ayuda a avisar a otras personas.",
+      "links": [
+        {
+          "label": "INCIBE: reporte de fraude",
+          "url": "https://www.incibe.es/ciudadania/ayuda/reporte-de-fraude"
+        }
+      ]
+    },
+    {
+      "title": "Bórralo y bloquea al remitente",
+      "text": "Después de reportarlo. Así no recibirás más mensajes de ese remitente."
+    }
+  ],
+  "app": {
+    "title": "Esta guía también está en la app Spamlock",
+    "text": "Comprueba cualquier enlace o código QR antes de abrirlo y marca cada paso cuando lo hayas hecho."
+  },
+  "related": [
+    "estafa-he-pagado-a-un-estafador-que-hacer",
+    "me-han-hackeado-el-correo-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "INCIBE",
+      "url": "https://www.incibe.es/ciudadania/blog/smishing-el-sms-con-el-que-no-te-quieres-encontrar"
+    }
+  ]
+}

@@ -53,7 +53,12 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;paddin
 .logo{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,#A070FF,#6E8CF7);box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 6px 14px rgba(76,52,190,.24);flex:none}
 .logo .ic{font-size:21px}
 .nav{display:flex;gap:30px;font-weight:500;font-size:17px}
-.nav a{text-decoration:none;color:#E7E1FB} .nav a:hover{color:var(--lav)}
+.nav a{text-decoration:none;color:#E7E1FB} .nav a:hover,.nav a[aria-current]{color:var(--lav)}
+.subbar{display:none}
+/* links to the landing's own sections, at the top of the hero */
+.jump{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:clamp(24px,3vw,40px)}
+.jump a{display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:999px;box-shadow:inset 0 0 0 1.5px var(--lav);background:rgba(255,255,255,.6);color:var(--night);font-weight:600;font-size:16px;text-decoration:none;transition:background .2s}
+.jump a:hover{background:var(--lav-soft)}
 .top .end{margin-left:auto;display:flex;align-items:center;gap:22px}
 .top .btn{min-height:46px;padding:0 22px;font-size:16px}
 
@@ -304,7 +309,17 @@ footer{background:var(--night);color:#C9C1E6;padding-block:44px calc(36px + env(
 }
 @media (max-width:760px){
   body{font-size:17px}
-  .nav,.top .tlink{display:none}
+  .top .tlink{display:none}
+  /* phones: header keeps logo, name and language; other links and the download icon move to a row under it */
+  .top .nav,.top .end .btn{display:none}
+  .subbar{display:block;background:var(--night-2)}
+  .subbar .wrap{display:flex;align-items:center;gap:18px;min-height:52px}
+  .subbar nav{display:flex;gap:18px;flex:1;min-width:0;overflow-x:auto}
+  .subbar nav a{color:#E7E1FB;text-decoration:none;font-weight:500;font-size:16px;white-space:nowrap}
+  .subbar nav a[aria-current]{color:var(--lav)}
+  .sub-get{flex:none;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--lav);color:var(--night)}
+  .sub-get .ic{font-size:20px}
+  .jump{gap:8px}.jump a{min-height:40px;padding:0 14px;font-size:15px}
   h1{font-size:16.2vw}
   html[lang="it"] h1{font-size:13.6vw}
   html[lang="es"] h1{font-size:13vw}

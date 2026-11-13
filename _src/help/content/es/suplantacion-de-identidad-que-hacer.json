@@ -1,0 +1,70 @@
+{
+  "translationOf": "someone-is-using-my-identity",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 7,
+  "short": "Alguien usa mi identidad",
+  "title": "Suplantación de identidad: qué hacer si alguien usa tus datos",
+  "pageTitle": "Suplantación de identidad: qué hacer si alguien usa tus datos | Spamlock",
+  "description": "¿Préstamos, contratos o cartas que no reconoces? Estos son los pasos que puedes dar ante una suplantación de identidad: denuncia, reclamación y consulta gratuita de tus datos.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Anota lo que has encontrado y presenta una denuncia. Después reclama por escrito el contrato o el cargo que no reconoces y consulta gratis si hay préstamos a tu nombre.",
+  "stepsTitle": "Qué hacer ante una suplantación de identidad",
+  "steps": [
+    {
+      "title": "Anota lo que ha pasado",
+      "text": "Fechas, cartas, contratos y cuentas que no reconoces. Te servirán para la denuncia y para contactar con bancos y empresas."
+    },
+    {
+      "title": "Presenta una denuncia",
+      "text": "En la Policía Nacional o la Guardia Civil. La necesitarás para reclamar los contratos hechos a tu nombre.",
+      "links": [
+        {
+          "label": "Policía Nacional: denuncias",
+          "url": "https://www.policia.es/_es/denuncias.php"
+        }
+      ]
+    },
+    {
+      "title": "Contacta con la empresa o el banco",
+      "text": "Reclama por escrito el contrato o el cargo que no reconoces, adjuntando la denuncia."
+    },
+    {
+      "title": "Consulta tus datos de crédito",
+      "text": "Puedes pedir gratis tu informe CIRBE al Banco de España y preguntar si apareces en un fichero de morosos: verás si hay préstamos o deudas a tu nombre.",
+      "links": [
+        {
+          "label": "Banco de España: informe CIRBE",
+          "url": "https://sedeelectronica.bde.es/sede/es/tramites/solicitud-informes-riesgos-cirbe-p58.html"
+        },
+        {
+          "label": "AEPD: deudas que no son tuyas",
+          "url": "https://www.aepd.es/preguntas-frecuentes/7-solvencia-patrimonial/FAQ-0708-una-empresa-de-recobros-me-esta-reclamando-una-deuda-que-no-es-mia"
+        }
+      ]
+    },
+    {
+      "title": "Revisa tus extractos",
+      "text": "Busca cargos o cuentas que no hayas hecho o abierto."
+    }
+  ],
+  "app": {
+    "title": "Esta guía también está en la app Spamlock",
+    "text": "Marca cada paso cuando lo hayas hecho."
+  },
+  "related": [
+    "estafa-he-pagado-a-un-estafador-que-hacer",
+    "me-han-hackeado-el-correo-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "el Banco de España",
+      "url": "https://sedeelectronica.bde.es/sede/es/tramites/solicitud-informes-riesgos-cirbe-p58.html"
+    },
+    {
+      "label": "la AEPD",
+      "url": "https://www.aepd.es/preguntas-frecuentes/7-solvencia-patrimonial/FAQ-0708-una-empresa-de-recobros-me-esta-reclamando-una-deuda-que-no-es-mia"
+    }
+  ]
+}

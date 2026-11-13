@@ -1,0 +1,69 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 7,
+  "short": "Someone is using my identity",
+  "title": "Someone is using my identity: what you can do now",
+  "pageTitle": "Someone is using my identity: what you can do now | Spamlock",
+  "description": "Accounts, bills or letters you don’t recognise? Steps you can take now: write it down, contact the company, freeze your credit and report it.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Write down what you found, then contact the company or bank involved. In the US you can freeze your credit for free and report it at IdentityTheft.gov.",
+  "stepsTitle": "Steps you can take if someone is using your identity",
+  "steps": [
+    {
+      "title": "Write down what happened",
+      "text": "Dates, letters and accounts you don’t know. You’ll need these when you contact companies or report it."
+    },
+    {
+      "title": "Contact the company or bank involved",
+      "text": "Use the number on its official website or on your card, and tell them about the account or payment you don’t recognise. They can close or stop it."
+    },
+    {
+      "title": "Freeze your credit (US)",
+      "text": "Free in the US, at each of the 3 bureaus. It stops new accounts being opened in your name.",
+      "links": [
+        {
+          "label": "Equifax",
+          "url": "https://www.equifax.com/personal/credit-report-services/credit-freeze/"
+        },
+        {
+          "label": "Experian",
+          "url": "https://www.experian.com/help/credit-freeze/"
+        },
+        {
+          "label": "TransUnion",
+          "url": "https://www.transunion.com/credit-freeze"
+        }
+      ]
+    },
+    {
+      "title": "Report it",
+      "text": "In the US, report it to the FTC and you get a free recovery plan. Elsewhere, report it to the police.",
+      "links": [
+        {
+          "label": "US: IdentityTheft.gov",
+          "url": "https://www.identitytheft.gov"
+        }
+      ]
+    },
+    {
+      "title": "Check your credit reports and statements",
+      "text": "Look for accounts or payments you didn’t make, and tell the company about any you find."
+    }
+  ],
+  "app": {
+    "title": "This guide is in the Spamlock app",
+    "text": "Mark each step as done as you go."
+  },
+  "related": [
+    "i-paid-a-scammer",
+    "my-email-was-hacked"
+  ],
+  "sources": [
+    {
+      "label": "the US FTC",
+      "url": "https://consumer.ftc.gov/articles/what-know-about-identity-theft"
+    }
+  ]
+}

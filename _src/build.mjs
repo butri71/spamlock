@@ -5,12 +5,14 @@ import { createHash } from 'node:crypto';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildHelp, HELP_BASE } from './help/build-help.mjs';
 
 const SRC = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(SRC, '..');
 const read = (file) => readFileSync(join(SRC, file), 'utf8');
 const config = JSON.parse(read('config.json'));
 const LANG_NAME = { en: 'EN', it: 'IT', es: 'ES' };
+const HELP_LANGUAGES = JSON.parse(read('help/help.json')).languages;
 
 const homeOf = (lang) => (lang === 'en' ? '/' : `/${lang}/`);
 
@@ -53,7 +55,7 @@ function languageLinks(lang, path, label) {
 }
 
 function shared(lang, copy, path) {
-  const parts = { ...copy, lang, home: homeOf(lang), languageLinks: languageLinks(lang, path, copy.languageLabel), langRedirect: lang === 'en' && !path ? read('parts/redirect.html') : '' };
+  const parts = { ...copy, lang, home: homeOf(lang), helpNav: helpNav(lang, copy), languageLinks: languageLinks(lang, path, copy.languageLabel), langRedirect: lang === 'en' && !path ? read('parts/redirect.html') : '' };
   return {
     ...parts,
     header: fill(applySwitches(read('parts/header.html')), parts),
@@ -63,6 +65,12 @@ function shared(lang, copy, path) {
   };
 }
 
+// Links to the other parts of the site: in the header on computers, in the row under it on phones.
+function helpNav(lang, copy) {
+  if (!HELP_LANGUAGES.includes(lang)) return '';
+  return `<a class="nav-help" href="${HELP_BASE[lang]}">${copy.navHelp}</a>`;
+}
+
 function alternates(path) {
   const links = config.languages.map((code) => `<link rel="alternate" hreflang="${code}" href="https://spamlock.app${homeOf(code)}${path}">`);
   return [...links, `<link rel="alternate" hreflang="x-default" href="https://spamlock.app/${path}">`].join('\n');
@@ -70,16 +78,22 @@ function alternates(path) {
 
 // Long-cached files get a ?v= stamp from their content, so a change reaches visitors straight away.
 function stampAssets(html) {
-  return html.replace(/\/assets\/(site\.css|site\.js|consent\.js|lang\.js)/g, (path) => {
+  return html.replace(/\/assets\/(site\.css|site\.js|consent\.js|lang\.js|help\.css|help\.js)/g, (path) => {
     const hash = createHash('sha1').update(readFileSync(join(ROOT, path))).digest('hex').slice(0, 8);
     return `${path}?v=${hash}`;
   });
 }
 
+// Links to other websites open in a new tab, so the visitor keeps our page open.
+function externalLinksNewTab(html) {
+  return html.replace(/<a ([^>]*?)href="(https?:\/\/(?!spamlock\.app)[^"]*)"([^>]*)>/g, (tag, before, url, after) =>
+    /\btarget=/.test(before + after) ? tag : `<a ${before}href="${url}"${after} target="_blank" rel="noopener">`);
+}
+
 function write(file, html) {
   const target = join(ROOT, file);
   mkdirSync(dirname(target), { recursive: true });
-  writeFileSync(target, file.endsWith('.html') ? stampAssets(html) : html);
+  writeFileSync(target, file.endsWith('.html') ? externalLinksNewTab(stampAssets(html)) : html);
   console.log('wrote', file);
 }
 
@@ -139,15 +153,20 @@ function structuredData(lang, copy) {
   }).replace(/</g, '\\u003c');
 }
 
-// One entry per page, each naming its translations.
-function sitemap(lastmod) {
+// One entry per page, each naming its translations. Help pages name only the translations they really have.
+function sitemap(lastmod, help) {
   const entry = (path) => config.languages.map((lang) => {
     const links = [...config.languages.map((code) => [code, code]), ['x-default', 'en']]
       .map(([tag, code]) => `    <xhtml:link rel="alternate" hreflang="${tag}" href="https://spamlock.app${homeOf(code)}${path}"/>`)
       .join('\n');
     return `  <url>\n    <loc>https://spamlock.app${homeOf(lang)}${path}</loc>\n    <lastmod>${lastmod}</lastmod>\n${links}\n  </url>`;
   }).join('\n');
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${['', 'privacy.html', 'terms.html'].map(entry).join('\n')}\n</urlset>\n`;
+  const helpEntry = ({ path, lastmod: date, alternates }) => {
+    const links = alternates ? [...Object.entries(alternates), ...(alternates.en ? [['x-default', alternates.en]] : [])]
+      .map(([tag, href]) => `\n    <xhtml:link rel="alternate" hreflang="${tag}" href="https://spamlock.app${href}"/>`).join('') : '';
+    return `  <url>\n    <loc>https://spamlock.app${path}</loc>\n    <lastmod>${date || lastmod}</lastmod>${links}\n  </url>`;
+  };
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${['', 'privacy.html', 'terms.html'].map(entry).join('\n')}\n${help.map(helpEntry).join('\n')}${help.length ? '\n' : ''}</urlset>\n`;
 }
 
 for (const lang of config.languages) {
@@ -175,5 +194,6 @@ for (const lang of config.languages) {
   }
 }
 
-write('sitemap.xml', sitemap(new Date().toISOString().slice(0, 10)));
+const help = buildHelp({ read, write, fill, applySwitches, shared, config, src: SRC });
+write('sitemap.xml', sitemap(new Date().toISOString().slice(0, 10), help));
 write('robots.txt', 'User-agent: *\nAllow: /\n\nSitemap: https://spamlock.app/sitemap.xml\n');

@@ -1,0 +1,68 @@
+{
+  "translationOf": "my-email-was-hacked",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 1,
+  "short": "Me han hackeado el correo",
+  "title": "Me han hackeado el correo: qué hacer ahora",
+  "pageTitle": "Me han hackeado el correo: qué hacer ahora | Spamlock",
+  "description": "¿Alguien ha entrado en tu correo? Estos son los pasos que puedes dar ahora: recuperar la cuenta, cambiar la contraseña, activar la verificación en dos pasos y avisar a tus contactos.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Recupera la cuenta desde la página de recuperación de tu proveedor, crea una contraseña nueva y activa la verificación en dos pasos. Después, avisa a tus contactos.",
+  "stepsTitle": "Qué hacer si te han hackeado el correo",
+  "steps": [
+    {
+      "title": "Recupera tu cuenta",
+      "text": "Elige tu proveedor aquí abajo y sigue los pasos de recuperación: comprobará que eres tú y te dejará poner una contraseña nueva.",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://accounts.google.com/signin/recovery"
+        },
+        {
+          "label": "Microsoft",
+          "url": "https://account.live.com/acsr"
+        },
+        {
+          "label": "Apple",
+          "url": "https://iforgot.apple.com"
+        },
+        {
+          "label": "Yahoo",
+          "url": "https://login.yahoo.com/forgot"
+        }
+      ]
+    },
+    {
+      "title": "Crea una contraseña nueva",
+      "text": "Una que no uses en ningún otro sitio. Si usabas la antigua en otras cuentas, puedes cambiarla también allí."
+    },
+    {
+      "title": "Activa la verificación en dos pasos",
+      "text": "Está en los ajustes de seguridad de la cuenta. Además de la contraseña, te pedirá un código o una llave de acceso: así una contraseña robada no basta para entrar."
+    },
+    {
+      "title": "Revisa tus datos de recuperación",
+      "text": "En los ajustes de la cuenta, revisa el teléfono y el correo de recuperación y las reglas de reenvío. Borra lo que no reconozcas: así quien entró no podrá volver ni recibir copias de tus correos."
+    },
+    {
+      "title": "Avisa a tus contactos",
+      "text": "Para que no abran correos raros enviados desde tu dirección."
+    }
+  ],
+  "app": {
+    "title": "Esta guía también está en la app Spamlock",
+    "text": "Marca cada paso cuando lo hayas hecho y comprueba si tu correo aparece en una filtración de datos."
+  },
+  "related": [
+    "me-han-hackeado-instagram-facebook-o-whatsapp",
+    "duplicado-de-sim-me-han-robado-el-numero"
+  ],
+  "sources": [
+    {
+      "label": "el Centro Nacional de Ciberseguridad británico (NCSC)",
+      "url": "https://www.ncsc.gov.uk/guidance/recovering-a-hacked-account"
+    }
+  ]
+}

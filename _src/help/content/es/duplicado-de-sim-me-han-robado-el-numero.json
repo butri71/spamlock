@@ -1,0 +1,64 @@
+{
+  "translationOf": "someone-took-over-my-phone-number",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 4,
+  "short": "Alguien me ha robado el número",
+  "title": "Móvil sin señal y número robado (duplicado de SIM): qué hacer",
+  "pageTitle": "Móvil sin señal y número robado (duplicado de SIM): qué hacer | Spamlock",
+  "description": "¿Tu móvil se ha quedado sin señal y otra persona tiene tu número? Estos son los pasos que puedes dar ahora: llamar al operador y al banco, proteger el correo y denunciar.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Llama a tu operador desde otro móvil y pide que te devuelvan tu número. Después cambia la contraseña del correo y llama a tu banco.",
+  "stepsTitle": "Qué hacer si alguien te ha robado el número con un duplicado de SIM",
+  "steps": [
+    {
+      "title": "Llama a tu operador",
+      "text": "Desde otro móvil. Pide que te devuelvan tu número."
+    },
+    {
+      "title": "Cambia la contraseña del correo",
+      "text": "Con tu número pueden recibir tus códigos de acceso."
+    },
+    {
+      "title": "Llama a tu banco",
+      "text": "Al número de tu tarjeta, no a uno de un mensaje. Puedes pedir que bloqueen tus tarjetas y revisen si hay pagos que no has hecho."
+    },
+    {
+      "title": "Recibe los códigos en una app, no por SMS",
+      "text": "En los ajustes de seguridad de cada cuenta, elige una app de autenticación en lugar de los SMS. Así los códigos de acceso no llegan a tu número."
+    },
+    {
+      "title": "Pide un bloqueo para tu número",
+      "text": "Pide a tu operador un bloqueo o un PIN para tu número, si lo ofrece. Así nadie podrá moverlo otra vez sin ti."
+    },
+    {
+      "title": "Denuncia el robo",
+      "text": "En la Policía Nacional o la Guardia Civil, con capturas y las horas de lo que pasó. Si tienes dudas, la línea 017 de INCIBE te ayuda gratis.",
+      "links": [
+        {
+          "label": "Policía Nacional: denuncias",
+          "url": "https://www.policia.es/_es/denuncias.php"
+        },
+        {
+          "label": "INCIBE: línea 017",
+          "url": "https://www.incibe.es/ciudadania/atencion-telefonica"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Esta guía también está en la app Spamlock",
+    "text": "Marca cada paso cuando lo hayas hecho."
+  },
+  "related": [
+    "movil-perdido-o-robado-que-hacer",
+    "me-han-hackeado-el-correo-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "INCIBE",
+      "url": "https://www.incibe.es/ciudadania/blog/sim-swapping-como-evitar-esta-estafa"
+    }
+  ]
+}

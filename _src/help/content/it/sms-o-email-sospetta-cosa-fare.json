@@ -1,0 +1,55 @@
+{
+  "translationOf": "i-got-a-strange-message",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 5,
+  "short": "Ho ricevuto un messaggio strano",
+  "title": "SMS o email sospetta con un link: cosa fare",
+  "pageTitle": "SMS o email sospetta con un link: cosa fare | Spamlock",
+  "description": "Hai ricevuto un SMS o un’email inattesi che ti chiedono di cliccare un link o pagare? Ecco cosa puoi fare prima di rispondere.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Prenditi il tuo tempo: non rispondere, non cliccare e non richiamare. Se dice di arrivare dalla tua banca o da un servizio, contattalo tu dalla sua app ufficiale o al numero sulla carta.",
+  "stepsTitle": "Cosa fare se ricevi un SMS o un’email sospetta",
+  "steps": [
+    {
+      "title": "Non rispondere, cliccare o richiamare",
+      "text": "I truffatori ti mettono fretta. Prenditi il tuo tempo."
+    },
+    {
+      "title": "Controlla prima il link",
+      "text": "Incolla il link, o tutto il messaggio, in Controlla un link nell’app Spamlock: ti conferma se ci sono segnali di pericolo, senza aprirlo."
+    },
+    {
+      "title": "Contatta tu la banca o il servizio",
+      "text": "Dalla sua app ufficiale o al numero sulla carta: ti dicono se il messaggio arriva davvero da loro."
+    },
+    {
+      "title": "Non rilasciare mai codici o password",
+      "text": "Nessun servizio serio li chiede per messaggio."
+    },
+    {
+      "title": "Segnalalo",
+      "text": "Usa l’opzione per segnalare spam nell’app dei messaggi. Puoi anche mandare una segnalazione online alla Polizia Postale.",
+      "links": [
+        {
+          "label": "Polizia Postale: Segnala online",
+          "url": "https://www.commissariatodips.it/segnalazioni/segnala-online/index.html"
+        }
+      ]
+    },
+    {
+      "title": "Cancellalo e blocca il mittente",
+      "text": "Dopo averlo segnalato. Così non ricevi altri messaggi da quel mittente."
+    }
+  ],
+  "app": {
+    "title": "Questa guida è anche nell’app Spamlock",
+    "text": "Controlla ogni link o QR code prima di aprirlo e segna ogni passaggio quando l’hai fatto."
+  },
+  "related": [
+    "truffa-online-ho-pagato-cosa-fare",
+    "email-violata-cosa-fare"
+  ],
+  "sources": []
+}

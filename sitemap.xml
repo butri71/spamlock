@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://spamlock.app/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/"/>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://spamlock.app/it/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/"/>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://spamlock.app/es/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/"/>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://spamlock.app/privacy.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/privacy.html"/>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://spamlock.app/it/privacy.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/privacy.html"/>
@@ -42,7 +42,7 @@
   </url>
   <url>
     <loc>https://spamlock.app/es/privacy.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/privacy.html"/>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://spamlock.app/terms.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/terms.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/terms.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/terms.html"/>
@@ -58,7 +58,7 @@
   </url>
   <url>
     <loc>https://spamlock.app/it/terms.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/terms.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/terms.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/terms.html"/>
@@ -66,10 +66,226 @@
   </url>
   <url>
     <loc>https://spamlock.app/es/terms.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/terms.html"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/terms.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/terms.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/terms.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/help/i-got-a-strange-message.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/i-got-a-strange-message.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/sms-o-email-sospetta-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/sms-o-correo-sospechoso-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/i-got-a-strange-message.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/help/i-lost-my-phone.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/i-lost-my-phone.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/telefono-perso-o-rubato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/movil-perdido-o-robado-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/i-lost-my-phone.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/help/i-paid-a-scammer.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/i-paid-a-scammer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/truffa-online-ho-pagato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/estafa-he-pagado-a-un-estafador-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/i-paid-a-scammer.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/help/my-email-was-hacked.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/my-email-was-hacked.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/email-violata-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/me-han-hackeado-el-correo-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/my-email-was-hacked.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/help/my-social-account-was-hacked.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/my-social-account-was-hacked.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/account-social-violato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/me-han-hackeado-instagram-facebook-o-whatsapp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/my-social-account-was-hacked.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/help/someone-is-spying-on-me.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/someone-is-spying-on-me.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/telefono-spiato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/movil-espiado-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/someone-is-spying-on-me.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/help/someone-is-using-my-identity.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/someone-is-using-my-identity.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/furto-di-identita-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/suplantacion-de-identidad-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/someone-is-using-my-identity.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/help/someone-took-over-my-phone-number.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/someone-took-over-my-phone-number.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/numero-di-telefono-rubato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/duplicado-de-sim-me-han-robado-el-numero.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/someone-took-over-my-phone-number.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/help/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/it/guide/account-social-violato-cosa-fare.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/my-social-account-was-hacked.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/account-social-violato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/me-han-hackeado-instagram-facebook-o-whatsapp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/my-social-account-was-hacked.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/it/guide/email-violata-cosa-fare.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/my-email-was-hacked.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/email-violata-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/me-han-hackeado-el-correo-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/my-email-was-hacked.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/it/guide/furto-di-identita-cosa-fare.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/someone-is-using-my-identity.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/furto-di-identita-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/suplantacion-de-identidad-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/someone-is-using-my-identity.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/it/guide/numero-di-telefono-rubato-cosa-fare.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/someone-took-over-my-phone-number.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/numero-di-telefono-rubato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/duplicado-de-sim-me-han-robado-el-numero.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/someone-took-over-my-phone-number.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/it/guide/sms-o-email-sospetta-cosa-fare.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/i-got-a-strange-message.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/sms-o-email-sospetta-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/sms-o-correo-sospechoso-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/i-got-a-strange-message.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/it/guide/telefono-perso-o-rubato-cosa-fare.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/i-lost-my-phone.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/telefono-perso-o-rubato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/movil-perdido-o-robado-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/i-lost-my-phone.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/it/guide/telefono-spiato-cosa-fare.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/someone-is-spying-on-me.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/telefono-spiato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/movil-espiado-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/someone-is-spying-on-me.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/it/guide/truffa-online-ho-pagato-cosa-fare.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/i-paid-a-scammer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/truffa-online-ho-pagato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/estafa-he-pagado-a-un-estafador-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/i-paid-a-scammer.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/it/guide/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/es/guia/duplicado-de-sim-me-han-robado-el-numero.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/someone-took-over-my-phone-number.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/numero-di-telefono-rubato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/duplicado-de-sim-me-han-robado-el-numero.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/someone-took-over-my-phone-number.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/es/guia/estafa-he-pagado-a-un-estafador-que-hacer.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/i-paid-a-scammer.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/truffa-online-ho-pagato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/estafa-he-pagado-a-un-estafador-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/i-paid-a-scammer.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/es/guia/me-han-hackeado-el-correo-que-hacer.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/my-email-was-hacked.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/email-violata-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/me-han-hackeado-el-correo-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/my-email-was-hacked.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/es/guia/me-han-hackeado-instagram-facebook-o-whatsapp.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/my-social-account-was-hacked.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/account-social-violato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/me-han-hackeado-instagram-facebook-o-whatsapp.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/my-social-account-was-hacked.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/es/guia/movil-espiado-que-hacer.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/someone-is-spying-on-me.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/telefono-spiato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/movil-espiado-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/someone-is-spying-on-me.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/es/guia/movil-perdido-o-robado-que-hacer.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/i-lost-my-phone.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/telefono-perso-o-rubato-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/movil-perdido-o-robado-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/i-lost-my-phone.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/es/guia/sms-o-correo-sospechoso-que-hacer.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/i-got-a-strange-message.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/sms-o-email-sospetta-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/sms-o-correo-sospechoso-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/i-got-a-strange-message.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/es/guia/suplantacion-de-identidad-que-hacer.html</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/someone-is-using-my-identity.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/furto-di-identita-cosa-fare.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/suplantacion-de-identidad-que-hacer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/someone-is-using-my-identity.html"/>
+  </url>
+  <url>
+    <loc>https://spamlock.app/es/guia/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://spamlock.app/help/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://spamlock.app/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://spamlock.app/es/guia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://spamlock.app/help/"/>
   </url>
 </urlset>

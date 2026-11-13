@@ -1,0 +1,60 @@
+{
+  "translationOf": "i-lost-my-phone",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 3,
+  "short": "He perdido el móvil",
+  "title": "Móvil perdido o robado: qué hacer ahora",
+  "pageTitle": "Móvil perdido o robado: qué hacer ahora | Spamlock",
+  "description": "¿Has perdido el móvil o te lo han robado? Estos son los pasos que puedes dar: localizarlo o bloquearlo, bloquear la SIM, cambiar tus contraseñas y denunciar.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Localiza o bloquea el móvil desde otro dispositivo y llama a tu operador para bloquear la SIM. Después cambia tus contraseñas, empezando por la del correo.",
+  "stepsTitle": "Qué hacer si has perdido el móvil o te lo han robado",
+  "steps": [
+    {
+      "title": "Búscalo, bloquéalo o bórralo",
+      "text": "Abre Buscar (iPhone) o Localizador de Google (Android) desde otro móvil o un ordenador: verás dónde está y podrás bloquearlo con un mensaje en la pantalla. Borrarlo no se puede deshacer, así que suele ser lo último que se prueba.",
+      "links": [
+        {
+          "label": "Buscar (iPhone)",
+          "url": "https://www.icloud.com/find"
+        },
+        {
+          "label": "Localizador de Google (Android)",
+          "url": "https://www.google.com/android/find"
+        }
+      ]
+    },
+    {
+      "title": "Bloquea la SIM",
+      "text": "Llama a tu operador y pide que la bloquee: así nadie podrá usar tu número para llamadas, SMS o códigos de acceso. Después puedes pedir un duplicado con el mismo número."
+    },
+    {
+      "title": "Cambia tus contraseñas",
+      "text": "Empieza por la del correo, porque desde ahí se pueden restablecer todas las demás. Después, el banco y las redes sociales."
+    },
+    {
+      "title": "Denúncialo",
+      "text": "En la Policía Nacional o la Guardia Civil, con tu DNI y, si lo tienes, el IMEI del móvil (está en la caja o en la factura). Con la denuncia puedes pedir a tu operador que bloquee también el móvil, y las aseguradoras suelen pedirla."
+    },
+    {
+      "title": "Atento a mensajes raros",
+      "text": "Y a correos de inicio de sesión que no esperas."
+    }
+  ],
+  "app": {
+    "title": "Esta guía también está en la app Spamlock",
+    "text": "Marca cada paso cuando lo hayas hecho."
+  },
+  "related": [
+    "duplicado-de-sim-me-han-robado-el-numero",
+    "me-han-hackeado-el-correo-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "el soporte de Apple",
+      "url": "https://support.apple.com/es-es/104978"
+    }
+  ]
+}

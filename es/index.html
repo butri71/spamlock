@@ -28,7 +28,7 @@
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="preload" href="/assets/fonts/hk400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/hk900.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/site.css?v=6bbbadb4">
+<link rel="stylesheet" href="/assets/site.css?v=fee94bd5">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
@@ -55,18 +55,22 @@
 </defs></svg>
 <header class="top"><div class="wrap">
   <a class="brand" href="/es/#top" aria-label="Inicio de Spamlock"><span class="logo"><svg class="ic"><use href="#i-lock"/></svg></span><span class="mark">Spamlock</span></a>
-  <nav class="nav" aria-label="Principal"><a href="/es/#features">Funciones</a><a href="/es/#plus">Spamlock Plus</a><a href="/es/#questions">Preguntas</a></nav>
-  <div class="end"><details class="langs"><summary aria-label="Idioma: ES">ES</summary><div class="lang-menu"><a href="/" hreflang="en" data-lang="en">EN</a><a href="/it/" hreflang="it" data-lang="it">IT</a><a href="/es/" hreflang="es" data-lang="es" aria-current="true">ES</a></div></details><a class="btn btn-lav" href="/es/#get">Descarga la app</a></div>
+  <div class="end"><nav class="nav" aria-label="Principal"><a class="nav-help" href="/es/guia/">Guía</a></nav><details class="langs"><summary aria-label="Idioma: ES">ES</summary><div class="lang-menu"><a href="/" hreflang="en" data-lang="en">EN</a><a href="/it/" hreflang="it" data-lang="it">IT</a><a href="/es/" hreflang="es" data-lang="es" aria-current="true">ES</a></div></details><a class="btn btn-lav" href="/es/#get">Descarga la app</a></div>
 </div></header>
+<div class="subbar"><div class="wrap">
+  <nav aria-label="Principal"><a class="nav-help" href="/es/guia/">Guía</a></nav>
+  <a class="sub-get" href="/es/#get" aria-label="Descarga la app" title="Descarga la app"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></a>
+</div></div>
 
 <main id="top">
 <section class="hero" data-status="Buscando en las filtraciones conocidas"><div class="wrap">
+  <nav class="jump" aria-label="En esta página"><a href="#features">Funciones</a><a href="#plus">Spamlock Plus</a><a href="#questions">Preguntas</a></nav>
   <div class="hero-grid">
     <div>
       <div class="status"><span class="spin" aria-hidden="true"></span><span class="tx"><b>Tu asistente de seguridad</b><span class="roll" id="heroRoll"><span>Buscando en las filtraciones conocidas</span></span></span></div>
       <h1><span class="l"><span class="w" style="--d:0.05s">Qué</span> <span class="w" style="--d:0.17s">cambiar</span></span> <span class="l"><span class="w" style="--d:0.29s">y</span> <span class="w" style="--d:0.41s">en</span> <span class="pop" aria-hidden="true"><svg class="ic"><use href="#i-shield"/></svg></span> <span class="w" style="--d:0.53s">qué</span></span> <span class="l"><span class="w fx" style="--d:0.65s">orden.</span></span></h1>
       <p class="lead">Comprueba si tu correo o tus contraseñas están comprometidos, detecta enlaces fraudulentos y códigos QR, revisa tu móvil y descubre qué cambiar primero, con pasos sencillos.</p>
-      <div class="cta"><a class="btn btn-dark" href="https://apps.apple.com/app/id1529407969"><svg class="ic"><use href="#i-phone"/></svg>Descargar para iPhone</a><button class="movie" id="movieBtn" type="button" aria-label="Ver el vídeo" title="Ver el vídeo"><svg class="ic"><use href="#i-film"/></svg></button></div>
+      <div class="cta"><a class="btn btn-dark" href="https://apps.apple.com/app/id1529407969" target="_blank" rel="noopener"><svg class="ic"><use href="#i-phone"/></svg>Descargar para iPhone</a><button class="movie" id="movieBtn" type="button" aria-label="Ver el vídeo" title="Ver el vídeo"><svg class="ic"><use href="#i-film"/></svg></button></div>
       <p class="soon"><svg class="ic"><use href="#i-android"/></svg>Pronto en Android</p>
     </div>
     <aside class="box" id="box" aria-label="Ejemplo del recuadro de amenazas de Spamlock">
@@ -76,21 +80,23 @@
           <div class="ring"><svg viewBox="0 0 110 110"><circle class="bg" cx="55" cy="55" r="45"/><circle class="fg" id="bxRing" cx="55" cy="55" r="45"/></svg><div class="n"><b id="bxN">5</b><small>activas</small></div></div>
           <div class="chips"><span class="chip high" id="cH">2 riesgo alto</span><span class="chip med" id="cM">2 riesgo medio</span><span class="chip low" id="cL">1 riesgo bajo</span><span class="chip ok" id="cF">3 resueltas</span></div>
         </div>
-        <div class="why"><i><svg class="ic" id="bxIc"><use href="#i-mail"/></svg></i><span><b id="bxKind">Filtración de datos</b><span id="bxWhy">Puedes cambiar esa contraseña y proteger la cuenta.</span></span></div>
+        <div class="why"><i><svg class="ic" id="bxIc"><use href="#i-mail"/></svg></i><span><b id="bxKind">Filtración de datos</b><span id="bxWhy">Puedes cambiar la contraseña comprometida y proteger la cuenta.</span></span></div>
       </div>
       <div class="nextbar"><span aria-live="polite"><b>Siguiente: </b><span id="bxNext">Revisa la filtración de FitTrack</span></span><svg class="ic"><use href="#i-chev"/></svg></div>
-      <div class="box-act"><button id="bxBtn" type="button">Marcar como hecho</button><p class="hint" id="bxHint">Pruébalo. Así te guía Spamlock, amenaza por amenaza.</p></div>
+      <div class="box-act"><button id="bxBtn" type="button">Marcar como resuelto</button><p class="hint" id="bxHint">Pruébalo gratis. Spamlock te guía paso a paso, amenaza por amenaza.</p></div>
     </aside>
   </div>
   <ul class="facts">
-    <li><span class="dot"><svg class="ic"><use href="#i-chat"/></svg></span><h3>Sin conocimientos técnicos</h3><p>Palabras de todos los días y pasos sencillos.</p></li>
-    <li><span class="dot"><svg class="ic"><use href="#i-eye"/></svg></span><h3>Todo de un vistazo</h3><p>Lo que encuentra, por nivel de riesgo: alto, medio, bajo.</p></li>
+    <li><span class="dot"><svg class="ic"><use href="#i-chat"/></svg></span><h3>Sin necesidad de conocimientos técnicos</h3><p>Explicaciones sencillas en pocos pasos.</p></li>
+    <li><span class="dot"><svg class="ic"><use href="#i-eye"/></svg></span><h3>Todo en una sola pantalla</h3><p>Lo que encuentra, por nivel de riesgo: alto, medio, bajo.</p></li>
   </ul>
 </div></section>
 
 <hr class="sep">
 <section class="film" id="film" data-status="Meet Spamlock"><div class="wrap"><div class="panel"><div class="film-in">
-  <div class="lift"><h2 class="h2">Presentamos a tu <em>asistente de seguridad</em></h2><p class="lead" style="margin-top:16px">Escribe tu correo, mira en qué filtraciones aparece y descubre qué cambiar primero.</p><p class="meta">34 segundos · con música</p></div>
+  <div class="lift"><h2 class="h2">Presentamos a tu <em>asistente de seguridad</em></h2><p class="lead" style="margin-top:16px">Escribe tu correo, mira en qué filtraciones aparece y descubre qué cambiar primero.</p>
+    <!-- <p class="meta">34 segundos · con música</p> -->
+  </div>
   <div class="player" id="player">
     <img src="/assets/film/poster-es.webp" alt="Vídeo de presentación: Spamlock es tu asistente de seguridad" width="1280" height="720" loading="lazy">
     <button class="play" id="playBtn" type="button" aria-label="Ver el vídeo de presentación"><span><svg class="ic"><use href="#i-play"/></svg></span></button>
@@ -112,13 +118,13 @@
   </figure>
   <div class="copy lift">
     <h2 class="h2">¿Tu correo aparece en un hackeo?</h2>
-    <p class="lead">Escribe tu correo: Spamlock te muestra en qué filtraciones conocidas aparece, qué datos han quedado expuestos y su nivel de gravedad.</p>
+    <p class="lead">Introduce tu correo: Spamlock te muestra en qué filtraciones conocidas aparece, qué datos han quedado expuestos y su nivel de gravedad.</p>
     <ul class="ticks">
       <li><svg class="ic"><use href="#i-check"/></svg>Contraseñas, teléfonos, direcciones y más</li>
       <li><svg class="ic"><use href="#i-check"/></svg>Qué puedes hacer, paso a paso</li>
-      <li><svg class="ic"><use href="#i-check"/></svg>Marca como hecho cada paso que completes</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>Marca como resuelto cada paso que completes</li>
     </ul>
-    <p class="src">Datos de filtraciones: Have I Been Pwned.</p>
+    <p class="src">Datos de filtraciones obtenidos por Have I Been Pwned.</p>
   </div>
 </section>
 
@@ -126,10 +132,10 @@
 <section class="wrap pw" data-status="Solo se comprueba un código corto"><div class="panel"><div class="pw-in">
   <div class="lift">
     <h2 class="h2">Tu contraseña <em>nunca sale de tu dispositivo</em></h2>
-    <p class="lead" style="margin-top:18px">Comprueba si una contraseña ha sido comprometida y genera una segura al instante, una distinta para cada cuenta.</p>
+    <p class="lead" style="margin-top:18px">Comprueba si una contraseña ha sido comprometida y crea al instante una más segura, distinta para cada cuenta.</p>
     <ul class="ticks">
-      <li><svg class="ic"><use href="#i-check"/></svg>A Have I Been Pwned solo le llegan los 5 primeros caracteres de un código generado a partir de la contraseña</li>
-      <li><svg class="ic"><use href="#i-check"/></svg>Las contraseñas nuevas se crean en tu móvil</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>A Have I Been Pwned solo le llegan los 5 primeros caracteres de un código cifrado, generado a partir de la contraseña</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>Las contraseñas nuevas se crean en tu móvil y nadie más tiene acceso</li>
     </ul>
   </div>
   <div class="pw-vis" data-scene>
@@ -178,11 +184,11 @@
     <figcaption class="hud"><i><svg class="ic"><use href="#i-phone"/></svg></i><b>Este móvil</b><span>Bloqueo · Actualizaciones · Espacio</span></figcaption>
   </figure>
   <div class="copy lift">
-    <h2 class="h2">Revisa lo básico de tu móvil</h2>
-    <p class="lead">Spamlock mira el bloqueo de pantalla, las actualizaciones, el tiempo desde el último reinicio y el espacio libre.</p>
+    <h2 class="h2">Revisa la configuración de tu móvil</h2>
+    <p class="lead">Spamlock analiza el bloqueo de pantalla, las actualizaciones, el tiempo transcurrido desde el último reinicio y el espacio disponible.</p>
     <ul class="ticks">
       <li><svg class="ic"><use href="#i-check"/></svg>Instrucciones paso a paso para los ajustes que puedes cambiar</li>
-      <li><svg class="ic"><use href="#i-check"/></svg>Buscar o Find Hub, si pierdes el móvil</li>
+      <li><svg class="ic"><use href="#i-check"/></svg>Las secciones Buscar o Localizador de Google, si pierdes el móvil</li>
       <li><svg class="ic"><use href="#i-check"/></svg>Permisos de las apps y Protección en caso de robo</li>
     </ul>
   </div>
@@ -190,11 +196,11 @@
 
 <hr class="sep">
 <section class="wrap more" data-status="Preparando tu revisión de seguridad">
-  <div class="more-h lift"><h2 class="h2">Y después, te ayudamos con el resto</h2><p class="lead">Protege tus accesos, recibe ayuda si algo va mal y guarda en tu móvil lo que quieras conservar.</p></div>
+  <div class="more-h lift"><h2 class="h2">Guía para proteger tus accesos</h2><p class="lead">Protege tus accesos, recibe ayuda si algo va mal y guarda en tu móvil lo que quieras conservar.</p></div>
   <div class="bento">
     <article class="card c7 lift">
       <h3>Protege tus accesos</h3>
-      <p>Verificación en dos pasos y llaves de acceso para tus cuentas principales, con la guía de cada una.</p>
+      <p>Verificación en dos pasos (2FA) y llaves de acceso para tus cuentas principales, con la guía de cada una.</p>
       <div class="formula"><span class="fbit"><svg class="ic"><use href="#i-pass"/></svg>Contraseña</span><span>+</span><span class="fbit"><svg class="ic"><use href="#i-key"/></svg>Código</span><span>=</span><span class="fbit g"><svg class="ic"><use href="#i-check"/></svg>Sesión iniciada</span></div>
     </article>
     <article class="card c5 lift">
@@ -211,10 +217,10 @@
       <p>Guarda un correo y te avisamos si aparece en una nueva filtración de datos.</p>
     </article>
     <article class="card c7 dk lift">
-      <h3>Resolver un problema</h3>
+      <h3>Tengo un problema urgente</h3>
       <p>Guías paso a paso para cuando algo ya ha salido mal.</p>
       <ul class="guides">
-        <li><svg class="ic"><use href="#i-mail"/></svg>Me han hackeado el correo</li>
+        <li><svg class="ic"><use href="#i-mail"/></svg>Han entrado en mi correo</li>
         <li><svg class="ic"><use href="#i-chat"/></svg>Me han hackeado una red social</li>
         <li><svg class="ic"><use href="#i-phone"/></svg>He perdido el móvil</li>
         <li><svg class="ic"><use href="#i-card"/></svg>Pagué o di mi tarjeta a un estafador</li>
@@ -233,17 +239,17 @@
       <h3>Spamlock</h3><p class="big">Gratis</p>
       <ul class="ticks">
         <li><svg class="ic"><use href="#i-check"/></svg>Comprobación de correos y contraseñas</li>
-        <li><svg class="ic"><use href="#i-check"/></svg>Tu móvil, accesos y guías Resolver un problema</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Tu móvil, accesos y guías</li>
         <li><svg class="ic"><use href="#i-check"/></svg>Comprobación de enlaces: señales de alerta siempre, 5 comprobaciones de Google al mes</li>
         <!--if:alerts--><li><svg class="ic"><use href="#i-check"/></svg>Avisos para 1 correo</li>
       </ul>
     </article>
     <article class="plan dk lift">
-      <h3>Spamlock Plus</h3><p class="big">Enlaces ilimitados</p>
+      <h3>Spamlock Plus</h3><p class="big">Comprobación ilimitada de enlaces</p>
       <ul class="ticks">
         <li><svg class="ic"><use href="#i-check"/></svg>Comprueba todos los enlaces y códigos QR que quieras</li>
         <li><svg class="ic"><use href="#i-check"/></svg>Avisos de hasta 10 correos, también los de tu familia</li>
-        <li><svg class="ic"><use href="#i-check"/></svg>Todas las funciones nuevas en cuanto lleguen</li>
+        <li><svg class="ic"><use href="#i-check"/></svg>Todas las funciones nuevas, en cuanto se lancen</li>
       </ul>
       <a class="btn btn-lav" href="#get">Descarga la app</a>
     </article>
@@ -260,7 +266,7 @@
     <details><summary>¿Qué significa «Sin filtraciones»?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>Tu correo no está en ninguna filtración que conozca Have I Been Pwned. Se añaden filtraciones a menudo, así que puedes revisarlo de vez en cuando.</p></details>
     <details><summary>¿Puede Spamlock ver mis contraseñas?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>No. Cuando revisas una contraseña, nunca sale del móvil. Solo se usa un trozo corto de un código generado a partir de ella para buscarla.</p></details>
     <details><summary>¿Puede Spamlock evitar que mis datos se expongan?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>No. Spamlock no puede evitar que hackeen un servicio, ni puede cambiar tus cuentas o ajustes por ti. Encuentra lo que se ha filtrado o necesita atención y te guía con pasos sencillos que haces tú.</p></details>
-    <details><summary>¿Cómo funcionan los avisos de nuevas filtraciones?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>Más o menos una vez al día, Spamlock busca filtraciones nuevas en la lista de Have I Been Pwned. Si hay una nueva, revisa los correos que vigilas y te avisa si alguno aparece.</p></details>
+    <details><summary>¿Cómo funcionan los avisos de nuevas filtraciones?<span class="pm"><svg class="ic"><use href="#i-plus"/></svg></span></summary><p>Más o menos una vez al día, Spamlock busca filtraciones nuevas en la lista de Have I Been Pwned. Si hay una nueva, revisa los correos que estás monitorizando y te avisa si alguno aparece.</p></details>
   </div>
 </section>
 
@@ -269,7 +275,7 @@
   <div>
     <h2>Empieza por tu correo.</h2>
     <p class="lead">Spamlock te muestra lo que encuentra y lo que puedes hacer.</p>
-    <div class="cta"><a class="btn btn-dark" href="https://apps.apple.com/app/id1529407969"><svg class="ic"><use href="#i-phone"/></svg>Descargar para iPhone</a></div>
+    <div class="cta"><a class="btn btn-dark" href="https://apps.apple.com/app/id1529407969" target="_blank" rel="noopener"><svg class="ic"><use href="#i-phone"/></svg>Descargar para iPhone</a></div>
     <p class="soon"><svg class="ic"><use href="#i-android"/></svg>Pronto en Android</p>
   </div>
   <div class="duo" aria-hidden="true">
@@ -281,7 +287,7 @@
 <footer><div class="wrap"><div class="foot">
   <a class="brand" href="/es/#top"><span class="logo"><svg class="ic"><use href="#i-lock"/></svg></span><span class="mark">Spamlock</span></a>
   <nav aria-label="Legal"><a href="/es/privacy.html">Privacidad</a><a href="/es/terms.html">Términos</a><a href="mailto:spamlock.app@gmail.com">Contacto</a><button id="cookieSettings" type="button">Ajustes de cookies</button></nav>
-  <p class="credit">Datos de filtraciones: <a href="https://haveibeenpwned.com">Have I Been Pwned</a> (CC BY 4.0). Comprobación de enlaces: Google Web Risk. Desde 2020 ayudamos a la gente a revisar sus cuentas.</p>
+  <p class="credit">Datos de filtraciones: <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">Have I Been Pwned</a> (CC BY 4.0). Comprobación de enlaces: Google Web Risk. Desde 2020 ayudamos a la gente a revisar sus cuentas.</p>
 </div></div></footer>
 <aside class="cookies" id="cookies" aria-label="Ajustes de cookies" hidden>
   <p>¿Podemos usar las cookies de Google Analytics? Nos muestran cómo se usa esta web. Puedes cambiar de opinión cuando quieras en Ajustes de cookies. <a href="/es/privacy.html">Privacidad</a></p>
@@ -293,7 +299,7 @@
 
 <div class="follow" id="follow"><span class="logo"><svg class="ic"><use href="#i-lock"/></svg></span><span class="tx"><b>Spamlock</b><span class="roll" id="followRoll"><span>Buscando en las filtraciones conocidas</span></span></span><a class="btn btn-lav" href="#get">Descarga la app</a></div>
 
-<script type="application/json" id="site-data">{"lang":"es","android":false,"film":{"app":"/assets/film/film-es-appstore.mp4","play":"/assets/film/film-es-play.mp4","poster":"/assets/film/poster-es.webp"},"lines":["Buscando en las filtraciones conocidas","Encontrando las que tienen tu email","Viendo cuáles filtraron contraseñas","Preparando tu revisión de seguridad"],"high":"riesgo alto","medium":"riesgo medio","low":"riesgo bajo","fixed":"resueltas","title":"Amenazas encontradas","clearTitle":"Ninguna amenaza abierta","markDone":"Marcar como hecho","startOver":"Empezar de nuevo","clearNext":"No hay amenazas activas","clearKind":"Todo hecho","clearWhy":"Puedes revisar un email, un enlace o este móvil cuando quieras.","filmLabel":"Vídeo de presentación de Spamlock","pause":"Pausar la animación","play":"Reproducir la animación","items":[{"k":"high","ic":"mail","kind":"Filtración de datos","why":"Puedes cambiar esa contraseña y proteger la cuenta.","next":"Revisa la filtración de FitTrack"},{"k":"high","ic":"mail","kind":"Filtración de datos","why":"Puedes cambiar esa contraseña y proteger la cuenta.","next":"Revisa la filtración de ShopNow"},{"k":"med","ic":"key","kind":"Acceso al email","why":"Añade un código cuando alguien entra en tu email","next":"Protege el acceso a tu email"},{"k":"med","ic":"phone","kind":"Tu móvil","why":"Recibe las últimas correcciones de seguridad","next":"Actualiza tu móvil"},{"k":"low","ic":"phone","kind":"Tu móvil","why":"Elimina algunas amenazas ocultas","next":"Reinicia tu móvil"}]}</script>
+<script type="application/json" id="site-data">{"lang":"es","android":false,"film":{"app":"/assets/film/film-es-appstore.mp4","play":"/assets/film/film-es-play.mp4","poster":"/assets/film/poster-es.webp"},"lines":["Buscando en las filtraciones conocidas","Encontrando las que tienen tu email","Viendo cuáles filtraron contraseñas","Preparando tu revisión de seguridad"],"high":"riesgo alto","medium":"riesgo medio","low":"riesgo bajo","fixed":"resueltas","title":"Amenazas encontradas","clearTitle":"Ninguna amenaza abierta","markDone":"Marcar como resuelto","startOver":"Empezar de nuevo","clearNext":"No hay amenazas activas","clearKind":"Todo hecho","clearWhy":"Puedes revisar un email, un enlace o este móvil cuando quieras.","filmLabel":"Vídeo de presentación de Spamlock","pause":"Pausar la animación","play":"Reproducir la animación","items":[{"k":"high","ic":"mail","kind":"Filtración de datos","why":"Puedes cambiar esa contraseña y proteger la cuenta.","next":"Revisa la filtración de FitTrack"},{"k":"high","ic":"mail","kind":"Filtración de datos","why":"Puedes cambiar esa contraseña y proteger la cuenta.","next":"Revisa la filtración de ShopNow"},{"k":"med","ic":"key","kind":"Acceso al email","why":"Añade un código cuando alguien entra en tu email","next":"Protege el acceso a tu email"},{"k":"med","ic":"phone","kind":"Tu móvil","why":"Recibe las últimas correcciones de seguridad","next":"Actualiza tu móvil"},{"k":"low","ic":"phone","kind":"Tu móvil","why":"Elimina algunas amenazas ocultas","next":"Reinicia tu móvil"}]}</script>
 <script src="/assets/site.js?v=6d0f03f0" defer></script>
 </body>
 </html>

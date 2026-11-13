@@ -14,7 +14,7 @@
   ],
   "headers": [
     {
-      "source": "/assets/(site\\.css|site\\.js|consent\\.js|lang\\.js)",
+      "source": "/assets/(site\\.css|site\\.js|consent\\.js|lang\\.js|help\\.css|help\\.js)",
       "headers": [
         {
           "key": "Cache-Control",

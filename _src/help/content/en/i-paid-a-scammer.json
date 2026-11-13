@@ -1,0 +1,59 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 6,
+  "short": "I paid a scammer",
+  "title": "I paid or gave my card details to a scammer: what you can do now",
+  "pageTitle": "I paid or gave my card details to a scammer: what you can do now | Spamlock",
+  "description": "Sent money or card details to a scammer? Steps you can take now: call your bank, block the card, change passwords and report the scam.",
+  "published": "2026-11-13",
+  "reviewed": "2026-11-13",
+  "answer": "Call your bank straight away on the number on your card and block the card. Then change any password you shared and report the scam.",
+  "stepsTitle": "Steps you can take if you paid a scammer",
+  "steps": [
+    {
+      "title": "Call your bank",
+      "text": "On the number on your card, not one from a message. You can ask them to stop or reverse the payment."
+    },
+    {
+      "title": "Block the card",
+      "text": "In your bank app, or ask when you call. A blocked card can’t be used for new payments."
+    },
+    {
+      "title": "Change any password you shared",
+      "text": "And turn on two-step verification for that account."
+    },
+    {
+      "title": "Report the scam",
+      "text": "It helps stop others being caught. Outside the US and UK, you can report it to your local police.",
+      "links": [
+        {
+          "label": "US: ReportFraud.ftc.gov",
+          "url": "https://reportfraud.ftc.gov"
+        },
+        {
+          "label": "UK: Report Fraud",
+          "url": "https://www.reportfraud.police.uk"
+        }
+      ]
+    },
+    {
+      "title": "Watch your statements",
+      "text": "Check them for the next few months, and tell your bank about any payment you don’t recognise."
+    }
+  ],
+  "app": {
+    "title": "This guide is in the Spamlock app",
+    "text": "Mark each step as done as you go."
+  },
+  "related": [
+    "i-got-a-strange-message",
+    "someone-is-using-my-identity"
+  ],
+  "sources": [
+    {
+      "label": "the US FTC",
+      "url": "https://consumer.ftc.gov/articles/what-do-if-you-were-scammed"
+    }
+  ]
+}

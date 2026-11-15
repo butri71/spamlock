@@ -355,6 +355,7 @@ footer{background:var(--night);color:#C9C1E6;padding-block:44px calc(36px + env(
 
 /* store buttons: Android visitors see their store first once Android is live */
 html.android .btn-android{order:-1}
+.hero .cta:has(.btn-android){flex-wrap:wrap}
 
 /* language menu */
 .langs{position:relative}

@@ -1,6 +1,6 @@
 {
   "alerts": true,
   "plus": true,
-  "android": false,
+  "android": true,
   "languages": ["en", "it", "es"]
 }

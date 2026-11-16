@@ -146,7 +146,7 @@ function structuredData(lang, copy) {
         inLanguage: lang,
         thumbnailUrl: `${site}/assets/film/og-${lang}.jpg`,
         contentUrl: `${site}/assets/film/film-${lang}-appstore.mp4`,
-        uploadDate: '2026-11-02',
+        uploadDate: '2026-11-02T00:00:00+00:00',
         duration: 'PT34S',
       },
     ],

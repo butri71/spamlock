@@ -10,6 +10,36 @@
       "source": "/terms_old.html",
       "destination": "/terms.html",
       "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/it/index.html",
+      "destination": "/it/",
+      "permanent": true
+    },
+    {
+      "source": "/es/index.html",
+      "destination": "/es/",
+      "permanent": true
+    },
+    {
+      "source": "/help/index.html",
+      "destination": "/help/",
+      "permanent": true
+    },
+    {
+      "source": "/it/guide/index.html",
+      "destination": "/it/guide/",
+      "permanent": true
+    },
+    {
+      "source": "/es/guia/index.html",
+      "destination": "/es/guia/",
+      "permanent": true
     }
   ],
   "headers": [

@@ -1,0 +1,73 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 16,
+  "short": "My computer has a virus or is locked",
+  "title": "My computer has a virus or is locked: what you can do now",
+  "pageTitle": "My computer has a virus or is locked (ransomware): what you can do now | Spamlock",
+  "description": "Computer slow, full of pop-ups, or locked with a demand for money (ransomware)? Steps you can take now: disconnect, don’t pay, run a scan, restore a backup and look for a free unlock tool.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Disconnect from the internet. If a message demands money to unlock your files, don’t pay. Run a full antivirus scan, restore your files from a backup, and check No More Ransom for a free unlock tool.",
+  "stepsTitle": "Steps you can take if your computer has a virus or is locked",
+  "steps": [
+    {
+      "title": "Disconnect from the internet",
+      "text": "Turn off Wi-Fi or unplug the cable. This stops the problem spreading to your other devices."
+    },
+    {
+      "title": "Locked with a demand for money? Don’t pay",
+      "text": "Paying doesn’t guarantee you get your files back, your computer stays infected, and you’re more likely to be targeted again. Take a photo of the message: it helps identify the problem."
+    },
+    {
+      "title": "Not confident? Get help",
+      "text": "From the maker’s support, a computer shop you trust, or someone you know who’s good with computers. Never from someone who contacts you first offering to fix it."
+    },
+    {
+      "title": "Run a full scan",
+      "text": "Install the latest updates, then run your antivirus and follow its advice. On a Mac, update macOS and restart: it removes known malware when it restarts."
+    },
+    {
+      "title": "Still not fixed? Wipe and reinstall",
+      "text": "If the scan can’t clean it, the computer needs wiping and everything reinstalled. You may need expert help for this."
+    },
+    {
+      "title": "Restore your files from a backup",
+      "text": "Only after the computer is clean, from a backup made before the problem started."
+    },
+    {
+      "title": "No backup? Look for a free unlock tool",
+      "text": "No More Ransom has free tools that unlock some kinds of ransomware. Not every kind has a tool yet.",
+      "links": [
+        {
+          "label": "No More Ransom",
+          "url": "https://www.nomoreransom.org/en/decryption-tools.html"
+        }
+      ]
+    },
+    {
+      "title": "Report it",
+      "text": "To the police. In the UK, to Report Fraud.",
+      "links": [
+        {
+          "label": "UK: Report Fraud",
+          "url": "https://www.reportfraud.police.uk"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "someone-has-remote-access-to-my-computer",
+    "i-clicked-a-suspicious-link"
+  ],
+  "sources": [
+    {
+      "label": "the UK NCSC",
+      "url": "https://www.ncsc.gov.uk/guidance/hacked-device-action-to-take"
+    },
+    {
+      "label": "No More Ransom",
+      "url": "https://www.nomoreransom.org/en/prevention-advice-for-users.html"
+    }
+  ]
+}

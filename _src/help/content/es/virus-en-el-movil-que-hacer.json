@@ -1,0 +1,66 @@
+{
+  "translationOf": "i-think-my-phone-has-a-virus",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 11,
+  "short": "Creo que tengo un virus en el móvil",
+  "title": "Virus en el móvil: qué hacer y cómo quitarlo",
+  "pageTitle": "Virus en el móvil: qué hacer y cómo quitarlo | Spamlock",
+  "description": "¿Ventanas emergentes, apps que no has instalado o un móvil muy lento? Esto es lo que puedes hacer en iPhone y Android: no pulsar los avisos, borrar las apps desconocidas, actualizar y, si hace falta, restablecer el móvil.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "No pulses los avisos que dicen que tu móvil tiene un virus. Borra las apps que no reconozcas, actualiza el móvil y, en Android, revísalo con Play Protect. Si los problemas vuelven, puedes restablecer el móvil.",
+  "stepsTitle": "Qué hacer si crees que tienes un virus en el móvil",
+  "steps": [
+    {
+      "title": "No pulses el aviso",
+      "text": "Las ventanas emergentes que dicen que tu móvil tiene un virus suelen hacerse pasar por Apple u otra empresa. Cierra la pestaña del navegador y, si te piden que llames a un número, no llames."
+    },
+    {
+      "title": "¿No sabes cómo hacerlo? Pide ayuda",
+      "text": "Llama gratis al 017 de INCIBE, o acude al servicio técnico del fabricante, a una tienda de móviles de confianza o a alguien que conozcas y sepa de móviles. Nunca a quien te llame o te escriba primero ofreciéndote arreglarlo.",
+      "links": [
+        {
+          "label": "INCIBE: línea 017",
+          "url": "https://www.incibe.es/ciudadania/atencion-telefonica"
+        }
+      ]
+    },
+    {
+      "title": "Borra las apps que no reconozcas",
+      "text": "Busca apps que no hayas instalado o que no uses, y bórralas. Si el iPhone te avisa de que una app contiene malware, elimínala desde el propio aviso."
+    },
+    {
+      "title": "Android: revísalo con Play Protect",
+      "text": "Play Protect viene en los móviles Android con Google Play: revisa las apps y puede quitar las dañinas.",
+      "links": [
+        {
+          "label": "Google: Play Protect",
+          "url": "https://support.google.com/android/answer/2812853?hl=es"
+        }
+      ]
+    },
+    {
+      "title": "Actualiza el móvil",
+      "text": "En Ajustes, busca Actualización de software. Las actualizaciones corrigen fallos de seguridad."
+    },
+    {
+      "title": "¿Sigue igual? Restablece el móvil",
+      "text": "El centro de ciberseguridad británico recomienda restablecer los datos de fábrica, porque en los móviles los antivirus no suelen poder limpiar como en los ordenadores. Se borra todo, así que antes haz una copia de tus fotos y contactos."
+    }
+  ],
+  "related": [
+    "movil-espiado-que-hacer",
+    "he-pinchado-un-enlace-sospechoso-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "el soporte de Apple",
+      "url": "https://support.apple.com/es-es/116947"
+    },
+    {
+      "label": "el Centro Nacional de Ciberseguridad británico (NCSC)",
+      "url": "https://www.ncsc.gov.uk/guidance/hacked-device-action-to-take"
+    }
+  ]
+}

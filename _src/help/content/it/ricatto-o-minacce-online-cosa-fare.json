@@ -1,0 +1,88 @@
+{
+  "translationOf": "someone-is-threatening-me-online",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 14,
+  "short": "Mi minacciano online",
+  "title": "Ricatto, minacce o molestie online (anche sextortion): cosa fare",
+  "pageTitle": "Ricatto, minacce o molestie online (anche sextortion): cosa fare | Spamlock",
+  "description": "Ti ricattano con foto o video intimi (sextortion), ti minacciano o hanno pubblicato online il tuo indirizzo o il tuo numero? Ecco cosa puoi fare: non pagare, salvare le prove, bloccare, segnalare e chiedere aiuto.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Non rispondere e, se ti ricattano, non pagare. Prima fai gli screenshot, poi blocca e segnala. Non è colpa tua, e puoi chiedere aiuto gratis alla Polizia Postale.",
+  "stepsTitle": "Cosa fare in caso di ricatto o minacce online",
+  "steps": [
+    {
+      "title": "Smetti di rispondere",
+      "text": "Continuare a rispondere tiene aperto il contatto. Interromperlo fa capire che non cedi."
+    },
+    {
+      "title": "Ti ricattano con foto intime? Non pagare",
+      "text": "La Polizia Postale avverte: se paghi non smettono di chiedere soldi, anzi diventano più insistenti. Se hai già pagato, puoi comunque interrompere ogni contatto."
+    },
+    {
+      "title": "Salva le prove",
+      "text": "Fai gli screenshot di chat e minacce e annota nome utente, app o sito e data. Non cancellare i messaggi e non chiudere i profili prima di averli dati alla Polizia."
+    },
+    {
+      "title": "Blocca e segnala",
+      "text": "Blocca l’account e segnalalo all’app o al sito. Se ti scrive da un nuovo account, fai lo stesso."
+    },
+    {
+      "title": "Temi che diffondano le tue foto intime?",
+      "text": "Puoi fare una segnalazione al Garante per la privacy, che entro 48 ore può intervenire sulle piattaforme. Ci sono anche strumenti gratuiti che aiutano a bloccarne la condivisione, senza che nessuno veda le tue foto.",
+      "links": [
+        {
+          "label": "Garante privacy: revenge porn",
+          "url": "https://www.garanteprivacy.it/temi/revengeporn"
+        },
+        {
+          "label": "StopNCII.org (maggiorenni)",
+          "url": "https://stopncii.org"
+        },
+        {
+          "label": "Take It Down (minorenni)",
+          "url": "https://takeitdown.ncmec.org"
+        }
+      ]
+    },
+    {
+      "title": "Hanno pubblicato i tuoi dati?",
+      "text": "Segnala il post al sito o all’app e rendi privati i tuoi profili social."
+    },
+    {
+      "title": "Fai denuncia",
+      "text": "Alla Polizia Postale o in qualsiasi ufficio di Polizia, portando gli screenshot. Dai 14 anni in su puoi farla anche da solo. Puoi anche mandare una segnalazione online.",
+      "links": [
+        {
+          "label": "Polizia Postale: Segnala online",
+          "url": "https://www.commissariatodips.it/segnalazioni/segnala-online/index.html"
+        }
+      ]
+    },
+    {
+      "title": "Contatta gli esperti",
+      "text": "Il 1522 è gratuito ed attivo 24 ore su 24 contro tutti i crimini di violenza e stalking.",
+      "links": [
+        {
+          "label": "1522",
+          "url": "https://www.1522.eu/"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "telefono-spiato-cosa-fare",
+    "furto-di-identita-cosa-fare"
+  ],
+  "sources": [
+    {
+      "label": "la Polizia Postale",
+      "url": "https://www.commissariatodips.it/notizie/articolo/attenzione-sui-social-nuova-ondata-di-sextortion-in-danno-di-minorenni/index.html"
+    },
+    {
+      "label": "il Garante per la protezione dei dati personali",
+      "url": "https://www.garanteprivacy.it/temi/revengeporn"
+    }
+  ]
+}

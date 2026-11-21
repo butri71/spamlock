@@ -1,0 +1,60 @@
+{
+  "translationOf": "i-think-my-phone-has-a-virus",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 11,
+  "short": "Penso di avere un virus sul telefono",
+  "title": "Virus sul telefono: cosa fare e come toglierlo",
+  "pageTitle": "Virus sul telefono: cosa fare e come toglierlo | Spamlock",
+  "description": "Finestre a comparsa, app che non hai installato o un telefono lento? Ecco cosa puoi fare su iPhone e Android: non cliccare sugli avvisi, eliminare le app sconosciute, aggiornare e, se serve, ripristinare.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Non cliccare sugli avvisi che dicono che il telefono è infetto. Elimina le app che non riconosci, aggiorna il telefono e su Android fai un controllo con Play Protect. Se i problemi tornano, puoi ripristinare il telefono.",
+  "stepsTitle": "Cosa fare se pensi di avere un virus sul telefono",
+  "steps": [
+    {
+      "title": "Non cliccare sull’avviso",
+      "text": "Le finestre a comparsa che dicono che il telefono è infetto spesso si fingono Apple o un’altra azienda. Chiudi la scheda del browser e, se ti chiedono di chiamare un numero, non chiamarlo."
+    },
+    {
+      "title": "Non te la senti? Fatti aiutare",
+      "text": "Dall’assistenza del produttore, da un negozio di telefonia di fiducia o da una persona esperta che conosci. Mai da chi ti chiama o ti scrive per primo offrendoti di sistemarlo."
+    },
+    {
+      "title": "Elimina le app che non riconosci",
+      "text": "Cerca le app che non hai installato o che non usi, ed eliminale. Se l’iPhone ti avvisa che un’app contiene malware, eliminala direttamente dall’avviso."
+    },
+    {
+      "title": "Android: controlla con Play Protect",
+      "text": "Play Protect è già nei telefoni Android con Google Play: controlla le app e può rimuovere quelle dannose.",
+      "links": [
+        {
+          "label": "Google: Play Protect",
+          "url": "https://support.google.com/android/answer/2812853?hl=it"
+        }
+      ]
+    },
+    {
+      "title": "Aggiorna il telefono",
+      "text": "In Impostazioni cerca Aggiornamento software. Gli aggiornamenti chiudono le falle di sicurezza."
+    },
+    {
+      "title": "Il problema continua? Ripristina il telefono",
+      "text": "Il centro per la cyber sicurezza britannico consiglia il ripristino ai dati di fabbrica, perché sui telefoni gli antivirus di solito non riescono a ripulire come sui computer. Il ripristino cancella tutto: prima fai un backup di foto e contatti."
+    }
+  ],
+  "related": [
+    "telefono-spiato-cosa-fare",
+    "ho-cliccato-su-un-link-sospetto-cosa-fare"
+  ],
+  "sources": [
+    {
+      "label": "il supporto Apple",
+      "url": "https://support.apple.com/it-it/116947"
+    },
+    {
+      "label": "il National Cyber Security Centre britannico",
+      "url": "https://www.ncsc.gov.uk/guidance/hacked-device-action-to-take"
+    }
+  ]
+}

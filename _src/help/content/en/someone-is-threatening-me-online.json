@@ -1,0 +1,77 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 14,
+  "short": "Someone is threatening me online",
+  "title": "Someone is threatening or harassing me online: what you can do now",
+  "pageTitle": "Someone is threatening or harassing me online: what you can do now | Spamlock",
+  "description": "Blackmail over private photos (sextortion), harassment, or your home address or phone number posted online (doxxing)? Steps you can take now: stop replying, keep evidence, block, report and get free help.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Stop replying, and don’t pay if someone is blackmailing you. Take screenshots first, then block and report them. It’s not your fault, and free help is available.",
+  "stepsTitle": "Steps you can take if someone is threatening or harassing you online",
+  "steps": [
+    {
+      "title": "Stop replying",
+      "text": "Replying keeps the pressure on. Stopping contact shows them you won’t give in."
+    },
+    {
+      "title": "Blackmailed over private photos? Don’t pay",
+      "text": "Paying usually leads to more demands. If you already paid, it’s not too late to stop all contact and block them."
+    },
+    {
+      "title": "Save the evidence first",
+      "text": "Take screenshots of the messages and posts, and note the username, the app or website, and the date. Do this before you block."
+    },
+    {
+      "title": "Block and report",
+      "text": "Block the account, and report it to the app or website. If a new account contacts you, do the same again."
+    },
+    {
+      "title": "Get private photos taken down",
+      "text": "Free tools help stop them being shared on many big platforms, without anyone seeing your photos.",
+      "links": [
+        {
+          "label": "StopNCII.org (18 and over)",
+          "url": "https://stopncii.org"
+        },
+        {
+          "label": "Take It Down (under 18)",
+          "url": "https://takeitdown.ncmec.org"
+        }
+      ]
+    },
+    {
+      "title": "Your details posted online?",
+      "text": "Report the post to the website or app, and make your social accounts private."
+    },
+    {
+      "title": "Report it to the police",
+      "text": "Give them your screenshots and notes."
+    },
+    {
+      "title": "Talk to someone",
+      "text": "In the UK, adults can contact the Revenge Porn Helpline for free help with private photos.",
+      "links": [
+        {
+          "label": "Revenge Porn Helpline",
+          "url": "https://revengepornhelpline.org.uk"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "someone-is-spying-on-me",
+    "someone-is-using-my-identity"
+  ],
+  "sources": [
+    {
+      "label": "the Revenge Porn Helpline",
+      "url": "https://revengepornhelpline.org.uk/news/should-i-block-a-sextortion-blackmailer/"
+    },
+    {
+      "label": "Police Scotland",
+      "url": "https://www.scotland.police.uk/advice/cybercrime/doxxing/"
+    }
+  ]
+}

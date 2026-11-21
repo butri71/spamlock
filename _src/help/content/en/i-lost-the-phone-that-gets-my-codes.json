@@ -1,0 +1,67 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 13,
+  "short": "I lost the phone that gets my codes",
+  "title": "I’m locked out: I lost the phone that gets my sign-in codes",
+  "pageTitle": "I lost the phone that gets my sign-in codes: what you can do now | Spamlock",
+  "description": "Locked out because your two-step verification codes go to a lost phone? Steps you can take now: try another way to sign in, get your number back, then use account recovery.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Look for “Try another way” or “Can’t get to your devices?” on the sign-in screen: you may be able to use a backup code, another phone or a trusted number. If not, ask your mobile provider for a new SIM with your number, or start account recovery.",
+  "stepsTitle": "Steps you can take if you lost the phone that gets your codes",
+  "steps": [
+    {
+      "title": "Try another way to sign in",
+      "text": "On the code screen, look for another option. Google lets you use another signed-in phone, another number you added, or a backup code. Apple lets you get a code by text or call to your trusted phone number."
+    },
+    {
+      "title": "Not confident? Get help",
+      "text": "Ask someone you trust who’s good with phones to sit with you, or contact Google or Apple support through their own website. Never someone who contacts you first offering to unlock your account."
+    },
+    {
+      "title": "Get your number back",
+      "text": "Ask your mobile provider for a new SIM with your number. Then codes sent by text reach you again."
+    },
+    {
+      "title": "Back in a few days? Waiting may be quicker",
+      "text": "Apple says that if you’ll have your device or number again soon, waiting is the fastest way back into your account."
+    },
+    {
+      "title": "Start account recovery",
+      "text": "If nothing else works. It can take several days, and calling support can’t make it faster. On Apple, turn off your other Apple devices while you wait, or the request may be cancelled.",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://accounts.google.com/signin/recovery"
+        },
+        {
+          "label": "Apple",
+          "url": "https://iforgot.apple.com"
+        }
+      ]
+    },
+    {
+      "title": "Phone lost or stolen? Sign it out",
+      "text": "Once you’re back in, sign out of the lost phone in your account’s security settings."
+    },
+    {
+      "title": "Next time: keep a backup",
+      "text": "Add a second phone number, and save backup codes somewhere other than your phone."
+    }
+  ],
+  "related": [
+    "i-lost-my-phone",
+    "someone-took-over-my-phone-number"
+  ],
+  "sources": [
+    {
+      "label": "Google Account Help",
+      "url": "https://support.google.com/accounts/answer/185834"
+    },
+    {
+      "label": "Apple Support",
+      "url": "https://support.apple.com/en-gb/102606"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "translationOf": "i-lost-the-phone-that-gets-my-codes",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 13,
+  "short": "No me llegan los códigos de verificación",
+  "title": "He perdido el móvil y no me llega el código de verificación: qué hacer",
+  "pageTitle": "He perdido el móvil y no me llega el código de verificación: qué hacer | Spamlock",
+  "description": "¿No puedes entrar porque los códigos de la verificación en dos pasos llegan a un móvil que has perdido? Esto es lo que puedes hacer: probar otro método, recuperar tu número y pedir la recuperación de la cuenta.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "En la pantalla del código, busca otro método: un código de verificación alternativo que hayas guardado, otro teléfono o un número de confianza. Si no funciona, pide a tu operador un duplicado de la SIM con tu número, o inicia la recuperación de la cuenta.",
+  "stepsTitle": "Qué hacer si has perdido el móvil que recibe los códigos",
+  "steps": [
+    {
+      "title": "Prueba otro método para entrar",
+      "text": "Google te deja usar otro teléfono con tu cuenta abierta, otro número que hayas añadido o un código de verificación alternativo que guardaste. Apple te deja recibir el código por SMS o llamada en tu número de confianza: elige «¿No has recibido un código?»."
+    },
+    {
+      "title": "¿No sabes cómo hacerlo? Pide ayuda",
+      "text": "Pide a alguien de confianza que sepa de móviles que te ayude, llama gratis al 017 de INCIBE o contacta con el soporte de Google o Apple desde su web oficial. Nunca con quien te contacte primero ofreciéndote desbloquear la cuenta.",
+      "links": [
+        {
+          "label": "INCIBE: línea 017",
+          "url": "https://www.incibe.es/ciudadania/atencion-telefonica"
+        }
+      ]
+    },
+    {
+      "title": "Recupera tu número",
+      "text": "Pide a tu operador un duplicado de la SIM con tu número. Así los códigos por SMS te vuelven a llegar."
+    },
+    {
+      "title": "¿Lo recuperas en unos días? Esperar puede ser más rápido",
+      "text": "Apple explica que, si pronto vas a recuperar el dispositivo o el número, esperar es la forma más rápida de volver a entrar."
+    },
+    {
+      "title": "Pide la recuperación de la cuenta",
+      "text": "Si nada más funciona. Puede tardar varios días, y llamar al soporte no lo acelera. Con Apple, apaga tus otros dispositivos Apple mientras esperas, o la solicitud podría cancelarse.",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://accounts.google.com/signin/recovery"
+        },
+        {
+          "label": "Apple",
+          "url": "https://iforgot.apple.com"
+        }
+      ]
+    },
+    {
+      "title": "¿Móvil perdido o robado? Cierra la sesión",
+      "text": "En cuanto vuelvas a entrar, cierra la sesión del móvil perdido desde los ajustes de seguridad de tu cuenta."
+    },
+    {
+      "title": "Para la próxima: ten un backup",
+      "text": "Añade un segundo número de teléfono y guarda los códigos de verificación alternativos fuera del móvil."
+    }
+  ],
+  "related": [
+    "movil-perdido-o-robado-que-hacer",
+    "duplicado-de-sim-me-han-robado-el-numero"
+  ],
+  "sources": [
+    {
+      "label": "la Ayuda de la cuenta de Google",
+      "url": "https://support.google.com/accounts/answer/185834?hl=es"
+    },
+    {
+      "label": "el soporte de Apple",
+      "url": "https://support.apple.com/es-es/102606"
+    }
+  ]
+}

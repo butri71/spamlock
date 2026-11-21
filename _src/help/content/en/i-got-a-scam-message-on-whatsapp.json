@@ -1,0 +1,67 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 10,
+  "short": "I got a scam message on WhatsApp",
+  "title": "I got a scam message on WhatsApp: what you can do now",
+  "pageTitle": "I got a scam message on WhatsApp: what you can do now | Spamlock",
+  "description": "A fake job offer, a “Hi Mum, I lost my phone” message or a scam group on WhatsApp? Steps you can take now: stop replying, call to check, leave the group, block and report.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Stop replying, and don’t send money, codes or personal details. If the message says it’s from family, call them on the number you already have. Then block and report the sender.",
+  "stepsTitle": "Steps you can take after a scam message on WhatsApp",
+  "steps": [
+    {
+      "title": "Stop replying",
+      "text": "Scammers rush you, ask you to trust them, or ask for money, a password or personal details. If you can’t check who they are, you don’t have to share anything."
+    },
+    {
+      "title": "“Hi Mum” or “Hi Dad” from a new number?",
+      "text": "Call your child on the number you already have, or call the new number. If it’s really them, they’ll answer. Police advice: never send money before you’ve spoken to them on a voice call."
+    },
+    {
+      "title": "A job offer you didn’t apply for?",
+      "text": "Scammers pretend to be recruiters at well-known companies, often with well-paid, work-from-home jobs. A real employer doesn’t ask you for money to apply."
+    },
+    {
+      "title": "Added to a scam group?",
+      "text": "In the group’s info, choose Exit group. You can report the group there too. Choose Exit group rather than Exit and delete if you want to keep the messages as evidence."
+    },
+    {
+      "title": "Choose who can add you to groups",
+      "text": "In WhatsApp’s Privacy settings, set Groups to My Contacts. People you don’t know can then only send you an invite, which you can ignore.",
+      "links": [
+        {
+          "label": "WhatsApp: group privacy",
+          "url": "https://faq.whatsapp.com/1131457590844955"
+        }
+      ]
+    },
+    {
+      "title": "Block and report the sender",
+      "text": "Blocking stops them contacting you. Reporting tells WhatsApp about the account."
+    },
+    {
+      "title": "Sent money?",
+      "text": "Call your bank on the number on your card, not one from a message, and report it."
+    }
+  ],
+  "app": {
+    "title": "Check links in the Spamlock app",
+    "text": "Check any link or QR code before you open it."
+  },
+  "related": [
+    "i-paid-a-scammer",
+    "my-whatsapp-was-hacked"
+  ],
+  "sources": [
+    {
+      "label": "WhatsApp Help Center",
+      "url": "https://faq.whatsapp.com/2286952358121083"
+    },
+    {
+      "label": "Avon and Somerset Police",
+      "url": "https://www.avonandsomerset.police.uk/news/2022/03/phone-users-urged-to-be-aware-of-fake-whatsapp-message-scam/"
+    }
+  ]
+}

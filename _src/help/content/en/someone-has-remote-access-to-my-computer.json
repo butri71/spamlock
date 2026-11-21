@@ -1,0 +1,93 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 15,
+  "short": "Someone has remote access to my computer",
+  "title": "Someone has remote access to my computer: what you can do now",
+  "pageTitle": "Someone has remote access to my computer: what you can do now | Spamlock",
+  "description": "Let a caller or a “support” pop-up into your computer? Steps you can take now on Windows or Mac: disconnect, tell your bank, remove the app, turn off remote control, scan and change passwords.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Disconnect from the internet and tell your bank if they could have seen your details. Then remove the app they asked you to install, turn off remote control in your settings, run a scan, and change your passwords.",
+  "stepsTitle": "Steps you can take if someone has remote access to your computer",
+  "steps": [
+    {
+      "title": "Disconnect",
+      "text": "If you can still see the remote session, use its disconnect button. Then turn off Wi-Fi or unplug the network cable."
+    },
+    {
+      "title": "Tell your bank",
+      "text": "Straight away if they could have seen your bank details, even if you didn’t pay. If you paid, ask your bank or card provider about getting the money back."
+    },
+    {
+      "title": "Not confident? Get help",
+      "text": "From the maker’s support, a computer shop you trust, or someone you know who’s good with computers. Never from someone who contacts you first offering to fix it."
+    },
+    {
+      "title": "Remove the app they asked you to install",
+      "text": "And any other app you don’t remember installing. Look at your recently installed programs."
+    },
+    {
+      "title": "Turn off remote control in your settings",
+      "text": "Windows: Settings → System → Remote Desktop, and turn it off (only Windows Pro has it). Mac: System Settings → General → Sharing, and turn off Screen Sharing and Remote Management.",
+      "links": [
+        {
+          "label": "Microsoft: Remote Desktop",
+          "url": "https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c"
+        },
+        {
+          "label": "Apple: screen sharing",
+          "url": "https://support.apple.com/en-gb/guide/mac-help/mh11848/mac"
+        }
+      ]
+    },
+    {
+      "title": "Update and run a full scan",
+      "text": "Windows: install the latest updates, then run a full scan with Windows Security. Mac: update macOS and restart. Apple says the Mac removes known malware when it restarts."
+    },
+    {
+      "title": "Change your passwords",
+      "text": "Any password they could have seen, starting with your bank and email. Then turn on two-step verification."
+    },
+    {
+      "title": "Still seeing strange things? Reset it",
+      "text": "You can reset the computer, or ask your helper to do it. On a work computer, tell your IT team."
+    },
+    {
+      "title": "Report it",
+      "text": "Even if they didn’t say they were from Microsoft. Outside the UK and US, you can report it to your local police.",
+      "links": [
+        {
+          "label": "UK: Report Fraud",
+          "url": "https://www.reportfraud.police.uk"
+        },
+        {
+          "label": "US: ReportFraud.ftc.gov",
+          "url": "https://reportfraud.ftc.gov"
+        },
+        {
+          "label": "Microsoft: report a scam",
+          "url": "https://reportfraud.microsoft.com/"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "my-computer-has-a-virus-or-is-locked",
+    "i-paid-a-scammer"
+  ],
+  "sources": [
+    {
+      "label": "Which?",
+      "url": "https://www.which.co.uk/news/2020/11/remote-access-scams-the-call-that-could-wipe-out-your-life-savings/"
+    },
+    {
+      "label": "the US FTC",
+      "url": "https://consumer.ftc.gov/articles/what-do-if-you-were-scammed"
+    },
+    {
+      "label": "Microsoft Support",
+      "url": "https://support.microsoft.com/en-gb/windows/protect-yourself-from-tech-support-scams-2ebf91bd-f94c-2a8a-e541-f5c800d18435"
+    }
+  ]
+}

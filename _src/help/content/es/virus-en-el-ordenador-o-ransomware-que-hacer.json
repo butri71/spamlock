@@ -1,0 +1,80 @@
+{
+  "translationOf": "my-computer-has-a-virus-or-is-locked",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 16,
+  "short": "Virus o ransomware en el ordenador",
+  "title": "Virus en el ordenador u ordenador bloqueado por ransomware: qué hacer",
+  "pageTitle": "Virus en el ordenador u ordenador bloqueado por ransomware: qué hacer | Spamlock",
+  "description": "¿Ordenador lento, lleno de ventanas emergentes o bloqueado con una petición de rescate (ransomware)? Esto es lo que puedes hacer: desconectarte, no pagar, pasar el antivirus, recuperar una copia de seguridad y buscar una herramienta gratuita para desbloquearlo.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Desconecta el ordenador de internet. Si un mensaje te pide dinero para desbloquear tus archivos, no pagues. Pasa un análisis completo del antivirus, recupera tus archivos de una copia de seguridad y busca en No More Ransom una herramienta gratuita para desbloquearlos.",
+  "stepsTitle": "Qué hacer si tienes un virus o un ransomware en el ordenador",
+  "steps": [
+    {
+      "title": "Desconéctate de internet",
+      "text": "Apaga el wifi o desenchufa el cable de red: así la infección no se extiende a otros dispositivos."
+    },
+    {
+      "title": "¿Te piden un rescate? No pagues",
+      "text": "Pagar no garantiza que recuperes tus archivos, el ordenador sigue infectado y es más probable que vuelvan a por ti. Haz una foto del mensaje: ayuda a saber de qué ransomware se trata."
+    },
+    {
+      "title": "¿No sabes cómo hacerlo? Pide ayuda",
+      "text": "Llama gratis al 017 de INCIBE, o acude al servicio técnico del fabricante, a una tienda de informática de confianza o a alguien que conozcas y sepa de ordenadores. Nunca a quien te contacte primero ofreciéndote arreglarlo.",
+      "links": [
+        {
+          "label": "INCIBE: línea 017",
+          "url": "https://www.incibe.es/ciudadania/atencion-telefonica"
+        }
+      ]
+    },
+    {
+      "title": "Pasa un análisis completo",
+      "text": "Instala las actualizaciones, abre el antivirus y sigue sus indicaciones. En el Mac, actualiza macOS y reinicia: al reiniciar elimina el malware conocido."
+    },
+    {
+      "title": "¿No se arregla? Formatea y reinstala",
+      "text": "Si el antivirus no puede limpiarlo, hay que formatear el ordenador y reinstalarlo todo. Para esto puede que necesites a un experto."
+    },
+    {
+      "title": "Recupera tus archivos de la copia de seguridad",
+      "text": "Solo cuando el ordenador esté limpio, y de una copia hecha antes del problema."
+    },
+    {
+      "title": "¿Sin copia de seguridad? Busca una herramienta gratuita",
+      "text": "No More Ransom ofrece herramientas gratuitas que desbloquean algunos tipos de ransomware. No todos tienen solución todavía.",
+      "links": [
+        {
+          "label": "No More Ransom",
+          "url": "https://www.nomoreransom.org/es/decryption-tools.html"
+        }
+      ]
+    },
+    {
+      "title": "Denúncialo",
+      "text": "En la Policía Nacional o la Guardia Civil.",
+      "links": [
+        {
+          "label": "Policía Nacional: denuncias",
+          "url": "https://www.policia.es/_es/denuncias.php"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "estafa-acceso-remoto-ordenador-que-hacer",
+    "he-pinchado-un-enlace-sospechoso-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "No More Ransom",
+      "url": "https://www.nomoreransom.org/es/prevention-advice-for-users.html"
+    },
+    {
+      "label": "el Centro Nacional de Ciberseguridad británico (NCSC)",
+      "url": "https://www.ncsc.gov.uk/guidance/hacked-device-action-to-take"
+    }
+  ]
+}

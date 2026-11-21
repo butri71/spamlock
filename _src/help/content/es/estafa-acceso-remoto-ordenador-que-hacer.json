@@ -1,0 +1,92 @@
+{
+  "translationOf": "someone-has-remote-access-to-my-computer",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 15,
+  "short": "Alguien controla mi ordenador",
+  "title": "La estafa de acceso remoto: qué hacer ahora",
+  "pageTitle": "La estafa de acceso remoto: qué hacer ahora | Spamlock",
+  "description": "¿Has dejado entrar en tu ordenador a un falso técnico o a un «soporte» que apareció en una ventana? Esto es lo que puedes hacer en Windows y Mac: desconectarte, avisar al banco, quitar la app, desactivar el control remoto, pasar el antivirus y cambiar contraseñas.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Desconecta el ordenador de internet y avisa al banco si han podido ver tus datos. Después, quita la app que te hicieron instalar, desactiva el control remoto, pasa el antivirus y cambia tus contraseñas.",
+  "stepsTitle": "Qué hacer si un estafador tiene acceso remoto a tu ordenador",
+  "steps": [
+    {
+      "title": "Desconéctate",
+      "text": "Si aún ves la sesión remota, ciérrala con el botón de desconectar. Después, apaga el wifi o desenchufa el cable de red."
+    },
+    {
+      "title": "Avisa al banco",
+      "text": "Enseguida, si han podido ver tus datos bancarios, aunque no hayas pagado. Si has pagado, pide que bloqueen la tarjeta y reclama el cargo."
+    },
+    {
+      "title": "¿No sabes cómo hacerlo? Pide ayuda",
+      "text": "Llama gratis al 017 de INCIBE, o acude al servicio técnico del fabricante, a una tienda de informática de confianza o a alguien que conozcas y sepa de ordenadores. Nunca a quien te contacte primero ofreciéndote arreglarlo.",
+      "links": [
+        {
+          "label": "INCIBE: línea 017",
+          "url": "https://www.incibe.es/ciudadania/atencion-telefonica"
+        }
+      ]
+    },
+    {
+      "title": "Quita la app que te hicieron instalar",
+      "text": "Y cualquier otra app que no recuerdes haber instalado. Revisa los programas instalados hace poco."
+    },
+    {
+      "title": "Desactiva el control remoto",
+      "text": "Windows: Inicio → Configuración → Sistema → Escritorio remoto, y desactívalo (solo existe en Windows Pro). Mac: Ajustes del Sistema → General → Compartir, y desactiva Compartir pantalla y Gestión remota.",
+      "links": [
+        {
+          "label": "Microsoft: Escritorio remoto",
+          "url": "https://support.microsoft.com/es-es/windows/c%C3%B3mo-usar-escritorio-remoto-5fe128d5-8fb1-7a23-3b8a-41e636865e8c"
+        },
+        {
+          "label": "Apple: compartir pantalla",
+          "url": "https://support.apple.com/es-es/guide/mac-help/mh11848/mac"
+        }
+      ]
+    },
+    {
+      "title": "Actualiza y pasa un análisis completo",
+      "text": "Windows: instala las actualizaciones y haz un análisis completo con Seguridad de Windows. Mac: actualiza macOS y reinicia: según Apple, al reiniciar el Mac elimina el malware conocido."
+    },
+    {
+      "title": "Cambia tus contraseñas",
+      "text": "Todas las que hayan podido ver, empezando por el banco y el correo. Después, activa la verificación en dos pasos."
+    },
+    {
+      "title": "¿Sigues viendo cosas raras? Restablécelo",
+      "text": "Puedes restablecer el ordenador o pedir a quien te ayuda que lo haga. Si es un ordenador del trabajo, avisa al departamento de informática."
+    },
+    {
+      "title": "Denúncialo",
+      "text": "En la Policía Nacional o la Guardia Civil. También puedes reportarlo a Microsoft, aunque no dijeran ser de Microsoft.",
+      "links": [
+        {
+          "label": "Policía Nacional: denuncias",
+          "url": "https://www.policia.es/_es/denuncias.php"
+        },
+        {
+          "label": "Microsoft: reportar una estafa",
+          "url": "https://reportfraud.microsoft.com/"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "virus-en-el-ordenador-o-ransomware-que-hacer",
+    "estafa-he-pagado-a-un-estafador-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "el soporte de Microsoft",
+      "url": "https://support.microsoft.com/es-es/windows/protect-yourself-from-tech-support-scams-2ebf91bd-f94c-2a8a-e541-f5c800d18435"
+    },
+    {
+      "label": "Which? (Reino Unido)",
+      "url": "https://www.which.co.uk/news/2020/11/remote-access-scams-the-call-that-could-wipe-out-your-life-savings/"
+    }
+  ]
+}

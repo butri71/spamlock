@@ -4,9 +4,9 @@
   "topic": "whatif",
   "order": 2,
   "short": "Me han hackeado una red social",
-  "title": "Me han hackeado Instagram, Facebook o WhatsApp: qué hacer",
-  "pageTitle": "Me han hackeado Instagram, Facebook o WhatsApp: qué hacer | Spamlock",
-  "description": "¿Alguien ha entrado en tu cuenta de Instagram, Facebook, X o WhatsApp? Estos son los pasos que puedes dar: recuperarla, cambiar la contraseña y avisar a tus amigos.",
+  "title": "Me han hackeado Instagram, Facebook o X: qué hacer",
+  "pageTitle": "Me han hackeado Instagram, Facebook o X: qué hacer | Spamlock",
+  "description": "¿Alguien ha entrado en tu cuenta de Instagram, Facebook o X? Estos son los pasos que puedes dar: recuperarla, cambiar la contraseña y avisar a tus amigos.",
   "published": "2026-11-13",
   "reviewed": "2026-11-13",
   "answer": "Usa la página de cuentas hackeadas de la plataforma para recuperarla, crea una contraseña nueva y cierra la sesión en los demás dispositivos. Después, avisa a tus amigos de los mensajes que no enviaste.",
@@ -27,10 +27,6 @@
         {
           "label": "X",
           "url": "https://help.x.com/es/safety-and-security/x-account-compromised"
-        },
-        {
-          "label": "WhatsApp",
-          "url": "https://faq.whatsapp.com/1131652977717250"
         }
       ]
     },

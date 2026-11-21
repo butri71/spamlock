@@ -5,7 +5,7 @@
   "short": "My social account was hacked",
   "title": "My social media account was hacked: what you can do now",
   "pageTitle": "My social media account was hacked: what you can do now | Spamlock",
-  "description": "Someone took over your Facebook, Instagram, X or WhatsApp? Steps you can take now: use the hacked-account page, set a new password and warn your friends.",
+  "description": "Someone took over your Facebook, Instagram or X account? Steps you can take now: use the hacked-account page, set a new password and warn your friends.",
   "published": "2026-11-13",
   "reviewed": "2026-11-13",
   "answer": "Use the platform’s hacked-account page to get back in, set a new password and sign out of other devices. Then warn your friends about messages you didn’t send.",
@@ -26,10 +26,6 @@
         {
           "label": "X",
           "url": "https://help.x.com/en/safety-and-security/x-account-compromised"
-        },
-        {
-          "label": "WhatsApp",
-          "url": "https://faq.whatsapp.com/1131652977717250"
         }
       ]
     },

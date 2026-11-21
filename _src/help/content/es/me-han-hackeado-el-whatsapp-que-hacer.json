@@ -1,0 +1,90 @@
+{
+  "translationOf": "my-whatsapp-was-hacked",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 9,
+  "short": "Me han hackeado el WhatsApp",
+  "title": "Me han hackeado el WhatsApp: qué hacer ahora",
+  "pageTitle": "Me han hackeado el WhatsApp: qué hacer ahora | Spamlock",
+  "description": "¿Alguien ha entrado en tu WhatsApp? Esto es lo que puedes hacer: recuperarlo con el código de 6 dígitos, avisar a familiares y amigos, cerrar sesión en dispositivos desconocidos y activar la verificación en dos pasos.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Vuelve a iniciar sesión en WhatsApp desde tu móvil con el código de 6 dígitos que te llega por SMS o llamada: así se cierra la sesión de quien haya entrado. Cambiar la contraseña no basta. Después, avisa a familiares y amigos.",
+  "stepsTitle": "Qué hacer si te han hackeado el WhatsApp",
+  "steps": [
+    {
+      "title": "Recupéralo con el código de 6 dígitos",
+      "text": "Abre WhatsApp en tu móvil y vuelve a iniciar sesión con tu número. Te llegará un código de 6 dígitos por SMS o llamada: en cuanto lo introduces, se cierra la sesión de cualquiera que esté usando tu cuenta.",
+      "links": [
+        {
+          "label": "WhatsApp: recuperar la cuenta",
+          "url": "https://faq.whatsapp.com/1131652977717250/?locale=es_ES"
+        }
+      ]
+    },
+    {
+      "title": "No compartas nunca el código de 6 dígitos",
+      "text": "Ni siquiera con familiares o amigos. Quien tenga el código puede quedarse con tu cuenta."
+    },
+    {
+      "title": "¿Te pide un PIN que nunca pusiste?",
+      "text": "Puede que lo haya puesto quien entró. Si no lo sabes, WhatsApp recomienda esperar siete días y volver a intentarlo."
+    },
+    {
+      "title": "Recupera la cuenta antes de reportarla",
+      "text": "WhatsApp avisa de que, si reportas la cuenta que intentas recuperar, podría bloquearla y podrías perderla."
+    },
+    {
+      "title": "Avisa a familiares y amigos",
+      "text": "Quien entró puede hacerse pasar por ti en chats y grupos. Puedes pedirles que ignoren cualquier petición de dinero o de códigos que les llegue desde tu cuenta."
+    },
+    {
+      "title": "Cierra sesión en los dispositivos que no reconozcas",
+      "text": "En WhatsApp, abre Dispositivos vinculados, elige el que no reconozcas y pulsa Cerrar sesión.",
+      "links": [
+        {
+          "label": "WhatsApp: dispositivos vinculados",
+          "url": "https://faq.whatsapp.com/1428782138011916/?locale=es_ES"
+        }
+      ]
+    },
+    {
+      "title": "Activa la verificación en dos pasos",
+      "text": "Está en los ajustes de Cuenta de WhatsApp. Eliges una contraseña, así el código de 6 dígitos por sí solo no basta para entrar en tu cuenta.",
+      "links": [
+        {
+          "label": "WhatsApp: verificación en dos pasos",
+          "url": "https://faq.whatsapp.com/1920866721452534/?locale=es_ES"
+        }
+      ]
+    },
+    {
+      "title": "Denúncialo",
+      "text": "Si han pedido dinero en tu nombre, puedes presentar una denuncia en la Policía Nacional o la Guardia Civil. Si tienes dudas, la línea 017 de INCIBE te ayuda gratis.",
+      "links": [
+        {
+          "label": "Policía Nacional: denuncias",
+          "url": "https://www.policia.es/_es/denuncias.php"
+        },
+        {
+          "label": "INCIBE: línea 017",
+          "url": "https://www.incibe.es/ciudadania/atencion-telefonica"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Comprueba los enlaces con la app Spamlock",
+    "text": "Comprueba cualquier enlace o código QR antes de abrirlo."
+  },
+  "related": [
+    "estafa-whatsapp-que-hacer",
+    "duplicado-de-sim-me-han-robado-el-numero"
+  ],
+  "sources": [
+    {
+      "label": "el servicio de ayuda de WhatsApp",
+      "url": "https://faq.whatsapp.com/1131652977717250/?locale=es_ES"
+    }
+  ]
+}

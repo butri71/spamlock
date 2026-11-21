@@ -40,6 +40,11 @@
       "source": "/es/guia/index.html",
       "destination": "/es/guia/",
       "permanent": true
+    },
+    {
+      "source": "/es/guia/me-han-hackeado-instagram-facebook-o-whatsapp.html",
+      "destination": "/es/guia/me-han-hackeado-instagram-facebook-o-x.html",
+      "permanent": true
     }
   ],
   "headers": [

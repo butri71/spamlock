@@ -1,0 +1,92 @@
+{
+  "translationOf": "someone-is-threatening-me-online",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 14,
+  "short": "Me están amenazando en internet",
+  "title": "Me están chantajeando o acosando en internet (sextorsión): qué hacer",
+  "pageTitle": "Me están chantajeando o acosando en internet (sextorsión): qué hacer | Spamlock",
+  "description": "¿Te chantajean con fotos o vídeos íntimos (sextorsión), te amenazan o han publicado tu dirección o tu teléfono? Esto es lo que puedes hacer: no pagar, guardar pruebas, bloquear, reportar y pedir ayuda.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "No respondas y, si te chantajean, no pagues. Haz capturas primero, luego bloquea y reporta. No es culpa tuya, y la línea 017 de INCIBE te ayuda gratis.",
+  "stepsTitle": "Qué hacer si te chantajean o acosan en internet",
+  "steps": [
+    {
+      "title": "Deja de responder",
+      "text": "Responder mantiene el contacto abierto y les confirma que estás ahí. Cortarlo les deja claro que no vas a ceder."
+    },
+    {
+      "title": "¿Te chantajean con fotos íntimas? No pagues",
+      "text": "INCIBE insiste: no pagues ninguna cantidad. Pagar suele traer más exigencias. Si ya has pagado, aún puedes cortar todo contacto."
+    },
+    {
+      "title": "Guarda las pruebas",
+      "text": "Haz capturas de los mensajes y las amenazas, y apunta el nombre de usuario, la app o web y la fecha. Hazlo antes de bloquear: lo necesitarás para la denuncia."
+    },
+    {
+      "title": "Bloquea y reporta",
+      "text": "Bloquea la cuenta y repórtala a la app o la web. Si te escribe desde otra cuenta, haz lo mismo."
+    },
+    {
+      "title": "¿Han publicado tus fotos íntimas?",
+      "text": "Puedes pedir su retirada urgente en el Canal prioritario de la Agencia Española de Protección de Datos. También hay herramientas gratuitas que ayudan a frenar que se compartan, sin que nadie vea tus fotos.",
+      "links": [
+        {
+          "label": "AEPD: Canal prioritario",
+          "url": "https://www.aepd.es/canalprioritario"
+        },
+        {
+          "label": "StopNCII.org (mayores de 18)",
+          "url": "https://stopncii.org"
+        },
+        {
+          "label": "Take It Down (menores)",
+          "url": "https://takeitdown.ncmec.org"
+        }
+      ]
+    },
+    {
+      "title": "¿Han publicado tus datos?",
+      "text": "Reporta la publicación a la web o la app y pon tus perfiles de redes sociales en privado."
+    },
+    {
+      "title": "Denúncialo",
+      "text": "En la Policía Nacional o la Guardia Civil, con tus capturas.",
+      "links": [
+        {
+          "label": "Policía Nacional: denuncias",
+          "url": "https://www.policia.es/_es/denuncias.php"
+        }
+      ]
+    },
+    {
+      "title": "Contacta con los expertos",
+      "text": "La línea 017 de INCIBE te orienta gratis. Si eres mujer y sufres violencia o acoso, el 016 es gratuito y atiende 24 horas.",
+      "links": [
+        {
+          "label": "INCIBE: línea 017",
+          "url": "https://www.incibe.es/ciudadania/atencion-telefonica"
+        },
+        {
+          "label": "016",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/igualdad/Paginas/2026/telefono-016-que-es.aspx"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "movil-espiado-que-hacer",
+    "suplantacion-de-identidad-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "INCIBE",
+      "url": "https://www.incibe.es/ciudadania/avisos/has-recibido-un-correo-chantajeandote-con-que-publicaran-contenido-de-caracter"
+    },
+    {
+      "label": "la AEPD",
+      "url": "https://www.aepd.es/canalprioritario"
+    }
+  ]
+}

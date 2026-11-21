@@ -1,0 +1,68 @@
+{
+  "translationOf": "i-lost-the-phone-that-gets-my-codes",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 13,
+  "short": "Non ricevo più i codici di verifica",
+  "title": "Ho perso il telefono e non ricevo il codice di verifica: cosa fare",
+  "pageTitle": "Ho perso il telefono e non ricevo il codice di verifica: cosa fare | Spamlock",
+  "description": "Non riesci ad accedere perché i codici della verifica in due passaggi arrivano su un telefono che hai perso? Ecco cosa puoi fare: provare un altro metodo, riavere il tuo numero e avviare il recupero dell’account.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Nella schermata del codice cerca un altro metodo: un codice di backup, un altro telefono o un numero attendibile. Se non funziona, chiedi al tuo operatore una nuova SIM con lo stesso numero, oppure avvia il recupero dell’account.",
+  "stepsTitle": "Cosa fare se hai perso il telefono che riceve i codici",
+  "steps": [
+    {
+      "title": "Prova un altro metodo di accesso",
+      "text": "Google ti fa usare un altro smartphone su cui hai già fatto l’accesso, un altro numero che hai aggiunto o un codice di backup. Apple ti fa ricevere il codice via SMS o chiamata al numero attendibile: scegli “Non hai ricevuto il codice?”."
+    },
+    {
+      "title": "Non te la senti? Fatti aiutare",
+      "text": "Chiedi a una persona di fiducia che se ne intende di aiutarti, oppure contatta l’assistenza di Google o Apple dal loro sito ufficiale. Mai chi ti contatta per primo offrendoti di sbloccare l’account."
+    },
+    {
+      "title": "Riprendi il tuo numero",
+      "text": "Chiedi al tuo operatore una nuova SIM con lo stesso numero. Così i codici via SMS tornano ad arrivarti."
+    },
+    {
+      "title": "Lo riavrai tra pochi giorni? Aspettare può essere più veloce",
+      "text": "Apple spiega che, se presto riavrai il dispositivo o il numero, aspettare è il modo più rapido per rientrare."
+    },
+    {
+      "title": "Avvia il recupero dell’account",
+      "text": "Se non funziona nient’altro. Può richiedere diversi giorni, e contattare l’assistenza non lo accelera. Con Apple, spegni gli altri dispositivi Apple durante l’attesa, altrimenti la richiesta può essere annullata.",
+      "links": [
+        {
+          "label": "Google",
+          "url": "https://accounts.google.com/signin/recovery"
+        },
+        {
+          "label": "Apple",
+          "url": "https://iforgot.apple.com"
+        }
+      ]
+    },
+    {
+      "title": "Telefono perso o rubato? Esci dall’account",
+      "text": "Appena rientri, esci dall’account sul telefono perso dalle impostazioni di sicurezza del tuo account."
+    },
+    {
+      "title": "Per il futuro: tieni un backup",
+      "text": "Aggiungi un secondo numero di telefono e conserva i codici di backup fuori dal telefono."
+    }
+  ],
+  "related": [
+    "telefono-perso-o-rubato-cosa-fare",
+    "numero-di-telefono-rubato-cosa-fare"
+  ],
+  "sources": [
+    {
+      "label": "la Guida dell’Account Google",
+      "url": "https://support.google.com/accounts/answer/185834?hl=it"
+    },
+    {
+      "label": "il supporto Apple",
+      "url": "https://support.apple.com/it-it/102606"
+    }
+  ]
+}

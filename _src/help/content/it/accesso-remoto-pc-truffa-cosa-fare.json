@@ -1,0 +1,86 @@
+{
+  "translationOf": "someone-has-remote-access-to-my-computer",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 15,
+  "short": "Qualcuno controlla il mio computer",
+  "title": "Truffa dell’accesso remoto al PC: cosa fare subito",
+  "pageTitle": "Truffa dell’accesso remoto al PC: cosa fare subito | Spamlock",
+  "description": "Hai fatto entrare nel computer un finto tecnico o un “supporto” comparso in una finestra? Ecco cosa puoi fare su Windows e Mac: scollegarti, avvisare la banca, rimuovere l’app, disattivare il controllo da remoto, fare un controllo e cambiare password.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Scollega il computer da internet e avvisa la banca se possono aver visto i tuoi dati. Poi rimuovi l’app che ti hanno fatto installare, disattiva il controllo da remoto, fai un controllo antivirus e cambia le password.",
+  "stepsTitle": "Cosa fare se un truffatore ha l’accesso remoto al tuo PC",
+  "steps": [
+    {
+      "title": "Scollegati",
+      "text": "Se vedi ancora la sessione da remoto, chiudila con il pulsante per disconnettere. Poi spegni il Wi-Fi o stacca il cavo di rete."
+    },
+    {
+      "title": "Avvisa la banca",
+      "text": "Subito, se possono aver visto i tuoi dati bancari, anche se non hai pagato. Se hai pagato, chiedi di bloccare la carta e di disconoscere il pagamento."
+    },
+    {
+      "title": "Non te la senti? Fatti aiutare",
+      "text": "Dall’assistenza del produttore, da un negozio di informatica di fiducia o da una persona esperta che conosci. Mai da chi ti contatta per primo offrendoti di sistemarlo."
+    },
+    {
+      "title": "Rimuovi l’app che ti hanno fatto installare",
+      "text": "E ogni altra app che non ricordi di aver installato. Controlla i programmi installati di recente."
+    },
+    {
+      "title": "Disattiva il controllo da remoto",
+      "text": "Windows: Start → Impostazioni → Sistema → Desktop remoto, e disattivalo (c’è solo su Windows Pro). Mac: Impostazioni di Sistema → Generali → Condivisione, e disattiva Condivisione schermo e Gestione remota.",
+      "links": [
+        {
+          "label": "Microsoft: Desktop remoto",
+          "url": "https://support.microsoft.com/it-it/windows/come-usare-desktop-remoto-5fe128d5-8fb1-7a23-3b8a-41e636865e8c"
+        },
+        {
+          "label": "Apple: condivisione dello schermo",
+          "url": "https://support.apple.com/it-it/guide/mac-help/mh11848/mac"
+        }
+      ]
+    },
+    {
+      "title": "Aggiorna e fai un controllo completo",
+      "text": "Windows: installa gli aggiornamenti, poi fai un’analisi completa con Sicurezza di Windows. Mac: aggiorna macOS e riavvia: secondo Apple, al riavvio il Mac rimuove i malware noti."
+    },
+    {
+      "title": "Cambia le password",
+      "text": "Tutte quelle che possono aver visto, a partire da banca ed email. Poi attiva la verifica in due passaggi."
+    },
+    {
+      "title": "Vedi ancora cose strane? Ripristinalo",
+      "text": "Puoi ripristinare il computer, o farlo fare a chi ti sta aiutando. Se è un computer di lavoro, avvisa il reparto IT."
+    },
+    {
+      "title": "Fai denuncia",
+      "text": "Alla Polizia Postale o ai Carabinieri, anche con una segnalazione online. Puoi segnalarlo anche a Microsoft, pure se non hanno detto di essere Microsoft.",
+      "links": [
+        {
+          "label": "Polizia Postale: Segnala online",
+          "url": "https://www.commissariatodips.it/segnalazioni/segnala-online/index.html"
+        },
+        {
+          "label": "Microsoft: segnala una truffa",
+          "url": "https://reportfraud.microsoft.com/"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "virus-sul-pc-o-ransomware-cosa-fare",
+    "truffa-online-ho-pagato-cosa-fare"
+  ],
+  "sources": [
+    {
+      "label": "il supporto Microsoft",
+      "url": "https://support.microsoft.com/it-it/windows/protect-yourself-from-tech-support-scams-2ebf91bd-f94c-2a8a-e541-f5c800d18435"
+    },
+    {
+      "label": "Which? (Regno Unito)",
+      "url": "https://www.which.co.uk/news/2020/11/remote-access-scams-the-call-that-could-wipe-out-your-life-savings/"
+    }
+  ]
+}

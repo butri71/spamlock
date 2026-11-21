@@ -1,0 +1,68 @@
+{
+  "translationOf": "i-clicked-a-suspicious-link",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 12,
+  "short": "He pinchado un enlace sospechoso",
+  "title": "He pinchado un enlace sospechoso o he puesto mi contraseña: qué hacer",
+  "pageTitle": "He pinchado un enlace sospechoso o he puesto mi contraseña: qué hacer | Spamlock",
+  "description": "¿Has pinchado un enlace de phishing en un SMS, correo o WhatsApp, o has puesto tu contraseña en una web falsa? Esto es lo que puedes hacer según lo que haya pasado: cambiar contraseñas, llamar al banco, pasar el antivirus.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Depende de lo que hayas hecho. ¿Pusiste una contraseña? Cámbiala, también donde la repitas. ¿Diste los datos de la tarjeta o la cuenta? Llama al banco. ¿Abriste un archivo o instalaste algo? Pasa el antivirus. Si solo abriste la web, vigila los correos y avisos de inicio de sesión.",
+  "stepsTitle": "Qué hacer si has pinchado un enlace sospechoso",
+  "steps": [
+    {
+      "title": "Cierra la web",
+      "text": "Y no escribas nada más en ella."
+    },
+    {
+      "title": "¿Pusiste una contraseña? Cámbiala",
+      "text": "En esa cuenta y en todas las que usen la misma contraseña. Después, activa la verificación en dos pasos."
+    },
+    {
+      "title": "¿Diste datos de la tarjeta o la cuenta? Llama al banco",
+      "text": "Al número de tu tarjeta, no a uno de un mensaje. Puedes pedir que bloqueen la tarjeta y revisen si hay cargos que no has hecho."
+    },
+    {
+      "title": "¿Abriste un archivo o instalaste algo? Pasa el antivirus",
+      "text": "En el ordenador, abre el antivirus, haz un análisis completo y deja que limpie lo que encuentre. En el móvil, borra las apps que te hiciera instalar el enlace."
+    },
+    {
+      "title": "¿Solo abriste la web?",
+      "text": "Si no escribiste ni instalaste nada, probablemente no tengas que hacer nada más. Vigila los correos y avisos de inicio de sesión que no esperes."
+    },
+    {
+      "title": "¿Es un móvil u ordenador del trabajo?",
+      "text": "Avisa al departamento de informática."
+    },
+    {
+      "title": "¿Has perdido dinero? Denúncialo",
+      "text": "Avisa al banco y presenta una denuncia en la Policía Nacional o la Guardia Civil. La línea 017 de INCIBE te asesora gratis.",
+      "links": [
+        {
+          "label": "Policía Nacional: denuncias",
+          "url": "https://www.policia.es/_es/denuncias.php"
+        },
+        {
+          "label": "INCIBE: línea 017",
+          "url": "https://www.incibe.es/ciudadania/atencion-telefonica"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Comprueba los enlaces con la app Spamlock",
+    "text": "La próxima vez, comprueba cualquier enlace o código QR antes de abrirlo."
+  },
+  "related": [
+    "estafa-he-pagado-a-un-estafador-que-hacer",
+    "me-han-hackeado-el-correo-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "el Centro Nacional de Ciberseguridad británico (NCSC)",
+      "url": "https://www.ncsc.gov.uk/collection/phishing-scams/what-to-do"
+    }
+  ]
+}

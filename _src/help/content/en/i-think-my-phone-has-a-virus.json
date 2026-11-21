@@ -1,0 +1,59 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 11,
+  "short": "I think my phone has a virus",
+  "title": "I think my phone has a virus: what you can do now",
+  "pageTitle": "I think my phone has a virus: what you can do now | Spamlock",
+  "description": "Pop-ups, apps you didn’t install or a slow phone? Steps you can take now: don’t tap the pop-up, remove apps you don’t know, run a scan, update, and reset if it keeps happening.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Don’t tap pop-ups that say your phone is infected. Delete apps you don’t recognise, update the phone, and on Android run a Play Protect scan. If problems keep coming back, you can reset the phone.",
+  "stepsTitle": "Steps you can take if you think your phone has a virus",
+  "steps": [
+    {
+      "title": "Don’t tap the pop-up",
+      "text": "Pop-ups that say your phone is infected often pretend to be Apple or another company. Close the browser tab instead, and if a pop-up tells you to call a number, don’t call it."
+    },
+    {
+      "title": "Not confident? Get help",
+      "text": "From your phone maker’s support, a phone shop you trust, or someone you know who’s good with phones. Never from someone who calls or messages you first offering to fix it."
+    },
+    {
+      "title": "Delete apps you don’t recognise",
+      "text": "Look for apps you didn’t install or don’t use, and delete them. If your iPhone says an app contains malware, tap Delete App on the alert."
+    },
+    {
+      "title": "Android: run a Play Protect scan",
+      "text": "Play Protect is built into Android phones with Google Play. It checks your apps for harmful ones and can remove them.",
+      "links": [
+        {
+          "label": "Google: Play Protect",
+          "url": "https://support.google.com/android/answer/2812853"
+        }
+      ]
+    },
+    {
+      "title": "Update the phone",
+      "text": "In Settings, look for Software Update. Updates fix security holes."
+    },
+    {
+      "title": "Still happening? Reset the phone",
+      "text": "The UK’s cyber security centre recommends a factory reset for a phone, because antivirus apps usually can’t clean phones the way they clean computers. A reset erases everything, so back up your photos and contacts first."
+    }
+  ],
+  "related": [
+    "someone-is-spying-on-me",
+    "i-clicked-a-suspicious-link"
+  ],
+  "sources": [
+    {
+      "label": "the UK NCSC",
+      "url": "https://www.ncsc.gov.uk/guidance/hacked-device-action-to-take"
+    },
+    {
+      "label": "Apple Support",
+      "url": "https://support.apple.com/en-gb/116947"
+    }
+  ]
+}

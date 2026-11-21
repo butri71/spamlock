@@ -1,0 +1,74 @@
+{
+  "translationOf": "my-computer-has-a-virus-or-is-locked",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 16,
+  "short": "Virus o ransomware sul computer",
+  "title": "Virus sul PC o PC bloccato da un ransomware: cosa fare",
+  "pageTitle": "Virus sul PC o PC bloccato da un ransomware: cosa fare | Spamlock",
+  "description": "Computer lento, pieno di finestre a comparsa o bloccato con una richiesta di riscatto (ransomware)? Ecco cosa puoi fare: scollegarti, non pagare, fare un controllo antivirus, ripristinare un backup e cercare uno strumento gratuito per sbloccarlo.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Scollega il computer da internet. Se un messaggio ti chiede soldi per sbloccare i file, non pagare. Fai un controllo antivirus completo, recupera i file da un backup e cerca su No More Ransom uno strumento gratuito per sbloccarli.",
+  "stepsTitle": "Cosa fare se hai un virus sul PC o un ransomware",
+  "steps": [
+    {
+      "title": "Scollegati da internet",
+      "text": "Spegni il Wi-Fi o stacca il cavo di rete: così l’infezione non si diffonde agli altri dispositivi."
+    },
+    {
+      "title": "Ti chiedono un riscatto? Non pagare",
+      "text": "Pagare non garantisce di riavere i file, il computer resta infetto e rischi di essere preso di mira di nuovo. Fai una foto del messaggio: aiuta a capire di che ransomware si tratta."
+    },
+    {
+      "title": "Non te la senti? Fatti aiutare",
+      "text": "Dall’assistenza del produttore, da un negozio di informatica di fiducia o da una persona esperta che conosci. Mai da chi ti contatta per primo offrendoti di sistemarlo."
+    },
+    {
+      "title": "Fai un controllo antivirus completo",
+      "text": "Installa gli aggiornamenti, poi avvia l’antivirus e segui le sue indicazioni. Sul Mac aggiorna macOS e riavvia: al riavvio rimuove i malware noti."
+    },
+    {
+      "title": "Non si risolve? Formatta e reinstalla",
+      "text": "Se l’antivirus non riesce a ripulirlo, il computer va formattato e va reinstallato tutto. Per questo potrebbe servirti l’aiuto di un esperto."
+    },
+    {
+      "title": "Recupera i file dal backup",
+      "text": "Solo quando il computer è pulito, da un backup fatto prima del problema."
+    },
+    {
+      "title": "Niente backup? Cerca uno strumento gratuito",
+      "text": "No More Ransom offre strumenti gratuiti che sbloccano alcuni tipi di ransomware. Non per tutti esiste ancora una soluzione.",
+      "links": [
+        {
+          "label": "No More Ransom",
+          "url": "https://www.nomoreransom.org/it/decryption-tools.html"
+        }
+      ]
+    },
+    {
+      "title": "Fai denuncia",
+      "text": "Alla Polizia Postale o ai Carabinieri, anche con una segnalazione online.",
+      "links": [
+        {
+          "label": "Polizia Postale: Segnala online",
+          "url": "https://www.commissariatodips.it/segnalazioni/segnala-online/index.html"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "accesso-remoto-pc-truffa-cosa-fare",
+    "ho-cliccato-su-un-link-sospetto-cosa-fare"
+  ],
+  "sources": [
+    {
+      "label": "No More Ransom",
+      "url": "https://www.nomoreransom.org/it/prevention-advice-for-users.html"
+    },
+    {
+      "label": "il National Cyber Security Centre britannico",
+      "url": "https://www.ncsc.gov.uk/guidance/hacked-device-action-to-take"
+    }
+  ]
+}

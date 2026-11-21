@@ -1,0 +1,64 @@
+{
+  "translationOf": "i-clicked-a-suspicious-link",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 12,
+  "short": "Ho cliccato su un link sospetto",
+  "title": "Ho cliccato su un link sospetto o inserito la password: cosa fare",
+  "pageTitle": "Ho cliccato su un link sospetto o inserito la password: cosa fare | Spamlock",
+  "description": "Hai cliccato su un link di phishing da SMS, email o WhatsApp, o hai inserito la password su un sito falso? Ecco cosa puoi fare, a seconda di cosa è successo: cambiare password, chiamare la banca, fare un controllo antivirus.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Dipende da cosa hai fatto. Hai inserito una password? Cambiala, anche dove la usi altrove. Hai dato i dati della carta o del conto? Chiama la banca. Hai aperto un file o installato qualcosa? Fai un controllo antivirus. Se hai solo aperto la pagina, tieni d’occhio email e messaggi di accesso.",
+  "stepsTitle": "Cosa fare se hai cliccato su un link sospetto",
+  "steps": [
+    {
+      "title": "Chiudi la pagina",
+      "text": "E non inserire nient’altro."
+    },
+    {
+      "title": "Hai inserito una password? Cambiala",
+      "text": "Su quell’account e su tutti quelli dove usi la stessa password. Poi attiva la verifica in due passaggi."
+    },
+    {
+      "title": "Hai dato i dati della carta o del conto? Chiama la banca",
+      "text": "Al numero sulla carta, non a uno ricevuto in un messaggio. Puoi chiedere di bloccare la carta e di controllare i pagamenti che non hai fatto."
+    },
+    {
+      "title": "Hai aperto un file o installato qualcosa? Fai un controllo",
+      "text": "Sul computer apri l’antivirus, avvia un controllo completo e lascia che sistemi quello che trova. Sul telefono elimina le app che il link ti ha fatto installare."
+    },
+    {
+      "title": "Hai solo aperto la pagina?",
+      "text": "Se non hai inserito né installato niente, probabilmente non devi fare altro. Tieni d’occhio email e messaggi di accesso che non ti aspetti."
+    },
+    {
+      "title": "È un telefono o un computer di lavoro?",
+      "text": "Avvisa il reparto IT."
+    },
+    {
+      "title": "Hai perso soldi? Fai denuncia",
+      "text": "Avvisa la banca e fai denuncia alla Polizia Postale o ai Carabinieri. Puoi anche mandare una segnalazione online.",
+      "links": [
+        {
+          "label": "Polizia Postale: Segnala online",
+          "url": "https://www.commissariatodips.it/segnalazioni/segnala-online/index.html"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Controlla i link con l’app Spamlock",
+    "text": "La prossima volta, controlla ogni link o QR code prima di aprirlo."
+  },
+  "related": [
+    "truffa-online-ho-pagato-cosa-fare",
+    "email-violata-cosa-fare"
+  ],
+  "sources": [
+    {
+      "label": "il National Cyber Security Centre britannico",
+      "url": "https://www.ncsc.gov.uk/collection/phishing-scams/what-to-do"
+    }
+  ]
+}

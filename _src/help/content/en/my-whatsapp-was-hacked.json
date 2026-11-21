@@ -1,0 +1,75 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 9,
+  "short": "My WhatsApp was hacked",
+  "title": "My WhatsApp was hacked: what you can do now",
+  "pageTitle": "My WhatsApp was hacked: what you can do now | Spamlock",
+  "description": "Someone got into your WhatsApp? Steps you can take now: sign back in with your 6-digit code, warn your friends, log out unknown devices and turn on two-step verification.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Sign back in to WhatsApp on your phone with the 6-digit code it sends you. This logs everyone else out. Changing a password doesn’t. Then warn your family and friends.",
+  "stepsTitle": "Steps you can take if your WhatsApp was hacked",
+  "steps": [
+    {
+      "title": "Sign back in with the 6-digit code",
+      "text": "Open WhatsApp on your phone and sign in again with your number. WhatsApp sends you a 6-digit code by text or call. Once you enter it, anyone else using your account is logged out.",
+      "links": [
+        {
+          "label": "WhatsApp: recover your account",
+          "url": "https://faq.whatsapp.com/1131652977717250"
+        }
+      ]
+    },
+    {
+      "title": "Never share the 6-digit code",
+      "text": "Not even with family or friends. Whoever has the code can take your account."
+    },
+    {
+      "title": "Asked for a PIN you never set?",
+      "text": "The other person may have set it. If you don’t know it, WhatsApp says to wait 7 days and try again."
+    },
+    {
+      "title": "Get back in before you report it",
+      "text": "WhatsApp says reporting the account you’re trying to recover could get it banned, and you could lose it."
+    },
+    {
+      "title": "Warn your family and friends",
+      "text": "Whoever got in can pretend to be you in chats and groups. You can ask them to ignore requests for money or codes sent from your account."
+    },
+    {
+      "title": "Log out devices you don’t know",
+      "text": "In WhatsApp, open Linked Devices. Tap any device you don’t recognise, then Log Out.",
+      "links": [
+        {
+          "label": "WhatsApp: linked devices",
+          "url": "https://faq.whatsapp.com/1428782138011916"
+        }
+      ]
+    },
+    {
+      "title": "Turn on two-step verification",
+      "text": "You’ll find it in WhatsApp’s Account settings. You choose a password, so the 6-digit code alone isn’t enough to get into your account.",
+      "links": [
+        {
+          "label": "WhatsApp: two-step verification",
+          "url": "https://faq.whatsapp.com/1920866721452534"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Check links in the Spamlock app",
+    "text": "Check any link or QR code before you open it."
+  },
+  "related": [
+    "i-paid-a-scammer",
+    "someone-took-over-my-phone-number"
+  ],
+  "sources": [
+    {
+      "label": "WhatsApp Help Center",
+      "url": "https://faq.whatsapp.com/1131652977717250"
+    }
+  ]
+}

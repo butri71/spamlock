@@ -1,0 +1,63 @@
+{
+  "type": "guide",
+  "topic": "whatif",
+  "order": 12,
+  "short": "I clicked a suspicious link",
+  "title": "I clicked a suspicious link or typed my password on a fake site: what you can do now",
+  "pageTitle": "I clicked a suspicious link or typed my password: what you can do now | Spamlock",
+  "description": "Clicked a link, opened an attachment or typed your password on a fake site? Steps you can take now, depending on what you did: change passwords, call your bank, run a scan.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "What to do depends on what you did. Typed a password? Change it, and anywhere else you use it. Gave bank or card details? Call your bank. Opened a file or installed something? Run a scan. If you only opened the page, watch for strange sign-in emails.",
+  "stepsTitle": "Steps you can take after clicking a suspicious link",
+  "steps": [
+    {
+      "title": "Close the page",
+      "text": "Don’t type anything more into it."
+    },
+    {
+      "title": "Typed a password? Change it",
+      "text": "Change it on that account, and on any other account where you use the same password. Then turn on two-step verification."
+    },
+    {
+      "title": "Gave bank or card details? Call your bank",
+      "text": "On the number on your card, not one from a message. They can block the card and watch for payments you didn’t make."
+    },
+    {
+      "title": "Opened a file or installed something? Run a scan",
+      "text": "On a computer, open your antivirus and run a full scan, then let it clean up what it finds. On a phone, delete any app the link asked you to install."
+    },
+    {
+      "title": "Only opened the page?",
+      "text": "If you didn’t type anything or install anything, you probably don’t need to do more. Watch for sign-in emails and messages you don’t expect."
+    },
+    {
+      "title": "On a work phone or laptop?",
+      "text": "Tell your IT team."
+    },
+    {
+      "title": "Lost money? Report it",
+      "text": "Tell your bank and report it to the police. In the UK, report it to Report Fraud.",
+      "links": [
+        {
+          "label": "UK: Report Fraud",
+          "url": "https://www.reportfraud.police.uk"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Check links in the Spamlock app",
+    "text": "Next time, check any link or QR code before you open it."
+  },
+  "related": [
+    "i-paid-a-scammer",
+    "my-email-was-hacked"
+  ],
+  "sources": [
+    {
+      "label": "the UK NCSC",
+      "url": "https://www.ncsc.gov.uk/collection/phishing-scams/what-to-do"
+    }
+  ]
+}

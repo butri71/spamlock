@@ -1,0 +1,78 @@
+{
+  "translationOf": "i-got-a-scam-message-on-whatsapp",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 10,
+  "short": "Estafa por WhatsApp",
+  "title": "Estafa por WhatsApp («Hola mamá», ofertas de empleo, grupos): qué hacer",
+  "pageTitle": "Estafa por WhatsApp («Hola mamá», ofertas de empleo, grupos): qué hacer | Spamlock",
+  "description": "¿Un «Mamá, se me ha roto el móvil, este es mi número nuevo», una falsa oferta de empleo o te han metido en un grupo que no conoces? Esto es lo que puedes hacer: no responder, comprobarlo con una llamada, salir del grupo, bloquear y reportar.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "No respondas ni envíes dinero, códigos o datos personales. Si el mensaje dice ser de un familiar, llámale al número de siempre. Después, bloquea y reporta el número.",
+  "stepsTitle": "Qué hacer si te intentan estafar por WhatsApp",
+  "steps": [
+    {
+      "title": "No respondas",
+      "text": "Los estafadores meten prisa, te piden que confíes en ellos o te piden dinero, contraseñas o datos personales. Si no puedes comprobar quién es, no tienes por qué darle nada."
+    },
+    {
+      "title": "¿«Mamá, se me ha roto el móvil»?",
+      "text": "Llama a tu hijo o familiar al número de siempre y hazle una pregunta que solo él sabría responder. INCIBE recomienda bloquear el número nuevo y borrar el mensaje. No envíes ningún Bizum ni transferencia antes de hablar con él."
+    },
+    {
+      "title": "¿Una oferta de empleo que no has pedido?",
+      "text": "Los estafadores se hacen pasar por empresas conocidas, a menudo con trabajos muy bien pagados desde casa. Una empresa de verdad no te pide dinero para contratarte."
+    },
+    {
+      "title": "¿Te han metido en un grupo que no conoces?",
+      "text": "En la info. del grupo, pulsa Salir del grupo: desde ahí también puedes reportarlo. Si quieres guardar los mensajes como prueba, elige Salir del grupo y no Salir y eliminar para mí."
+    },
+    {
+      "title": "Elige quién puede añadirte a grupos",
+      "text": "En los ajustes de Privacidad de WhatsApp, en Grupos, elige Mis contactos. Quien no esté en tu agenda solo podrá enviarte una invitación, que puedes ignorar.",
+      "links": [
+        {
+          "label": "WhatsApp: privacidad de los grupos",
+          "url": "https://faq.whatsapp.com/1131457590844955/?locale=es_ES"
+        }
+      ]
+    },
+    {
+      "title": "Bloquea y reporta el número",
+      "text": "Al bloquearlo ya no podrá escribirte. Al reportarlo, avisas a WhatsApp."
+    },
+    {
+      "title": "¿Ya has enviado dinero?",
+      "text": "Llama a tu banco cuanto antes para intentar cancelar el Bizum o la transferencia. Guarda capturas, números y justificantes, y presenta una denuncia.",
+      "links": [
+        {
+          "label": "Policía Nacional: denuncias",
+          "url": "https://www.policia.es/_es/denuncias.php"
+        },
+        {
+          "label": "INCIBE: línea 017",
+          "url": "https://www.incibe.es/ciudadania/atencion-telefonica"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Comprueba los enlaces con la app Spamlock",
+    "text": "Comprueba cualquier enlace o código QR antes de abrirlo."
+  },
+  "related": [
+    "estafa-he-pagado-a-un-estafador-que-hacer",
+    "me-han-hackeado-el-whatsapp-que-hacer"
+  ],
+  "sources": [
+    {
+      "label": "INCIBE",
+      "url": "https://www.incibe.es/ciudadania/avisos/has-recibido-un-mensaje-desde-un-numero-desconocido-que-dice-ser-tu-hijo"
+    },
+    {
+      "label": "el servicio de ayuda de WhatsApp",
+      "url": "https://faq.whatsapp.com/2286952358121083/?locale=es_ES"
+    }
+  ]
+}

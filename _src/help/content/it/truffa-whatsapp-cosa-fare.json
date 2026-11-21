@@ -1,0 +1,74 @@
+{
+  "translationOf": "i-got-a-scam-message-on-whatsapp",
+  "type": "guide",
+  "topic": "whatif",
+  "order": 10,
+  "short": "Truffa su WhatsApp",
+  "title": "Truffa su WhatsApp (“Ciao mamma”, lavoro, gruppi): cosa fare",
+  "pageTitle": "Truffa su WhatsApp (“Ciao mamma”, lavoro, gruppi): cosa fare | Spamlock",
+  "description": "Un “Ciao mamma, ho cambiato numero”, una finta offerta di lavoro o un gruppo truffa su WhatsApp? Ecco cosa puoi fare: non rispondere, verificare con una chiamata, uscire dal gruppo, bloccare e segnalare.",
+  "published": "2026-11-21",
+  "reviewed": "2026-11-21",
+  "answer": "Non rispondere e non mandare soldi, codici o dati personali. Se il messaggio dice di arrivare da un familiare, chiamalo al numero che conosci già. Poi blocca e segnala il mittente.",
+  "stepsTitle": "Cosa fare se ricevi una truffa su WhatsApp",
+  "steps": [
+    {
+      "title": "Non rispondere",
+      "text": "I truffatori ti mettono fretta, ti chiedono di fidarti o ti chiedono soldi, password o dati personali. Se non puoi verificare chi è, non sei tenuto a dare niente."
+    },
+    {
+      "title": "“Ciao mamma, ho cambiato numero”?",
+      "text": "Chiama tuo figlio o tuo parente al numero che conosci già, meglio con una chiamata vocale. Non mandare soldi prima di averci parlato. La Polizia Postale consiglia di non rispondere, cancellare la chat ed eliminare il nuovo numero dalla rubrica."
+    },
+    {
+      "title": "Un’offerta di lavoro che non hai cercato?",
+      "text": "I truffatori si fingono selezionatori di aziende conosciute, spesso con lavori ben pagati da casa. Un vero datore di lavoro non ti chiede soldi per candidarti."
+    },
+    {
+      "title": "Ti hanno aggiunto a un gruppo truffa?",
+      "text": "Nelle info del gruppo scegli Abbandona gruppo: da lì puoi anche segnalarlo. Se vuoi tenere i messaggi come prova, non scegliere l’opzione che elimina la chat."
+    },
+    {
+      "title": "Scegli chi può aggiungerti ai gruppi",
+      "text": "Nelle impostazioni Privacy di WhatsApp, alla voce Gruppi, scegli I miei contatti. Chi non è in rubrica potrà solo mandarti un invito, che puoi ignorare.",
+      "links": [
+        {
+          "label": "WhatsApp: privacy dei gruppi",
+          "url": "https://faq.whatsapp.com/1131457590844955/?locale=it_IT"
+        }
+      ]
+    },
+    {
+      "title": "Blocca e segnala il mittente",
+      "text": "Bloccandolo non può più scriverti. Segnalandolo avvisi WhatsApp."
+    },
+    {
+      "title": "Hai già mandato soldi?",
+      "text": "Chiama la tua banca al numero sulla carta, non a uno ricevuto in un messaggio, e fai denuncia o una segnalazione alla Polizia Postale.",
+      "links": [
+        {
+          "label": "Polizia Postale: Segnala online",
+          "url": "https://www.commissariatodips.it/segnalazioni/segnala-online/index.html"
+        }
+      ]
+    }
+  ],
+  "app": {
+    "title": "Controlla i link con l’app Spamlock",
+    "text": "Controlla ogni link o QR code prima di aprirlo."
+  },
+  "related": [
+    "truffa-online-ho-pagato-cosa-fare",
+    "whatsapp-hackerato-cosa-fare"
+  ],
+  "sources": [
+    {
+      "label": "la Polizia Postale",
+      "url": "https://www.commissariatodips.it/notizie/articolo/truffa-su-whatsapp-ciao-mamma-mi-e-caduto-il-telefono-questo-e-il-mio-nuovo-numero/index.html"
+    },
+    {
+      "label": "il Centro assistenza di WhatsApp",
+      "url": "https://faq.whatsapp.com/2286952358121083/?locale=it_IT"
+    }
+  ]
+}
